@@ -2,38 +2,9 @@
 # Set working directory
 setwd('C:/Users/Mateo Parrado/Downloads/Gravity')
 
+source("HelperFuns.R")
+
 options(max.print = 100000)
-
-percentify.decimal <- function(x){
-  x * 100
-}
-
-sum.row <- function(x, rowNum){
-  vals <- c(1:6)
-  
-  vals <- vals[vals != rowNum]
-  
-  rowSums(aperm(x, c(rowNum, vals)))
-}
-
-sum.rowcol <- function(x, rowNum, colNum){
-  vals <- c(1:6)
-  
-  vals <- vals[vals != rowNum & vals != colNum]
-  
-  rowSums(aperm(x, c(rowNum, colNum, vals)), dims = 2)
-}
-
-pct.row <- function(x, y, rowNum){
-  x <- sum.row(x, rowNum)
-  y <- sum.row(y, rowNum)
-
-  for(i in 1:length(x)){
-    x[i] <- x[i] / y[i]
-  }
-  
-  x
-}
 
 new_data <- read.table('Gravity.dat', sep=' ')
 names(new_data) <- c('R0000100',
@@ -1296,14 +1267,7 @@ Dadaight <- unlist(lapply(new_data$CV_HGC_BIO_DAD_1997, function(x){
     0
   }
 }))
-Dadsmart <- unlist(lapply(new_data$CV_HGC_BIO_DAD_1997, function(x){
-  if(!is.na(x) & x >=18){
-    1
-  }
-  else{
-    0
-  }
-}))
+Dadsmart <- create.dummy.var(new_data, 18, 200)
 
 #gender is significant, 5% less women than men
 
@@ -1329,7 +1293,7 @@ Dadsmart <- unlist(lapply(new_data$CV_HGC_BIO_DAD_1997, function(x){
 #daddumb, 2.7% less likely to atrite.
 #dadavg, no correlation.
 #dadaight, no correlation.
-
+#dadsmart, no correlation.
 
 model <- lm(atrited ~ Dadsmart)
 
@@ -1338,3 +1302,5 @@ print(summary(model))
 plot(x=black, y=atrited)
 
 abline(model)
+
+####IS GIT WORKING
