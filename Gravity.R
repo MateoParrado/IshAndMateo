@@ -1,6 +1,6 @@
 
 # Set working directory
-setwd('C:/Users/Mateo Parrado/Downloads/Gravity')
+setwd('/Users/ismailbaram/Documents/IshAndMateo-master')
 
 source("HelperFuns.R")
 
@@ -119,212 +119,41 @@ for(i in 1:nrow(new_data)){
   }
 }
 
-
-print(sum.rowcol(atrited.pct, 1, 2))
-#print(sum.row(atrited.pct, 5))
-#print(pct.row(atrited.pct, total.cat, 5))
-
-#scatter.smooth(x=total.cat[5], y=sum.row(total.cat, 5), main = "I hope this works") # scatterplot
-
-tempVar <- new_data$KEY_SEX_1997
-tempVar <- tempVar[is.na(tempVar)]
-
-# simple bar plot
-
-#barplot(sum.row(total.cat, 3), main = "please", xlab = "people atrited") 
-
-#pie(sum.row(total.cat, 1), main = "PIE")
-
-#we need to format all the gender and atrited data into a single little thing
-
-gender.atrited <- data.frame(gender= lapply(new_data$KEY_SEX_1997, function(x) x - 1), atrited = lapply(new_data$KEY_AGE_1997, function(x){
-  if(is.na(x)){
-    0
-  }
-  1
-}))
-
 #DEPENDENT VAR
-atrited <- unlist(lapply(new_data$SYMBOL_KEY_AGE_2015, function(x){
-  if(is.na(x)){
-    1
-  }else{
-    0
-  }
-}))
+atrited <- create.dummy.var(new_data$SYMBOL_KEY_AGE_2015, -100, 300)
 
-#GENDER VAR
-gender <- unlist(lapply(new_data$KEY_SEX_1997, function(x) x - 1))
-men <- unlist(lapply(new_data$KEY_SEX_1997, function(x){
-  if(x == 1){
-    1
-  }
-  else{
-    0
-  }
-}))
+#GENDER VARIABLES
+woman <-create.dummy.var.equ(new_data$KEY_SEX_1997, 2)
 
-#RACE VAR
-black <- unlist(lapply(new_data$KEY_RACE_ETHNICITY_1997, function(x){
-  if(x == 1){
-    1
-  }
-  else{
-    0
-  }
-}))
-hispanic <- unlist(lapply(new_data$KEY_RACE_ETHNICITY_1997, function(x){
-  if(x == 2){
-    1
-  }
-  else{
-    0
-  }
-}))
-mixed <- unlist(lapply(new_data$KEY_RACE_ETHNICITY_1997, function(x){
-  if(x == 3){
-    1
-  }
-  else{
-    0
-  }
-}))
-other <- unlist(lapply(new_data$KEY_RACE_ETHNICITY_1997, function(x){
-  if(x == 4){
-    1
-  }
-  else{
-    0
-  }
-}))
+#RACE VARIABLES
+black <- create.dummy.var.equ(new_data$KEY_RACE_ETHNICITY_1997, 1)
+hispanic <- create.dummy.var.equ(new_data$KEY_RACE_ETHNICITY_1997, 2)
+mixed <- create.dummy.var.equ(new_data$KEY_RACE_ETHNICITY_1997, 3)
+other <- create.dummy.var.equ(new_data$KEY_RACE_ETHNICITY_1997, 4)
 
-#INCOME VAR
-neg <- unlist(lapply(new_data$CV_INCOME_GROSS_YR_1997, function(x){
-  if(!is.na(x) & x < 0){
-    1
-  }
-  else{
-    0
-  }
-}))
+#INCOME VARIABLES
+neg <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, -1000000, 0)
+k20 <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 0, 20000)
+k50 <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 20000, 50000)
+k100 <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 50000, 100000)
+k200 <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 100000, 200000)
+kLarge <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 200000, 1000000000000)
 
-k20 <- unlist(lapply(new_data$CV_INCOME_GROSS_YR_1997, function(x){
-  if(!is.na(x) & x >= 0 & x <= 20000){
-    1
-  }
-  else{
-    0
-  }
-}))
+#FOREIGN BORN VARIABLES
+usCit <- create.dummy.var.equ(new_data$CV_CITIZENSHIP_1997, 1)
+nonUSCit <- create.dummy.var(new_data$KEY_RACE_ETHNICITY_1997, 2, 4)
 
-k50 <- unlist(lapply(new_data$CV_INCOME_GROSS_YR_1997, function(x){
-  if(!is.na(x) & x >= 20000 & x <= 50000){
-    1
-  }
-  else{
-    0
-  }
-}))
+#MOM'S EDUCATION VARIABLES
+MomNoHS <- create.dummy.var(new_data$CV_HGC_BIO_MOM_1997, -4, 12)
+MomHS <- create.dummy.var(new_data$CV_HGC_BIO_MOM_1997, 12, 16)
+MomCollege <- create.dummy.var(new_data$CV_HGC_BIO_MOM_1997, 16, 18)
+MomMasters <- create.dummy.var(new_data$CV_HGC_BIO_MOM_1997, 18, 200)
 
-k100 <- unlist(lapply(new_data$CV_INCOME_GROSS_YR_1997, function(x){
-  if(!is.na(x) & x >= 50000 & x <= 100000){
-    1
-  }
-  else{
-    0
-  }
-}))
-
-k200 <- unlist(lapply(new_data$CV_INCOME_GROSS_YR_1997, function(x){
-  if(!is.na(x) & x >= 100000 & x <= 200000){
-    1
-  }
-  else{
-    0
-  }
-}))
-
-kLarge<- unlist(lapply(new_data$CV_INCOME_GROSS_YR_1997, function(x){
-  if(!is.na(x) & x >= 200000){
-    1
-  }
-  else{
-    0
-  }
-}))
-
-#FOREIGN BORN VAR
-usCit <- unlist(lapply(new_data$CV_CITIZENSHIP_1997, function(x){
-  if(!is.na(x) & x == 1){
-    1
-  }
-  else{
-    0
-  }
-}))
-
-#MOM EDU VAR
-#Is Mom a dumbass?
-Momdumb <- unlist(lapply(new_data$CV_HGC_BIO_MOM_1997, function(x){
-  if(!is.na(x) & x < 12){
-    1
-  }
-  else{
-    0
-  }
-}))
-Momavg <- unlist(lapply(new_data$CV_HGC_BIO_MOM_1997, function(x){
-  if(!is.na(x) & x >=12 & x < 16){
-    1
-  }
-  else{
-    0
-  }
-}))
-Momaight <- unlist(lapply(new_data$CV_HGC_BIO_MOM_1997, function(x){
-  if(!is.na(x) & x >=16 & x < 18){
-    1
-  }
-  else{
-    0
-  }
-}))
-Momsmart <- unlist(lapply(new_data$CV_HGC_BIO_MOM_1997, function(x){
-  if(!is.na(x) & x >=18){
-    1
-  }
-  else{
-    0
-  }
-}))
-
-
-Daddumb <- unlist(lapply(new_data$CV_HGC_BIO_DAD_1997, function(x){
-  if(!is.na(x) & x < 12){
-    1
-  }
-  else{
-    0
-  }
-}))
-Dadavg <- unlist(lapply(new_data$CV_HGC_BIO_DAD_1997, function(x){
-  if(!is.na(x) & x >=12 & x < 16){
-    1
-  }
-  else{
-    0
-  }
-}))
-Dadaight <- unlist(lapply(new_data$CV_HGC_BIO_DAD_1997, function(x){
-  if(!is.na(x) & x >=16 & x < 18){
-    1
-  }
-  else{
-    0
-  }
-}))
-Dadsmart <- create.dummy.var(new_data, 18, 200)
-
+#DAD'S EDUCATION VARIABLES
+DadNoHS <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, -4, 12)
+DadHS <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 12, 16)
+DadCollege <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 16, 18)
+DadMasters <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 18, 200)
 #gender is significant, 5% less women than men
 
 #black is significant, 7% less black than other
@@ -351,7 +180,10 @@ Dadsmart <- create.dummy.var(new_data, 18, 200)
 #dadaight, no correlation.
 #dadsmart, no correlation.
 
-model <- lm(atrited ~ Dadsmart)
+#The correlation between gender and attrition is positive across the board
+#and is unaffected by race which remains negative. Mutually exclusive.
+
+model <- lm(atrited ~  + hispanic)
 
 print(summary(model))
  
