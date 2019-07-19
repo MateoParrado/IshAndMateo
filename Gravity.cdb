@@ -1,0 +1,1348 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R05366.00    [KEY!AGE]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!AGE, RS CURRENT AGE (SYMBOL)
+ 
+COMMENT: Youth's current age
+ 
+       0           0 TO 11: LESS THAN 12
+    1231          12
+    1744          13
+    1859          14
+    1889          15
+    1718          16
+     531          17
+      12          18
+       0          19 TO 999: GREATER THAN 18
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             12        Max:             18        Mean:               14.31
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R05364.00[Default]
+Default Next Question: R05367.00
+--------------------------------------------------------------------------------
+R12013.00    [CV_CITIZENSHIP]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             CITIZENSHIP STATUS BASED ON BIRTH
+ 
+U.S. citizenship status based on place of birth.
+ 
+    6869       1 Citizen, born in the U.S.
+     279       2 Unknown, not born in U.S.
+     794       3 Unknown, can't determine birthplace
+  -------
+    7942
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7942   VALID SKIP(-4)    1042     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12012.00[Default]
+Default Next Question: R12014.00
+--------------------------------------------------------------------------------
+R12045.00    [CV_INCOME_GROSS_YR]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             GROSS HH INCOME IN PAST YEAR
+ 
+Gross household income in the previous year.
+/*Topcoded at the 2% level.  Truncated values are applied to the top 2 percent 
+of respondents with valid non-missing responses.  The average value of the top 2
+percent of cases is used as the value.  Negative values of -1, -2, -3, -4, or -5
+do not reflect negative monetary amounts; these numbers represent standard 
+NLSY97 codes.*/
+ 
+       3     -999999 TO -3000: < -2999
+       0       -2999 TO -2000
+       0       -1999 TO -1000
+       0        -999 TO -1
+     100           0
+      71           1 TO 1000
+      41        1001 TO 2000
+      98        2001 TO 3000
+     139        3001 TO 5000
+     465        5001 TO 10000
+     925       10001 TO 20000
+     819       20001 TO 30000
+     835       30001 TO 40000
+     765       40001 TO 50000
+     834       50001 TO 65000
+     610       65001 TO 80000
+     397       80001 TO 100000
+     321      100001 TO 150000
+      32      150001 TO 200000
+     133      200001 TO 999999: 200001+
+  -------
+    6588
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1458
+TOTAL =========>    8046   VALID SKIP(-4)     938     NON-INTERVIEW(-5)       0
+ 
+Min:         -48100        Max:         246474        Mean:             46361.7
+ 
+Hard Minimum: [0]  Hard Maximum: [9999999]
+ 
+Lead In: R13027.00[Default]
+Default Next Question: R12046.00
+--------------------------------------------------------------------------------
+R12358.00    [CV_SAMPLE_TYPE]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE
+ 
+Sample type: Is the respondent a member of the cross-sectional sample or the 
+oversample?
+ 
+    6748       1 Cross-sectional
+    2236       0 Oversample
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12357.00[Default]
+Default Next Question: R12359.00
+--------------------------------------------------------------------------------
+R13024.00    [CV_HGC_BIO_DAD]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             BIOLOGICAL FATHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's biological father (includes both 
+residential and non-residential fathers).
+ 
+       0       0 NONE
+       1       1 1ST GRADE
+      19       2 2ND GRADE
+      68       3 3RD GRADE
+      59       4 4TH GRADE
+      68       5 5TH GRADE
+     188       6 6TH GRADE
+      92       7 7TH GRADE
+     169       8 8TH GRADE
+     240       9 9TH GRADE
+     329      10 10TH GRADE
+     396      11 11TH GRADE
+    2728      12 12TH GRADE
+     381      13 1ST YEAR COLLEGE
+     736      14 2ND YEAR COLLEGE
+     176      15 3RD YEAR COLLEGE
+     840      16 4TH YEAR COLLEGE
+     113      17 5TH YEAR COLLEGE
+     270      18 6TH YEAR COLLEGE
+      85      19 7TH YEAR COLLEGE
+     162      20 8TH YEAR COLLEGE OR MORE
+       8      95 UNGRADED
+  -------
+    7128
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1188
+TOTAL =========>    8316   VALID SKIP(-4)     668     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12044.00[Default]
+Default Next Question: R13025.00
+--------------------------------------------------------------------------------
+R13025.00    [CV_HGC_BIO_MOM]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             BIOLOGICAL MOTHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's biological mother (includes both 
+residential and non-residential mothers).
+ 
+       0       0 NONE
+       6       1 1ST GRADE
+      29       2 2ND GRADE
+      54       3 3RD GRADE
+      52       4 4TH GRADE
+      57       5 5TH GRADE
+     222       6 6TH GRADE
+      69       7 7TH GRADE
+     205       8 8TH GRADE
+     273       9 9TH GRADE
+     428      10 10TH GRADE
+     562      11 11TH GRADE
+    3038      12 12TH GRADE
+     642      13 1ST YEAR COLLEGE
+    1002      14 2ND YEAR COLLEGE
+     248      15 3RD YEAR COLLEGE
+     908      16 4TH YEAR COLLEGE
+     157      17 5TH YEAR COLLEGE
+     227      18 6TH YEAR COLLEGE
+      34      19 7TH YEAR COLLEGE
+      77      20 8TH YEAR COLLEGE OR MORE
+       6      95 UNGRADED
+  -------
+    8296
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     523
+TOTAL =========>    8819   VALID SKIP(-4)     165     NON-INTERVIEW(-5)       0
+ 
+Lead In: R13024.00[Default]
+Default Next Question: R13026.00
+--------------------------------------------------------------------------------
+R13026.00    [CV_HGC_RES_DAD]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RESIDENTIAL FATHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's residential father (includes both 
+biological and non-biological fathers).
+ 
+       0       0 NONE
+       1       1 1ST GRADE
+      12       2 2ND GRADE
+      51       3 3RD GRADE
+      56       4 4TH GRADE
+      51       5 5TH GRADE
+     150       6 6TH GRADE
+      69       7 7TH GRADE
+     117       8 8TH GRADE
+     186       9 9TH GRADE
+     195      10 10TH GRADE
+     277      11 11TH GRADE
+    1917      12 12TH GRADE
+     345      13 1ST YEAR COLLEGE
+     720      14 2ND YEAR COLLEGE
+     164      15 3RD YEAR COLLEGE
+     780      16 4TH YEAR COLLEGE
+     119      17 5TH YEAR COLLEGE
+     255      18 6TH YEAR COLLEGE
+      86      19 7TH YEAR COLLEGE
+     153      20 8TH YEAR COLLEGE OR MORE
+       3      95 UNGRADED
+  -------
+    5707
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     367
+TOTAL =========>    6074   VALID SKIP(-4)    2910     NON-INTERVIEW(-5)       0
+ 
+Lead In: R13025.00[Default]
+Default Next Question: R13027.00
+--------------------------------------------------------------------------------
+R13027.00    [CV_HGC_RES_MOM]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RESIDENTIAL MOTHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's residential mother (includes both 
+biological and non-biological mothers).
+ 
+       0       0 NONE
+       3       1 1ST GRADE
+      28       2 2ND GRADE
+      51       3 3RD GRADE
+      54       4 4TH GRADE
+      54       5 5TH GRADE
+     221       6 6TH GRADE
+      67       7 7TH GRADE
+     183       8 8TH GRADE
+     260       9 9TH GRADE
+     373      10 10TH GRADE
+     517      11 11TH GRADE
+    2870      12 12TH GRADE
+     639      13 1ST YEAR COLLEGE
+     996      14 2ND YEAR COLLEGE
+     251      15 3RD YEAR COLLEGE
+     902      16 4TH YEAR COLLEGE
+     163      17 5TH YEAR COLLEGE
+     246      18 6TH YEAR COLLEGE
+      38      19 7TH YEAR COLLEGE
+      89      20 8TH YEAR COLLEGE OR MORE
+       5      95 UNGRADED
+  -------
+    8010
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     316
+TOTAL =========>    8326   VALID SKIP(-4)     658     NON-INTERVIEW(-5)       0
+ 
+Lead In: R13026.00[Default]
+Default Next Question: R12045.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00
+--------------------------------------------------------------------------------
+R25162.00    [SYMBOL!KEY!AGE]                               Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+     105          13
+    1598          14
+    1677          15
+    1735          16
+    1747          17
+    1415          18
+     109          19
+       0          20 TO 99: 20+
+  -------
+    8386
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8386   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     598
+ 
+Min:             13        Max:             19        Mean:               15.97
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R25161.00[Default]
+Default Next Question: R25165.00
+--------------------------------------------------------------------------------
+R38281.00    [SYMBOL!KEY!AGE]                               Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+     109          14
+    1664          15
+    1632          16
+    1728          17
+    1622          18
+    1386          19
+      67          20 TO 99: 20+
+  -------
+    8208
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8208   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     776
+ 
+Min:             14        Max:             20        Mean:               16.92
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R38280.00[Default]
+Default Next Question: R38284.00
+--------------------------------------------------------------------------------
+R53420.00    [SYMBOL!KEY!AGE]                               Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           0
+       0           1 TO 4
+       0           5 TO 8
+       0           9 TO 12
+    1613          13 TO 16
+    6330          17 TO 20
+     137          21 TO 24
+  -------
+    8080
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8080   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     904
+ 
+Min:             15        Max:             21        Mean:               17.98
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R53419.00[Default]
+Default Next Question: R53423.00
+--------------------------------------------------------------------------------
+R70859.00    [SYMBOL!KEY!AGE]                               Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+      67          16
+    1548          17
+    1620          18
+    1610          19
+    1588          20
+    1338          21
+     111          22
+       0          23
+       0          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7882
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:             16        Max:             22        Mean:               18.96
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R70858.00[Default]
+Default Next Question: R70862.00
+--------------------------------------------------------------------------------
+S15274.00    [SYMBOL!KEY!AGE]                               Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+    1620          18
+    1591          19
+    1651          20
+    1588          21
+    1335          22
+     111          23
+       0          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7896
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:             18        Max:             23        Mean:               19.97
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: S15247.00[Default]
+Default Next Question: S15280.00
+--------------------------------------------------------------------------------
+S35928.00    [SYMBOL!KEY!AGE]                               Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+     113          18
+    1501          19
+    1605          20
+    1590          21
+    1570          22
+    1296          23
+      79          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7754
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:             18        Max:             24        Mean:               20.93
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: S35918.00[Default]
+Default Next Question: S35941.00
+--------------------------------------------------------------------------------
+S49677.00    [SYMBOL_KEY_AGE]                               Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+      52          19
+    1447          20
+    1519          21
+    1554          22
+    1535          23
+    1298          24
+      97          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7502
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7502   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1482
+ 
+Min:             19        Max:             25        Mean:               21.98
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: None.
+Default Next Question: 
+--------------------------------------------------------------------------------
+S67075.00    [SYMBOL_KEY_AGE]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+      75          20
+    1432          21
+    1492          22
+    1543          23
+    1470          24
+    1249          25
+      76          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7337
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>    7338   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1646
+ 
+Min:             20        Max:             26        Mean:               22.95
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: S67068.00[Default]
+Default Next Question: S67088.00
+--------------------------------------------------------------------------------
+S86801.00    [SYMBOL_KEY_AGE]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+     133          21
+    1475          22
+    1541          23
+    1581          24
+    1548          25
+    1231          26
+      48          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7557
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:             21        Max:             27        Mean:                23.9
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: S86797.00[Default]
+Default Next Question: S86811.00
+--------------------------------------------------------------------------------
+T11000.00    [SYMBOL_KEY_AGE]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+     188          22
+    1460          23
+    1536          24
+    1530          25
+    1481          26
+    1198          27
+      21          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7414
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>    7418   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1566
+ 
+Min:             22        Max:             28        Mean:               24.85
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T10996.00[Default]
+Default Next Question: T11009.00
+--------------------------------------------------------------------------------
+T31772.00    [SYMBOL_KEY_AGE]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+     163          23
+    1455          24
+    1507          25
+    1572          26
+    1526          27
+    1214          28
+      45          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7482
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Min:             23        Max:             29        Mean:               25.89
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T31769.00[Default]
+Default Next Question: T31783.00
+--------------------------------------------------------------------------------
+T45883.00    [SYMBOL_KEY_AGE]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+     262          24
+    1494          25
+    1553          26
+    1539          27
+    1545          28
+    1152          29
+      14          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7559
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:             24        Max:             30        Mean:               26.81
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T45880.00[Default]
+Default Next Question: T45891.00
+--------------------------------------------------------------------------------
+T62216.00    [SYMBOL_KEY_AGE]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+     146          25
+    1469          26
+    1497          27
+    1565          28
+    1520          29
+    1248          30
+      34          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7479
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7479   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1505
+ 
+Min:             25        Max:             31        Mean:                27.9
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T62211.00[Default]
+Default Next Question: T62224.00
+--------------------------------------------------------------------------------
+T77188.00    [SYMBOL_KEY_AGE]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+       0          25
+     282          26
+    1484          27
+    1507          28
+    1512          29
+    1547          30
+    1075          31
+      16          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7423
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7423   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1561
+ 
+Min:             26        Max:             32        Mean:               28.79
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T77183.00[Default]
+Default Next Question: T77207.00
+--------------------------------------------------------------------------------
+T91194.00    [SYMBOL_KEY_AGE]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+       0          25
+       0          26
+       0          27
+      58          28
+    1335          29
+    1453          30
+    1455          31
+    1476          32
+    1261          33
+     102          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7140
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7140   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1844
+ 
+Min:             28        Max:             34        Mean:                  31
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T91190.00[Default]
+Default Next Question: T91198.00
+--------------------------------------------------------------------------------
+U11109.00    [SYMBOL_KEY_AGE]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+     132          30
+    1353          31
+    1437          32
+    1493          33
+    1454          34
+    1164          35
+      69          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7102
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7102   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    1881
+ 
+Min:             30        Max:             36        Mean:               32.92
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: U11105.00[Default]
+Default Next Question: U11136.00

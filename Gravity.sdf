@@ -1,0 +1,34 @@
+
+
+Reference
+Number     Year  Variable Description                                      Question Name       
+-------------------------------------------------------------------------------------------------
+R00001.00  1997  PUBID, YOUTH CASE IDENTIFICATION CODE                     PUBID               
+R05363.00  1997  KEY!SEX, RS GENDER (SYMBOL)                               KEY!SEX             
+R05364.01  1997  KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)               KEY!BDATE_M         
+R05364.02  1997  KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)               KEY!BDATE_Y         
+R05366.00  1997  KEY!AGE, RS CURRENT AGE (SYMBOL)                          KEY!AGE             
+R12013.00  1997  CITIZENSHIP STATUS BASED ON BIRTH                         CV_CITIZENSHIP      
+R12045.00  1997  GROSS HH INCOME IN PAST YEAR                              CV_INCOME_GROSS_YR  
+R12358.00  1997  SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE               CV_SAMPLE_TYPE      
+R13024.00  1997  BIOLOGICAL FATHERS HIGHEST GRADE COMPLETED                CV_HGC_BIO_DAD      
+R13025.00  1997  BIOLOGICAL MOTHERS HIGHEST GRADE COMPLETED                CV_HGC_BIO_MOM      
+R13026.00  1997  RESIDENTIAL FATHERS HIGHEST GRADE COMPLETED               CV_HGC_RES_DAD      
+R13027.00  1997  RESIDENTIAL MOTHERS HIGHEST GRADE COMPLETED               CV_HGC_RES_MOM      
+R14826.00  1997  KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)  KEY!RACE_ETHNICITY  
+R25162.00  1998  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL!KEY!AGE      
+R38281.00  1999  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL!KEY!AGE      
+R53420.00  2000  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL!KEY!AGE      
+R70859.00  2001  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL!KEY!AGE      
+S15274.00  2002  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL!KEY!AGE      
+S35928.00  2003  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL!KEY!AGE      
+S49677.00  2004  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+S67075.00  2005  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+S86801.00  2006  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+T11000.00  2007  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+T31772.00  2008  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+T45883.00  2009  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+T62216.00  2010  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+T77188.00  2011  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+T91194.00  2013  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
+U11109.00  2015  SYMBOL!KEY!AGE, RS CURRENT AGE                            SYMBOL_KEY_AGE      
