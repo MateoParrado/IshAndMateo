@@ -41,6 +41,17 @@ create.dummy.var <- function(dat, lowerBound, upperBound){
   }))
 }
 
+create.dummy.var.inv <- function(dat, lowerBound, upperBound){
+  unlist(lapply(dat, function(x){
+    if(!is.na(x) & x >= lowerBound & x < upperBound){
+      0
+    }
+    else{
+      1
+    }
+  }))
+}
+
 create.dummy.var.equ <- function(dat, val){
   unlist(lapply(dat, function(x){
     if(!is.na(x) & x == val){

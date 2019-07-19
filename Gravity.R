@@ -120,7 +120,7 @@ for(i in 1:nrow(new_data)){
 }
 
 #DEPENDENT VAR
-atrited <- create.dummy.var(new_data$SYMBOL_KEY_AGE_2015, -100, 300)
+atrited <- create.dummy.var.inv(new_data$SYMBOL_KEY_AGE_2015, -100, 300)
 
 #GENDER VARIABLES
 woman <-create.dummy.var.equ(new_data$KEY_SEX_1997, 2)
@@ -154,6 +154,7 @@ DadNoHS <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, -4, 12)
 DadHS <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 12, 16)
 DadCollege <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 16, 18)
 DadMasters <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 18, 200)
+
 #gender is significant, 5% less women than men
 
 #black is significant, 7% less black than other
@@ -183,12 +184,12 @@ DadMasters <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 18, 200)
 #The correlation between gender and attrition is positive across the board
 #and is unaffected by race which remains negative. Mutually exclusive.
 
-model <- lm(atrited ~  + hispanic)
+#Hispanic US citizens have a strong correlation with attrition while hispanic people born outside of the US have no correlation with attrition.
+
+model <- lm(atrited ~ woman)
 
 print(summary(model))
  
 plot(x=black, y=atrited)
 
 abline(model)
-
-####IS GIT WORKING
