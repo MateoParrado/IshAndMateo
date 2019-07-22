@@ -224,7 +224,7 @@ marriage.dummy.2011 <- create.dummy.var.equ(new_data$MAR_STATUS_2011.01_XRND, 2)
 marriage.dummy.2012 <- create.dummy.var.equ(new_data$MAR_STATUS_2012.01_XRND, 2)
 marriage.dummy.2013 <- create.dummy.var.equ(new_data$MAR_STATUS_2013.01_XRND, 2)
 marriage.dummy.2014 <- create.dummy.var.equ(new_data$MAR_STATUS_2014.01_XRND, 2)
-marriage.dummy.2015 <- create.dummy.var.equ(new_data$MAR_STATUS_2015.01_XRND, 2)
+marriage.dummy.2015 <- create.dummy.var.equ(new_data$MAR_STATUS_2015.01_XRND, 2) 
 #gender is significant, 5% less women than men
 
 #black is significant, 7% less black than other
