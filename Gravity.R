@@ -1,6 +1,7 @@
 
 # Set working directory
-setwd('/Users/ismailbaram/Documents/IshAndMateo-master')
+#setwd('/Users/ismailbaram/Documents/IshAndMateo-master')
+setwd('C:/Users/Mateo Parrado/Downloads/Gravity')
 
 source("HelperFuns.R")
 
@@ -155,6 +156,9 @@ DadHS <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 12, 16)
 DadCollege <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 16, 18)
 DadMasters <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 18, 200)
 
+#KIDS VARIABLES
+Kids.Dummies.1997 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_1997)
+
 #gender is significant, 5% less women than men
 
 #black is significant, 7% less black than other
@@ -188,7 +192,9 @@ DadMasters <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 18, 200)
 
 model <- lm(atrited ~ woman)
 
-print(summary(model))
+print(Kids.Dummies.1997[[2]])
+
+#print(summary(model))
  
 plot(x=black, y=atrited)
 

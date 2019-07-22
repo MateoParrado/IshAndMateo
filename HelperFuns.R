@@ -63,3 +63,17 @@ create.dummy.var.equ <- function(dat, val){
   }))
 }
 
+create.children.dummies <- function(dat){
+  kids <- data.frame(
+    one = create.dummy.var.equ(dat, 1),
+    two = create.dummy.var.equ(dat, 2),
+    three = create.dummy.var.equ(dat, 3),
+    four = create.dummy.var.equ(dat, 4),
+    five = create.dummy.var.equ(dat, 5),
+    six = create.dummy.var.equ(dat, 6),
+    seven = create.dummy.var.equ(dat, 7),
+    eight = create.dummy.var.equ(dat, 8),
+    nine = create.dummy.var.equ(dat, 9),
+    ten = create.dummy.var.equ(dat, 10)
+  )
+}
