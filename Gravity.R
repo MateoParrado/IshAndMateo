@@ -158,6 +158,22 @@ DadMasters <- create.dummy.var(new_data$CV_HGC_BIO_DAD_1997, 18, 200)
 
 #KIDS VARIABLES
 Kids.Dummies.1997 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_1997)
+Kids.Dummies.1998 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_1998)
+Kids.Dummies.1999 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_1999)
+Kids.Dummies.2000 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2000)
+Kids.Dummies.2001 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2001)
+Kids.Dummies.2002 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2002)
+Kids.Dummies.2003 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2003)
+Kids.Dummies.2004 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2004)
+Kids.Dummies.2005 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2005)
+Kids.Dummies.2006 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2006)
+Kids.Dummies.2007 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2007)
+Kids.Dummies.2008 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2008)
+Kids.Dummies.2009 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2009)
+Kids.Dummies.2010 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2010)
+Kids.Dummies.2011 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2011)
+Kids.Dummies.2013 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2013)
+Kids.Dummies.2015 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2015)
 
 #gender is significant, 5% less women than men
 
@@ -191,8 +207,6 @@ Kids.Dummies.1997 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_1997)
 #Hispanic US citizens have a strong correlation with attrition while hispanic people born outside of the US have no correlation with attrition.
 
 model <- lm(atrited ~ woman)
-
-print(Kids.Dummies.1997[[2]])
 
 #print(summary(model))
  
