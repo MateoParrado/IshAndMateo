@@ -175,6 +175,22 @@ Kids.Dummies.2011 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2011)
 Kids.Dummies.2013 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2013)
 Kids.Dummies.2015 <- create.children.dummies(new_data$CV_BIO_CHILD_HH_2015)
 
+#ARE THEY STILL IN SCHOOL DUMMIES
+are.they.still.in.school1998 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_9899_1998, new_data$CV_HGC_9900_1999)
+are.they.still.in.school1999 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_9900_1999, new_data$CV_HGC_0001_2000)
+are.they.still.in.school2000 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0001_2000, new_data$CV_HGC_0102_2001)
+are.they.still.in.school2001 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0102_2001, new_data$CV_HGC_0203_2002)
+are.they.still.in.school2002 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0203_2002, new_data$CV_HGC_0304_2003)
+are.they.still.in.school2003 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0304_2003, new_data$CV_HGC_0405_2004)
+are.they.still.in.school2004 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0405_2004, new_data$CV_HGC_0506_2005)
+are.they.still.in.school2005 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0506_2005, new_data$CV_HGC_0607_2006)
+are.they.still.in.school2006 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0607_2006, new_data$CV_HGC_0708_2007)
+are.they.still.in.school2007 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0708_2007, new_data$CV_HGC_0809_2008)
+are.they.still.in.school2008 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0809_2008, new_data$CV_HGC_0910_2009)
+are.they.still.in.school2009 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0910_2009, new_data$CV_HGC_1011_2010)
+are.they.still.in.school2010 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_1011_2010, new_data$CV_HGC_1112_2011)
+are.they.still.in.school2011 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_1112_2011, new_data$CV_HGC_1314_2013)
+
 #gender is significant, 5% less women than men
 
 #black is significant, 7% less black than other

@@ -77,3 +77,23 @@ create.children.dummies <- function(dat){
     ten = create.dummy.var.equ(dat, 10)
   )
 }
+
+create.are.they.still.in.school.dummies <- function(year1, year2){
+  ret <- c(1:length(year1)) * 0
+  
+  for(i in 1:length(year1)){
+    if(is.na(year1[i]) | is.na(year2[i])){
+      ret[i] = 0
+    }
+    else{
+      if(year1[i] == year2[i]){
+        ret[i] = 0
+      }
+      else{
+        ret[i] = 1
+      }
+    }
+  }
+  
+  ret
+}
