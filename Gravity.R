@@ -205,6 +205,26 @@ income.dummy.2011 <- create.income.dummies(new_data$`YINC-1700_2011`)
 income.dummy.2013 <- create.income.dummies(new_data$`YINC-1700_2013`)
 income.dummy.2015 <- create.income.dummies(new_data$`YINC-1700_2015`)
 
+#Marital Status
+marriage.dummy.1997 <- create.dummy.var.equ(new_data$MAR_STATUS_1997.01_XRND, 2)
+marriage.dummy.1998 <- create.dummy.var.equ(new_data$MAR_STATUS_1998.01_XRND, 2)
+marriage.dummy.1999 <- create.dummy.var.equ(new_data$MAR_STATUS_1999.01_XRND, 2)
+marriage.dummy.2000 <- create.dummy.var.equ(new_data$MAR_STATUS_2000.01_XRND, 2)
+marriage.dummy.2001 <- create.dummy.var.equ(new_data$MAR_STATUS_2001.01_XRND, 2)
+marriage.dummy.2002 <- create.dummy.var.equ(new_data$MAR_STATUS_2002.01_XRND, 2)
+marriage.dummy.2003 <- create.dummy.var.equ(new_data$MAR_STATUS_2003.01_XRND, 2)
+marriage.dummy.2004 <- create.dummy.var.equ(new_data$MAR_STATUS_2004.01_XRND, 2)
+marriage.dummy.2005 <- create.dummy.var.equ(new_data$MAR_STATUS_2005.01_XRND, 2)
+marriage.dummy.2006 <- create.dummy.var.equ(new_data$MAR_STATUS_2006.01_XRND, 2)
+marriage.dummy.2007 <- create.dummy.var.equ(new_data$MAR_STATUS_2007.01_XRND, 2)
+marriage.dummy.2008 <- create.dummy.var.equ(new_data$MAR_STATUS_2008.01_XRND, 2)
+marriage.dummy.2009 <- create.dummy.var.equ(new_data$MAR_STATUS_2009.01_XRND, 2)
+marriage.dummy.2010 <- create.dummy.var.equ(new_data$MAR_STATUS_2010.01_XRND, 2)
+marriage.dummy.2011 <- create.dummy.var.equ(new_data$MAR_STATUS_2011.01_XRND, 2)
+marriage.dummy.2012 <- create.dummy.var.equ(new_data$MAR_STATUS_2012.01_XRND, 2)
+marriage.dummy.2013 <- create.dummy.var.equ(new_data$MAR_STATUS_2013.01_XRND, 2)
+marriage.dummy.2014 <- create.dummy.var.equ(new_data$MAR_STATUS_2014.01_XRND, 2)
+marriage.dummy.2015 <- create.dummy.var.equ(new_data$MAR_STATUS_2015.01_XRND, 2)
 #gender is significant, 5% less women than men
 
 #black is significant, 7% less black than other
@@ -238,7 +258,7 @@ income.dummy.2015 <- create.income.dummies(new_data$`YINC-1700_2015`)
 
 model <- lm(atrited ~ woman)
 
-#Fuck u Ish
+#
  
 plot(x=black, y=atrited)
 
