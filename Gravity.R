@@ -234,7 +234,7 @@ income.dummy.2015 <- create.income.dummies(new_data$`YINC-1700_2015`)
 #The correlation between gender and attrition is positive across the board
 #and is unaffected by race which remains negative. Mutually exclusive.
 
-#Hispanic US citizens have a strong correlation with attrition while hispanic people born outside of the US have no correlation with attrition.
+#Hispanic US citizens have a strong  correlation with attrition while hispanic people born outside of the US have no correlation with attrition.
 
 model <- lm(atrited ~ woman)
 
