@@ -133,12 +133,7 @@ mixed <- create.dummy.var.equ(new_data$KEY_RACE_ETHNICITY_1997, 3)
 other <- create.dummy.var.equ(new_data$KEY_RACE_ETHNICITY_1997, 4)
 
 #INCOME VARIABLES
-neg <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, -1000000, 0)
-k20 <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 0, 20000)
-k50 <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 20000, 50000)
-k100 <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 50000, 100000)
-k200 <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 100000, 200000)
-kLarge <- create.dummy.var(new_data$CV_INCOME_GROSS_YR_1997, 200000, 1000000000000)
+parental.income <- create.income.dummies(new_data$CV_INCOME_GROSS_YR_1997)
 
 #FOREIGN BORN VARIABLES
 usCit <- create.dummy.var.equ(new_data$CV_CITIZENSHIP_1997, 1)
@@ -190,6 +185,25 @@ are.they.still.in.school2008 <- create.are.they.still.in.school.dummies(new_data
 are.they.still.in.school2009 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_0910_2009, new_data$CV_HGC_1011_2010)
 are.they.still.in.school2010 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_1011_2010, new_data$CV_HGC_1112_2011)
 are.they.still.in.school2011 <- create.are.they.still.in.school.dummies(new_data$CV_HGC_1112_2011, new_data$CV_HGC_1314_2013)
+
+#INCOME DUMMY VARIBLES
+income.dummy.1997 <- create.income.dummies(new_data$`YINC-1700_1997`)
+income.dummy.1998 <- create.income.dummies(new_data$`YINC-1700_1998`)
+income.dummy.1999 <- create.income.dummies(new_data$`YINC-1700_1999`)
+income.dummy.2000 <- create.income.dummies(new_data$`YINC-1700_2000`)
+income.dummy.2001 <- create.income.dummies(new_data$`YINC-1700_2000`)
+income.dummy.2002 <- create.income.dummies(new_data$`YINC-1700_2001`)
+income.dummy.2003 <- create.income.dummies(new_data$`YINC-1700_2002`)
+income.dummy.2004 <- create.income.dummies(new_data$`YINC-1700_2004`)
+income.dummy.2005 <- create.income.dummies(new_data$`YINC-1700_2005`)
+income.dummy.2006 <- create.income.dummies(new_data$`YINC-1700_2006`)
+income.dummy.2007 <- create.income.dummies(new_data$`YINC-1700_2007`)
+income.dummy.2008 <- create.income.dummies(new_data$`YINC-1700_2008`)
+income.dummy.2009 <- create.income.dummies(new_data$`YINC-1700_2009`)
+income.dummy.2010 <- create.income.dummies(new_data$`YINC-1700_2010`)
+income.dummy.2011 <- create.income.dummies(new_data$`YINC-1700_2011`)
+income.dummy.2013 <- create.income.dummies(new_data$`YINC-1700_2013`)
+income.dummy.2015 <- create.income.dummies(new_data$`YINC-1700_2015`)
 
 #gender is significant, 5% less women than men
 
