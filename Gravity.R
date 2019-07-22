@@ -238,7 +238,7 @@ income.dummy.2015 <- create.income.dummies(new_data$`YINC-1700_2015`)
 
 model <- lm(atrited ~ woman)
 
-#Fuck ur computer
+#Fuck u Ish
  
 plot(x=black, y=atrited)
 
