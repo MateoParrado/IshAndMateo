@@ -225,6 +225,24 @@ marriage.dummy.2012 <- create.dummy.var.equ(new_data$MAR_STATUS_2012.01_XRND, 2)
 marriage.dummy.2013 <- create.dummy.var.equ(new_data$MAR_STATUS_2013.01_XRND, 2)
 marriage.dummy.2014 <- create.dummy.var.equ(new_data$MAR_STATUS_2014.01_XRND, 2)
 marriage.dummy.2015 <- create.dummy.var.equ(new_data$MAR_STATUS_2015.01_XRND, 2) 
+
+#DID THEY MOVE
+move.dummy.1998 <- create.dummy.var.equ.inv(new_data$YHHI_3700_1998)
+move.dummy.1999 <- create.dummy.var.equ.inv(new_data$YHHI_3700_1999)
+move.dummy.2000 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2000)
+move.dummy.2001 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2001)
+move.dummy.2002 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2002)
+move.dummy.2003 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2003)
+move.dummy.2004 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2004)
+move.dummy.2005 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2005)
+move.dummy.2006 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2006)
+move.dummy.2007 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2007)
+move.dummy.2008 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2008)
+move.dummy.2009 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2009)
+move.dummy.2010 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2010)
+move.dummy.2011 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2011)
+move.dummy.2013 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2013)
+move.dummy.2015 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2015)
 #gender is significant, 5% less women than men
 
 #black is significant, 7% less black than other
