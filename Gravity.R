@@ -226,7 +226,7 @@ marriage.dummy.2013 <- create.dummy.var.equ(new_data$MAR_STATUS_2013.01_XRND, 2)
 marriage.dummy.2014 <- create.dummy.var.equ(new_data$MAR_STATUS_2014.01_XRND, 2)
 marriage.dummy.2015 <- create.dummy.var.equ(new_data$MAR_STATUS_2015.01_XRND, 2) 
 
-#DID THEY MOVE
+#DID THEY MOVE OUT OF STATE
 move.dummy.1998 <- create.dummy.var.equ.inv(new_data$YHHI_3700_1998)
 move.dummy.1999 <- create.dummy.var.equ.inv(new_data$YHHI_3700_1999)
 move.dummy.2000 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2000)
@@ -243,6 +243,25 @@ move.dummy.2010 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2010)
 move.dummy.2011 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2011)
 move.dummy.2013 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2013)
 move.dummy.2015 <- create.dummy.var.equ.inv(new_data$YHHI_3700_2015)
+
+#DID THEIR ADDRESS EVER CHANGE
+address.dummy.1998 <- create.dummy.var.equ.inv(new_data$YHHI_3600_1998)
+address.dummy.1999 <- create.dummy.var.equ.inv(new_data$YHHI_3600_1999)
+address.dummy.2000 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2000)
+address.dummy.2001 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2001)
+address.dummy.2002 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2002)
+address.dummy.2003 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2003)
+address.dummy.2004 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2004)
+address.dummy.2005 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2005)
+address.dummy.2006 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2006)
+address.dummy.2007 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2007)
+address.dummy.2008 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2008)
+address.dummy.2009 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2009)
+address.dummy.2010 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2010)
+address.dummy.2011 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2011)
+address.dummy.2013 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2013)
+address.dummy.2015 <- create.dummy.var.equ.inv(new_data$YHHI_3600_2015)
+
 #gender is significant, 5% less women than men
 
 #black is significant, 7% less black than other
