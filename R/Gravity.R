@@ -1,11 +1,14 @@
 
 # Set working directory
 #setwd('/Users/ismailbaram/Documents/IshAndMateo-master')
-setwd('C:/Users/Mateo Parrado/Downloads/Gravity')
+#setwd('C:/Users/Mateo Parrado/Downloads/Gravity')
+#setwd('/R')
 
-source("HelperFuns.R")
+setwd(dirname(getwd()))
+#print(getwd())
+source(paste(getwd(), "/R/HelperFuns.R", sep = ''))
 
-source("Data.R")
+source(paste(getwd(), "/R/Data.R", sep=''))
 
 #********************************************************************************************************
 

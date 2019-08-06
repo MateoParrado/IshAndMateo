@@ -1,9 +1,10 @@
 
 # Set working directory
-# setwd()
+#setwd(paste(dirname(getwd()), "/data"))
 
 
-new_data <- read.table('Gravity.dat', sep=' ')
+
+new_data <- read.table(paste(getwd(), '/data/Gravity.dat', sep=''), sep=' ')
 names(new_data) <- c('E7011701',
   'E7011801',
   'E7011901',
