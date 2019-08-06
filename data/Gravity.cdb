@@ -1,0 +1,5127 @@
+E70117.01    [MAR_STATUS_1997.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             1997 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 1997; calculated for each month 
+beginning with the month R turned 14
+ 
+    5435       0 Never Married, Not Cohabitating
+      30       1 Never Married, Cohabiting
+       2       2 Married
+       1       3 Legally Separated
+       0       4 Divorced
+       0       5 Widowed
+  -------
+    5468
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5468   VALID SKIP(-4)    3516     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70116.12[Default]
+Default Next Question: E70117.02
+--------------------------------------------------------------------------------
+E70118.01    [MAR_STATUS_1998.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             1998 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 1998; calculated for each month 
+beginning with the month R turned 14
+ 
+    7137       0 Never Married, Not Cohabitating
+     105       1 Never Married, Cohabiting
+      18       2 Married
+       1       3 Legally Separated
+       0       4 Divorced
+       0       5 Widowed
+  -------
+    7261
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7261   VALID SKIP(-4)    1723     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70117.12[Default]
+Default Next Question: E70118.02
+--------------------------------------------------------------------------------
+E70119.01    [MAR_STATUS_1999.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             1999 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 1999
+ 
+    8560       0 Never Married, Not Cohabitating
+     176       1 Never Married, Cohabiting
+      57       2 Married
+       2       3 Legally Separated
+       1       4 Divorced
+       0       5 Widowed
+  -------
+    8796
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8796   VALID SKIP(-4)     188     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70118.12[Default]
+Default Next Question: E70119.02
+--------------------------------------------------------------------------------
+E70120.01    [MAR_STATUS_2000.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2000 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2000
+ 
+    8278       0 Never Married, Not Cohabitating
+     369       1 Never Married, Cohabiting
+     136       2 Married
+       2       3 Legally Separated
+       3       4 Divorced
+       0       5 Widowed
+  -------
+    8788
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8790   VALID SKIP(-4)     194     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70119.12[Default]
+Default Next Question: E70120.02
+--------------------------------------------------------------------------------
+E70121.01    [MAR_STATUS_2001.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2001 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2001
+ 
+    7868       0 Never Married, Not Cohabitating
+     612       1 Never Married, Cohabiting
+     260       2 Married
+      12       3 Legally Separated
+      11       4 Divorced
+       0       5 Widowed
+  -------
+    8763
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>    8771   VALID SKIP(-4)     213     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70120.12[Default]
+Default Next Question: E70121.02
+--------------------------------------------------------------------------------
+E70122.01    [MAR_STATUS_2002.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2002 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2002
+ 
+COMMENT: THE RNUMBERS ON THE MAR_STATUS_2002.01 TO MAR_STATUS_2002.06 WERE 
+CHANGED BETWEEN THE ROUND 5 AND ROUND 6 EVENT HISTORY RELEASES.  THE PREVIOUS 
+RNUMBERS ARE THE FOLLOWING R9035700 THROUGH R9036200.
+ 
+    7398       0 Never Married, Not Cohabitating
+     808       1 Never Married, Cohabiting
+     479       2 Married
+      21       3 Legally Separated
+      21       4 Divorced
+       0       5 Widowed
+  -------
+    8727
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>    8732   VALID SKIP(-4)     252     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70121.12[Default]
+Default Next Question: E70122.02
+--------------------------------------------------------------------------------
+E70123.01    [MAR_STATUS_2003.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2003 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2003
+ 
+    6872       0 Never Married, Not Cohabitating
+    1019       1 Never Married, Cohabiting
+     693       2 Married
+      36       3 Legally Separated
+      30       4 Divorced
+       2       5 Widowed
+  -------
+    8652
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>    8657   VALID SKIP(-4)     327     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70122.12[Default]
+Default Next Question: E70123.02
+--------------------------------------------------------------------------------
+E70124.01    [MAR_STATUS_2004.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2004 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2004
+ 
+    6304       0 Never Married, Not Cohabitating
+    1192       1 Never Married, Cohabiting
+     959       2 Married
+      43       3 Legally Separated
+      55       4 Divorced
+       3       5 Widowed
+  -------
+    8556
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      12
+TOTAL =========>    8568   VALID SKIP(-4)     416     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70123.12[Default]
+Default Next Question: E70124.02
+--------------------------------------------------------------------------------
+E70125.01    [MAR_STATUS_2005.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2005 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2005
+ 
+    5805       0 Never Married, Not Cohabitating
+    1301       1 Never Married, Cohabiting
+    1241       2 Married
+      41       3 Legally Separated
+      93       4 Divorced
+       3       5 Widowed
+  -------
+    8484
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>    8495   VALID SKIP(-4)     489     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70124.12[Default]
+Default Next Question: E70125.02
+--------------------------------------------------------------------------------
+E70126.01    [MAR_STATUS_2006.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2006 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2006
+ 
+    5222       0 Never Married, Not Cohabitating
+    1430       1 Never Married, Cohabiting
+    1536       2 Married
+      50       3 Legally Separated
+     154       4 Divorced
+       3       5 Widowed
+  -------
+    8395
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      12
+TOTAL =========>    8407   VALID SKIP(-4)     577     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70125.12[Default]
+Default Next Question: E70126.02
+--------------------------------------------------------------------------------
+E70127.01    [MAR_STATUS_2007.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2007 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2007
+ 
+    4667       0 Never Married, Not Cohabitating
+    1540       1 Never Married, Cohabiting
+    1816       2 Married
+      69       3 Legally Separated
+     226       4 Divorced
+       4       5 Widowed
+  -------
+    8322
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      16
+TOTAL =========>    8338   VALID SKIP(-4)     646     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70126.12[Default]
+Default Next Question: E70127.02
+--------------------------------------------------------------------------------
+E70128.01    [MAR_STATUS_2008.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2008 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2008
+ 
+    4204       0 Never Married, Not Cohabitating
+    1582       1 Never Married, Cohabiting
+    2065       2 Married
+      84       3 Legally Separated
+     282       4 Divorced
+       6       5 Widowed
+  -------
+    8223
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      22
+TOTAL =========>    8245   VALID SKIP(-4)     739     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70127.12[Default]
+Default Next Question: E70128.02
+--------------------------------------------------------------------------------
+E70129.01    [MAR_STATUS_2009.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2009 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2009
+ 
+    3851       0 Never Married, Not Cohabitating
+    1569       1 Never Married, Cohabiting
+    2273       2 Married
+      98       3 Legally Separated
+     366       4 Divorced
+       7       5 Widowed
+  -------
+    8164
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      19
+TOTAL =========>    8183   VALID SKIP(-4)     801     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70128.12[Default]
+Default Next Question: E70129.02
+--------------------------------------------------------------------------------
+E70130.01    [MAR_STATUS_2010.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2010 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2010
+ 
+    3526       0 Never Married, Not Cohabitating
+    1479       1 Never Married, Cohabiting
+    2483       2 Married
+     115       3 Legally Separated
+     426       4 Divorced
+       7       5 Widowed
+  -------
+    8036
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      20
+TOTAL =========>    8056   VALID SKIP(-4)     928     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70129.12[Default]
+Default Next Question: E70130.02
+--------------------------------------------------------------------------------
+E70131.01    [MAR_STATUS_2011.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2011 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2011
+ 
+    3299       0 Never Married, Not Cohabitating
+    1365       1 Never Married, Cohabiting
+    2684       2 Married
+     106       3 Legally Separated
+     472       4 Divorced
+       8       5 Widowed
+  -------
+    7934
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      21
+TOTAL =========>    7955   VALID SKIP(-4)    1029     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70130.12[Default]
+Default Next Question: E70131.02
+--------------------------------------------------------------------------------
+E70132.01    [MAR_STATUS_2012.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2012 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2012
+ 
+    2948       0 Never Married, Not Cohabitating
+    1288       1 Never Married, Cohabiting
+    2734       2 Married
+     106       3 Legally Separated
+     527       4 Divorced
+      12       5 Widowed
+  -------
+    7615
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      24
+TOTAL =========>    7639   VALID SKIP(-4)    1345     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70131.12[Default]
+Default Next Question: E70132.02
+--------------------------------------------------------------------------------
+E70133.01    [MAR_STATUS_2013.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2013 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2013
+ 
+    2762       0 Never Married, Not Cohabitating
+    1207       1 Never Married, Cohabiting
+    2904       2 Married
+      85       3 Legally Separated
+     564       4 Divorced
+      12       5 Widowed
+  -------
+    7534
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      23
+TOTAL =========>    7557   VALID SKIP(-4)    1427     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70132.12[Default]
+Default Next Question: E70133.02
+--------------------------------------------------------------------------------
+E70134.01    [MAR_STATUS_2014.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2014 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2014
+ 
+    2533       0 Never Married, Not Cohabitating
+    1163       1 Never Married, Cohabiting
+    2998       2 Married
+      90       3 Legally Separated
+     601       4 Divorced
+      13       5 Widowed
+  -------
+    7398
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      37
+TOTAL =========>    7435   VALID SKIP(-4)    1549     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70133.12[Default]
+Default Next Question: E70134.02
+--------------------------------------------------------------------------------
+E70135.01    [MAR_STATUS_2015.01]                           Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             2015 MARITAL: MARITAL STATUS IN MONTH 01
+ 
+Respondent's marital status in this month in 2015
+ 
+    2304       0 Never Married, Not Cohabitating
+    1067       1 Never Married, Cohabiting
+    2994       2 Married
+      92       3 Legally Separated
+     587       4 Divorced
+      11       5 Widowed
+  -------
+    7055
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      48
+TOTAL =========>    7103   VALID SKIP(-4)    1881     NON-INTERVIEW(-5)       0
+ 
+Lead In: E70134.12[Default]
+Default Next Question: E70135.02
+--------------------------------------------------------------------------------
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R04899.00    [YINC-1400]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 1996, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing odd jobs, temporary or 
+seasonal work and service in the military, the military reserves or the National
+guard.
+ 
+UNIVERSE: All
+ 
+    3946       1 YES
+    5008       0 NO   (Go To R04904.00)
+  -------
+    8954
+ 
+Refusal(-1)           11   (Go To R04901.00)
+Don't Know(-2)        16   (Go To R04900.00)
+Invalid Skip(-3)       3
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R04898.00[Default]
+Default Next Question: R04902.00
+--------------------------------------------------------------------------------
+R04902.00    [YINC-1700]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 1996, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or anything else?
+ 
+UNIVERSE: R received income from job
+ 
+      64           0
+    2141           1 TO 499
+     613         500 TO 999
+     277        1000 TO 1499
+     135        1500 TO 1999
+     143        2000 TO 2499
+      46        2500 TO 2999
+      52        3000 TO 3499
+      19        3500 TO 3999
+      18        4000 TO 4499
+       8        4500 TO 4999
+      38        5000 TO 6999
+      10        7000 TO 9999
+       5       10000 TO 19999
+       2       20000 TO 49999
+       0       50000 TO 999999: 50000+
+  -------
+    3571
+ 
+Refusal(-1)           15   (Go To R04903.00)
+Don't Know(-2)       368   (Go To R04903.00)
+TOTAL =========>    3954   VALID SKIP(-4)    5030     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:          40000        Mean:              681.63
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: R04899.00[Default] R04900.00[Default]
+Default Next Question: R04904.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R12013.00    [CV_CITIZENSHIP]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             CITIZENSHIP STATUS BASED ON BIRTH
+ 
+U.S. citizenship status based on place of birth.
+ 
+    6869       1 Citizen, born in the U.S.
+     279       2 Unknown, not born in U.S.
+     794       3 Unknown, can't determine birthplace
+  -------
+    7942
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7942   VALID SKIP(-4)    1042     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12012.00[Default]
+Default Next Question: R12014.00
+--------------------------------------------------------------------------------
+R12045.00    [CV_INCOME_GROSS_YR]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             GROSS HH INCOME IN PAST YEAR
+ 
+Gross household income in the previous year.
+/*Topcoded at the 2% level.  Truncated values are applied to the top 2 percent 
+of respondents with valid non-missing responses.  The average value of the top 2
+percent of cases is used as the value.  Negative values of -1, -2, -3, -4, or -5
+do not reflect negative monetary amounts; these numbers represent standard 
+NLSY97 codes.*/
+ 
+       3     -999999 TO -3000: < -2999
+       0       -2999 TO -2000
+       0       -1999 TO -1000
+       0        -999 TO -1
+     100           0
+      71           1 TO 1000
+      41        1001 TO 2000
+      98        2001 TO 3000
+     139        3001 TO 5000
+     465        5001 TO 10000
+     925       10001 TO 20000
+     819       20001 TO 30000
+     835       30001 TO 40000
+     765       40001 TO 50000
+     834       50001 TO 65000
+     610       65001 TO 80000
+     397       80001 TO 100000
+     321      100001 TO 150000
+      32      150001 TO 200000
+     133      200001 TO 999999: 200001+
+  -------
+    6588
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1458
+TOTAL =========>    8046   VALID SKIP(-4)     938     NON-INTERVIEW(-5)       0
+ 
+Min:         -48100        Max:         246474        Mean:             46361.7
+ 
+Hard Minimum: [0]  Hard Maximum: [9999999]
+ 
+Lead In: R13027.00[Default]
+Default Next Question: R12046.00
+--------------------------------------------------------------------------------
+R12111.00    [CV_BIO_CHILD_HH]                              Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+      18           0
+      69           1
+       8           2
+       0           3
+       0           4
+       0           5
+  -------
+      95
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>      98   VALID SKIP(-4)    8886     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              2        Mean:                 .89
+ 
+Hard Minimum: [0]  Hard Maximum: [5]
+ 
+Lead In: R12110.00[Default]
+Default Next Question: R12112.00
+--------------------------------------------------------------------------------
+R12358.00    [CV_SAMPLE_TYPE]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE
+ 
+Sample type: Is the respondent a member of the cross-sectional sample or the 
+oversample?
+ 
+    6748       1 Cross-sectional
+    2236       0 Oversample
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12357.00[Default]
+Default Next Question: R12359.00
+--------------------------------------------------------------------------------
+R13026.00    [CV_HGC_RES_DAD]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RESIDENTIAL FATHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's residential father (includes both 
+biological and non-biological fathers).
+ 
+       0       0 NONE
+       1       1 1ST GRADE
+      12       2 2ND GRADE
+      51       3 3RD GRADE
+      56       4 4TH GRADE
+      51       5 5TH GRADE
+     150       6 6TH GRADE
+      69       7 7TH GRADE
+     117       8 8TH GRADE
+     186       9 9TH GRADE
+     195      10 10TH GRADE
+     277      11 11TH GRADE
+    1917      12 12TH GRADE
+     345      13 1ST YEAR COLLEGE
+     720      14 2ND YEAR COLLEGE
+     164      15 3RD YEAR COLLEGE
+     780      16 4TH YEAR COLLEGE
+     119      17 5TH YEAR COLLEGE
+     255      18 6TH YEAR COLLEGE
+      86      19 7TH YEAR COLLEGE
+     153      20 8TH YEAR COLLEGE OR MORE
+       3      95 UNGRADED
+  -------
+    5707
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     367
+TOTAL =========>    6074   VALID SKIP(-4)    2910     NON-INTERVIEW(-5)       0
+ 
+Lead In: R13025.00[Default]
+Default Next Question: R13027.00
+--------------------------------------------------------------------------------
+R13027.00    [CV_HGC_RES_MOM]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RESIDENTIAL MOTHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's residential mother (includes both 
+biological and non-biological mothers).
+ 
+       0       0 NONE
+       3       1 1ST GRADE
+      28       2 2ND GRADE
+      51       3 3RD GRADE
+      54       4 4TH GRADE
+      54       5 5TH GRADE
+     221       6 6TH GRADE
+      67       7 7TH GRADE
+     183       8 8TH GRADE
+     260       9 9TH GRADE
+     373      10 10TH GRADE
+     517      11 11TH GRADE
+    2870      12 12TH GRADE
+     639      13 1ST YEAR COLLEGE
+     996      14 2ND YEAR COLLEGE
+     251      15 3RD YEAR COLLEGE
+     902      16 4TH YEAR COLLEGE
+     163      17 5TH YEAR COLLEGE
+     246      18 6TH YEAR COLLEGE
+      38      19 7TH YEAR COLLEGE
+      89      20 8TH YEAR COLLEGE OR MORE
+       5      95 UNGRADED
+  -------
+    8010
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     316
+TOTAL =========>    8326   VALID SKIP(-4)     658     NON-INTERVIEW(-5)       0
+ 
+Lead In: R13026.00[Default]
+Default Next Question: R12045.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00
+--------------------------------------------------------------------------------
+R14903.00    [YHHI-3600]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESS R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, [street 
+address from DLI], how many different addresses have you lived at for more than 
+a month? Again, please don't count summer camp.
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     425           0
+    1785           1
+     463           2
+     126           3
+      28           4
+      11           5
+       4           6
+       1           7
+       2           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       1          15 TO 99: 15+
+  -------
+    2846
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+TOTAL =========>    2849   VALID SKIP(-4)    5537     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:             15        Mean:                1.17
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: R14902.00[1:1]
+Default Next Question: R14904.00
+--------------------------------------------------------------------------------
+R14904.00    [YHHI-3700]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1087       1 Yes   (Go To R14905.00)
+    1762       0 No
+  -------
+    2849
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    2849   VALID SKIP(-4)    5537     NON-INTERVIEW(-5)     598
+ 
+Lead In: R14903.00[Default]
+Default Next Question: R14926.00
+--------------------------------------------------------------------------------
+R23409.00    [YINC-1400]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 1997, did you receive any income from a job such as wages, salary, 
+commissions, or tips? Please include any income you received from doing 
+freelance jobs, temporary or seasonal work, and service in the military, the 
+military reserves, or the National Guard. Also, please be sure to include any 
+1997 income from the jobs you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    4149       1 YES
+    4212       0 NO   (Go To R23414.00)
+  -------
+    8361
+ 
+Refusal(-1)            9   (Go To R23411.00)
+Don't Know(-2)        16   (Go To R23410.00)
+TOTAL =========>    8386   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     598
+ 
+Lead In: R23408.00[Default]
+Default Next Question: R23412.00
+--------------------------------------------------------------------------------
+R23412.00    [YINC-1700]                                    Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 1997, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($14,048 for this variable).  Values for all cases at or
+over that level are averaged. That average is then assigned to each of the top 2
+percent of the cases.
+ 
+      61           0
+    1445           1 TO 499
+     633         500 TO 999
+     404        1000 TO 1499
+     162        1500 TO 1999
+     251        2000 TO 2499
+      81        2500 TO 2999
+     145        3000 TO 3499
+      31        3500 TO 3999
+      81        4000 TO 4499
+      23        4500 TO 4999
+     161        5000 TO 6999
+     136        7000 TO 99999999: 7000+
+  -------
+    3614
+ 
+Refusal(-1)           13   (Go To R23413.00)
+Don't Know(-2)       531   (Go To R23413.00)
+TOTAL =========>    4158   VALID SKIP(-4)    4228     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:          14048        Mean:             1512.42
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: R23409.00[Default] R23410.00[Default]
+Default Next Question: R23414.00
+--------------------------------------------------------------------------------
+R25162.00    [SYMBOL!KEY!AGE]                               Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+     105          13
+    1598          14
+    1677          15
+    1735          16
+    1747          17
+    1415          18
+     109          19
+       0          20 TO 99: 20+
+  -------
+    8386
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8386   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     598
+ 
+Min:             13        Max:             19        Mean:               15.97
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R25161.00[Default]
+Default Next Question: R25165.00
+--------------------------------------------------------------------------------
+R25632.01    [CV_HGC_9899]                                  Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             RS HIGHEST GRADE COMPLETED PRIOR TO THE 98/99 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+1998/1999 academic school year.
+ 
+       0       0 NONE
+       0       1 1ST GRADE
+       0       2 2ND GRADE
+       0       3 3RD GRADE
+       1       4 4TH GRADE
+      10       5 5TH GRADE
+     116       6 6TH GRADE
+     752       7 7TH GRADE
+    1959       8 8TH GRADE
+    1785       9 9TH GRADE
+    1638      10 10TH GRADE
+    1389      11 11TH GRADE
+     653      12 12TH GRADE
+       0      95 UNGRADED
+  -------
+    8303
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      82
+TOTAL =========>    8385   VALID SKIP(-4)       1     NON-INTERVIEW(-5)     598
+ 
+Lead In: R25632.00[Default]
+Default Next Question: R25633.00
+--------------------------------------------------------------------------------
+R25701.00    [CV_BIO_CHILD_HH]                              Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+      49           0
+     215           1
+      20           2
+       2           3
+       0           4
+       0           5
+  -------
+     286
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>     288   VALID SKIP(-4)    8098     NON-INTERVIEW(-5)     598
+ 
+Min:              0        Max:              3        Mean:                 .91
+ 
+Hard Minimum: [0]  Hard Maximum: [5]
+ 
+Lead In: R25700.00[Default]
+Default Next Question: R25702.00
+--------------------------------------------------------------------------------
+R27331.00    [YHHI-3600]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESS R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, [street 
+address], how many different addresses have you lived at for more than a month? 
+Again, please don't count summer camp.
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     282           0
+    1812           1
+     355           2
+      90           3
+      20           4
+       6           5
+       4           6
+       1           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15 TO 99: 15+
+  -------
+    2570
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+TOTAL =========>    2573   VALID SKIP(-4)    5635     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              7        Mean:                1.14
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: R27330.00[1:1]
+Default Next Question: R27332.00
+--------------------------------------------------------------------------------
+R27332.00    [YHHI-3700]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1133       1 Yes   (Go To R27333.00)
+    1440       0 No
+  -------
+    2573
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    2573   VALID SKIP(-4)    5635     NON-INTERVIEW(-5)     776
+ 
+Lead In: R27331.00[Default]
+Default Next Question: R27351.00
+--------------------------------------------------------------------------------
+R36499.00    [YINC-1400]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 1998, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing freelance jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 1998 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    4225       1 YES
+    3958       0 NO   (Go To R36504.00)
+  -------
+    8183
+ 
+Refusal(-1)            9   (Go To R36501.00)
+Don't Know(-2)        16   (Go To R36500.00)
+TOTAL =========>    8208   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     776
+ 
+Lead In: R36498.00[Default]
+Default Next Question: R36502.00
+--------------------------------------------------------------------------------
+R36502.00    [YINC-1700]                                    Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 1998, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($25,249 for this variable).  Values for all cases at or
+over that level are averaged. That average is then assigned to each of the top 2
+percent of the cases.
+ 
+      43           0
+     833           1 TO 499
+     479         500 TO 999
+     422        1000 TO 1499
+     174        1500 TO 1999
+     303        2000 TO 2499
+      82        2500 TO 2999
+     187        3000 TO 3499
+      42        3500 TO 3999
+     148        4000 TO 4499
+      31        4500 TO 4999
+     261        5000 TO 6999
+     422        7000 TO 99999999: 7000+
+  -------
+    3427
+ 
+Refusal(-1)           24   (Go To R36503.00)
+Don't Know(-2)       781   (Go To R36503.00)
+TOTAL =========>    4232   VALID SKIP(-4)    3976     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:          25249        Mean:              2985.6
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: R36499.00[Default] R36500.00[Default]
+Default Next Question: R36504.00
+--------------------------------------------------------------------------------
+R38281.00    [SYMBOL!KEY!AGE]                               Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           0
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+     109          14
+    1664          15
+    1632          16
+    1728          17
+    1622          18
+    1386          19
+      67          20 TO 99: 20+
+  -------
+    8208
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8208   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     776
+ 
+Min:             14        Max:             20        Mean:               16.92
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R38280.00[Default]
+Default Next Question: R38284.00
+--------------------------------------------------------------------------------
+R38848.01    [CV_HGC_9900]                                  Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             RS HIGHEST GRADE COMPLETED PRIOR TO THE 99/00 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+1999/2000 academic school year.
+ 
+       0       0 NONE
+       0       1 1ST GRADE
+       0       2 2ND GRADE
+       0       3 3RD GRADE
+       0       4 4TH GRADE
+       2       5 5TH GRADE
+      29       6 6TH GRADE
+     134       7 7TH GRADE
+     966       8 8TH GRADE
+    1913       9 9TH GRADE
+    1731      10 10TH GRADE
+    1538      11 11TH GRADE
+    1811      12 12TH GRADE
+       4      95 UNGRADED
+  -------
+    8128
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      80
+TOTAL =========>    8208   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     776
+ 
+Lead In: R38848.00[Default]
+Default Next Question: R38849.00
+--------------------------------------------------------------------------------
+R38921.00    [CV_BIO_CHILD_HH]                              Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+      95           0
+     337           1
+      48           2
+       5           3
+       0           4
+       0           5
+  -------
+     485
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>     490   VALID SKIP(-4)    7718     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:              3        Mean:                 .92
+ 
+Hard Minimum: [0]  Hard Maximum: [5]
+ 
+Lead In: R38920.00[Default]
+Default Next Question: R38922.00
+--------------------------------------------------------------------------------
+R39945.00    [YHHI-3600]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESS R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, [(street 
+address)], how many different addresses have you lived at for more than a month?
+Again, please don't count summer camp.
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     190           0
+    2064           1
+     529           2
+     128           3
+      24           4
+       9           5
+       6           6
+       1           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       1          15 TO 999: 15+
+  -------
+    2952
+ 
+Refusal(-1)            1
+Don't Know(-2)         1
+TOTAL =========>    2954   VALID SKIP(-4)    5126     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:             15        Mean:                1.26
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: R39944.00[1:1]
+Default Next Question: R39946.00
+--------------------------------------------------------------------------------
+R39946.00    [YHHI-3700]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1355       1 Yes
+    1599       0 No
+  -------
+    2954
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    2954   VALID SKIP(-4)    5126     NON-INTERVIEW(-5)     904
+ 
+Lead In: R39945.00[Default]
+Default Next Question: R39962.00
+--------------------------------------------------------------------------------
+R50986.00    [YINC-1400]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 1999, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing freelance jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 1999 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    4925       1 Yes
+    3129       0 No   (Go To R50991.00)
+  -------
+    8054
+ 
+Refusal(-1)           11   (Go To R50988.00)
+Don't Know(-2)        15   (Go To R50987.00)
+TOTAL =========>    8080   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     904
+ 
+Lead In: R50985.00[Default]
+Default Next Question: R50989.00
+--------------------------------------------------------------------------------
+R50989.00    [YINC-1700]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 1999, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($23,000 for this variable).  Values for all cases at or
+over that level are averaged. That average is then assigned to each of the top 2
+percent of the cases.
+ 
+      37           0
+     892           1 TO 999
+     536        1000 TO 1999
+     486        2000 TO 2999
+     346        3000 TO 3999
+     215        4000 TO 4999
+     241        5000 TO 5999
+     141        6000 TO 6999
+     120        7000 TO 7999
+     119        8000 TO 8999
+      72        9000 TO 9999
+     374       10000 TO 14999
+     148       15000 TO 19999
+      49       20000 TO 24999
+      78       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+    3854
+ 
+Refusal(-1)           11   (Go To R50990.00)
+Don't Know(-2)      1064   (Go To R50990.00)
+TOTAL =========>    4929   VALID SKIP(-4)    3151     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:          30623        Mean:              4814.4
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: R50986.00[Default] R50987.00[Default]
+Default Next Question: R50991.00
+--------------------------------------------------------------------------------
+R53420.00    [SYMBOL!KEY!AGE]                               Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           0
+       0           1 TO 4
+       0           5 TO 8
+       0           9 TO 12
+    1613          13 TO 16
+    6330          17 TO 20
+     137          21 TO 24
+  -------
+    8080
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8080   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     904
+ 
+Min:             15        Max:             21        Mean:               17.98
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R53419.00[Default]
+Default Next Question: R53423.00
+--------------------------------------------------------------------------------
+R54640.01    [CV_HGC_0001]                                  Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             RS HIGHEST GRADE COMPLETED PRIOR TO THE 00/01 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2000/2001 academic school year.
+ 
+       1       0 NONE
+       0       1 1ST GRADE
+       1       2 2ND GRADE
+       0       3 3RD GRADE
+       0       4 4TH GRADE
+       2       5 5TH GRADE
+      21       6 6TH GRADE
+      50       7 7TH GRADE
+     375       8 8TH GRADE
+    1041       9 9TH GRADE
+    1853      10 10TH GRADE
+    1669      11 11TH GRADE
+    2956      12 12TH GRADE
+       3      95 UNGRADED
+  -------
+    7972
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     108
+TOTAL =========>    8080   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     904
+ 
+Lead In: R54640.00[Default]
+Default Next Question: R54641.00
+--------------------------------------------------------------------------------
+R54741.00    [CV_BIO_CHILD_HH]                              Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     157           0
+     531           1
+      95           2
+      13           3
+       0           4
+       0           5
+  -------
+     796
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       5
+TOTAL =========>     801   VALID SKIP(-4)    7279     NON-INTERVIEW(-5)     904
+ 
+Min:              0        Max:              3        Mean:                 .95
+ 
+Hard Minimum: [0]  Hard Maximum: [5]
+ 
+Lead In: R54740.00[Default]
+Default Next Question: R54742.00
+--------------------------------------------------------------------------------
+R56636.00    [YHHI-3600]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESS R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, [(street 
+address)], how many different addresses have you lived at for more than a month?
+Again, please don't count summer camp.
+ 
+UNIVERSE: R has lived at different address since DLI
+Patch 2: Prior to patch #2, a branching error was causing respondents who had 
+not previously received the assets section in a prior round to inadvertently 
+skip this question.
+ 
+     244           0
+    2247           1
+     559           2
+     121           3
+      28           4
+       9           5
+       5           6
+       4           7
+       0           8
+       0           9
+       0          10
+       0          11
+       1          12
+       0          13
+       0          14
+       0          15 TO 999: 15+
+  -------
+    3218
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3218   VALID SKIP(-4)    4664     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:             12        Mean:                1.23
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: R56635.00[Default]
+Default Next Question: R56637.00
+--------------------------------------------------------------------------------
+R56637.00    [YHHI-3700]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+Patch 2: Prior to patch #2, a branching error was causing respondents who had 
+not previously received the assets section in a prior round to inadvertently 
+skip this question.
+ 
+    1606       1 YES   (Go To R56638.00)
+    1612       0 NO
+  -------
+    3218
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3218   VALID SKIP(-4)    4664     NON-INTERVIEW(-5)    1102
+ 
+Lead In: R56636.00[Default]
+Default Next Question: R56659.00
+--------------------------------------------------------------------------------
+R68272.00    [YINC-1400]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2000, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing freelance jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 2000 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5422       1 YES
+    2434       0 NO   (Go To R68277.00)
+  -------
+    7856
+ 
+Refusal(-1)            7   (Go To R68274.00)
+Don't Know(-2)        19   (Go To R68273.00)
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Lead In: R68271.00[Default]
+Default Next Question: R68275.00
+--------------------------------------------------------------------------------
+R68275.00    [YINC-1700]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2000, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($28,000 for this variable).  Values for all cases at or
+over that level are averaged. That average is then assigned to each of the top 2
+percent of the cases.
+ 
+      35           0
+     586           1 TO 999
+     529        1000 TO 1999
+     545        2000 TO 2999
+     417        3000 TO 3999
+     258        4000 TO 4999
+     318        5000 TO 5999
+     203        6000 TO 6999
+     157        7000 TO 7999
+     175        8000 TO 8999
+      71        9000 TO 9999
+     583       10000 TO 14999
+     297       15000 TO 19999
+     188       20000 TO 24999
+     151       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+    4513
+ 
+Refusal(-1)           26   (Go To R68276.00)
+Don't Know(-2)       891   (Go To R68276.00)
+TOTAL =========>    5430   VALID SKIP(-4)    2452     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:          35558        Mean:             6801.12
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: R68272.00[Default] R68273.00[Default]
+Default Next Question: R68277.00
+--------------------------------------------------------------------------------
+R70859.00    [SYMBOL!KEY!AGE]                               Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+      67          16
+    1548          17
+    1620          18
+    1610          19
+    1588          20
+    1338          21
+     111          22
+       0          23
+       0          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7882
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Min:             16        Max:             22        Mean:               18.96
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: R70858.00[Default]
+Default Next Question: R70862.00
+--------------------------------------------------------------------------------
+R72277.01    [CV_HGC_0102]                                  Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             RS HIGHEST GRADE COMPLETED PRIOR TO THE 01/02 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2001/2002 academic school year.
+ 
+       1       0 NONE
+       0       1 1ST GRADE
+       1       2 2ND GRADE
+       0       3 3RD GRADE
+       0       4 4TH GRADE
+       1       5 5TH GRADE
+      18       6 6TH GRADE
+      40       7 7TH GRADE
+     277       8 8TH GRADE
+     494       9 9TH GRADE
+    1036      10 10TH GRADE
+    1791      11 11TH GRADE
+    4111      12 12TH GRADE
+       3      95 UNGRADED
+  -------
+    7773
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     109
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Lead In: R72277.00[Default]
+Default Next Question: R72278.00
+--------------------------------------------------------------------------------
+R72378.00    [CV_BIO_CHILD_HH]                              Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     206           0
+     660           1
+     174           2
+      16           3
+       5           4
+       1           5
+  -------
+    1062
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      15
+TOTAL =========>    1077   VALID SKIP(-4)    6805     NON-INTERVIEW(-5)    1102
+ 
+Min:              0        Max:              5        Mean:                1.02
+ 
+Hard Minimum: [0]  Hard Maximum: [5]
+ 
+Lead In: R72377.00[Default]
+Default Next Question: R72379.00
+--------------------------------------------------------------------------------
+S00143.00    [YHHI-3600]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, [(street 
+address)], how many different addresses have you lived at for more than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     249           0
+    2650           1
+     608           2
+     147           3
+      41           4
+      21           5
+       6           6
+       4           7
+       2           8
+       1           9
+       2          10
+       0          11
+       1          12
+       0          13
+       0          14
+       1          15 TO 999: 15+
+  -------
+    3733
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+TOTAL =========>    3736   VALID SKIP(-4)    4160     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:             15        Mean:                1.26
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: S00142.00[Default]
+Default Next Question: S00144.00
+--------------------------------------------------------------------------------
+S00144.00    [YHHI-3700]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1887       1 YES   (Go To S00188.00)
+    1849       0 NO
+  -------
+    3736
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3736   VALID SKIP(-4)    4160     NON-INTERVIEW(-5)    1088
+ 
+Lead In: S00143.00[Default]
+Default Next Question: S00218.00
+--------------------------------------------------------------------------------
+S10555.00    [YINC-1400]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2001, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing freelance jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 2001 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5854       1 YES
+    2000       0 NO   (Go To S10560.00)
+  -------
+    7854
+ 
+Refusal(-1)            8   (Go To S10557.00)
+Don't Know(-2)        34   (Go To S10556.00)
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Lead In: S10554.00[Default]
+Default Next Question: S10558.00
+--------------------------------------------------------------------------------
+S10558.00    [YINC-1700]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2001, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($34,000 for this variable).  Values for all cases at or
+over that level are averaged. That average is then assigned to each of the top 2
+percent of the cases.
+ 
+      24           0
+     350           1 TO 999
+     394        1000 TO 1999
+     415        2000 TO 2999
+     320        3000 TO 3999
+     235        4000 TO 4999
+     307        5000 TO 5999
+     206        6000 TO 6999
+     167        7000 TO 7999
+     182        8000 TO 8999
+     110        9000 TO 9999
+     663       10000 TO 14999
+     410       15000 TO 19999
+     273       20000 TO 24999
+     283       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+    4339
+ 
+Refusal(-1)           40   (Go To S10559.00)
+Don't Know(-2)      1485   (Go To S10559.00)
+TOTAL =========>    5864   VALID SKIP(-4)    2032     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:          42458        Mean:             9027.96
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: S10555.00[Default] S10556.00[Default]
+Default Next Question: S10560.00
+--------------------------------------------------------------------------------
+S15274.00    [SYMBOL!KEY!AGE]                               Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+    1620          18
+    1591          19
+    1651          20
+    1588          21
+    1335          22
+     111          23
+       0          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7896
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Min:             18        Max:             23        Mean:               19.97
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: S15247.00[Default]
+Default Next Question: S15280.00
+--------------------------------------------------------------------------------
+S15416.01    [CV_HGC_0203]                                  Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             RS HIGHEST GRADE COMPLETED PRIOR TO THE 02/03 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2002/2003 academic school year.
+ 
+       0       0 NONE
+       0       1 1ST GRADE
+       0       2 2ND GRADE
+       0       3 3RD GRADE
+       0       4 4TH GRADE
+       1       5 5TH GRADE
+      20       6 6TH GRADE
+      36       7 7TH GRADE
+     269       8 8TH GRADE
+     429       9 9TH GRADE
+     597      10 10TH GRADE
+    1102      11 11TH GRADE
+    5358      12 12TH GRADE
+       3      95 UNGRADED
+  -------
+    7815
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      81
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Lead In: S15416.00[Default]
+Default Next Question: S15417.00
+--------------------------------------------------------------------------------
+S15531.00    [CV_BIO_CHILD_HH]                              Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     294           0
+     841           1
+     271           2
+      44           3
+       6           4
+       0           5
+       2           6
+       0           7
+       0           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    1458
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      19
+TOTAL =========>    1477   VALID SKIP(-4)    6419     NON-INTERVIEW(-5)    1088
+ 
+Min:              0        Max:              6        Mean:                1.06
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: S15530.00[Default]
+Default Next Question: S15532.00
+--------------------------------------------------------------------------------
+S20114.01    [CV_HGC_0304]                                  Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             RS HIGHEST GRADE COMPLETED PRIOR TO THE 03/04 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2003/2004 academic school year.
+ 
+       0       0 NONE
+       0       1 1ST GRADE
+       0       2 2ND GRADE
+       0       3 3RD GRADE
+       0       4 4TH GRADE
+       1       5 5TH GRADE
+      21       6 6TH GRADE
+      38       7 7TH GRADE
+     273       8 8TH GRADE
+     402       9 9TH GRADE
+     525      10 10TH GRADE
+     665      11 11TH GRADE
+    5747      12 12TH GRADE
+       3      95 UNGRADED
+  -------
+    7675
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      79
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Lead In: S20114.00[Default]
+Default Next Question: S20115.00
+--------------------------------------------------------------------------------
+S20227.00    [CV_BIO_CHILD_HH]                              Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     323           0
+     993           1
+     385           2
+      86           3
+      10           4
+       1           5
+       2           6
+       0           7
+       0           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    1800
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      38
+TOTAL =========>    1838   VALID SKIP(-4)    5916     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:              6        Mean:                1.15
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: S20226.00[Default]
+Default Next Question: S20228.00
+--------------------------------------------------------------------------------
+S20823.00    [YHHI-3600]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, [(street 
+address)], how many different addresses have you lived at for more than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     247           0
+    2675           1
+     681           2
+     145           3
+      39           4
+      10           5
+       5           6
+       5           7
+       2           8
+       1           9
+       1          10
+       0          11
+       1          12
+       0          13
+       0          14
+       0          15 TO 999: 15+
+  -------
+    3812
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3812   VALID SKIP(-4)    3942     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:             12        Mean:                1.26
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: S20822.00[Default]
+Default Next Question: S20824.00
+--------------------------------------------------------------------------------
+S20824.00    [YHHI-3700]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1852       1 YES   (Go To S20852.00)
+    1960       0 NO
+  -------
+    3812
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3812   VALID SKIP(-4)    3942     NON-INTERVIEW(-5)    1230
+ 
+Lead In: S20823.00[Default]
+Default Next Question: S20873.00
+--------------------------------------------------------------------------------
+S31344.00    [YINC-1400]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2002, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing odd jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 2002 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5990       1 YES
+    1737       0 NO   (Go To S31348.00)
+  -------
+    7727
+ 
+Refusal(-1)            6   (Go To S31345.00)
+Don't Know(-2)        21   (Go To S31345.00)
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Lead In: S31343.00[Default]
+Default Next Question: S31346.00
+--------------------------------------------------------------------------------
+S31346.00    [YINC-1700]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2002, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 35,000 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      24           0
+     246           1 TO 999
+     303        1000 TO 1999
+     316        2000 TO 2999
+     277        3000 TO 3999
+     206        4000 TO 4999
+     307        5000 TO 5999
+     170        6000 TO 6999
+     163        7000 TO 7999
+     198        8000 TO 8999
+     115        9000 TO 9999
+     818       10000 TO 14999
+     535       15000 TO 19999
+     392       20000 TO 24999
+     453       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+    4523
+ 
+Refusal(-1)           28   (Go To S31347.00)
+Don't Know(-2)      1449   (Go To S31347.00)
+TOTAL =========>    6000   VALID SKIP(-4)    1754     NON-INTERVIEW(-5)    1230
+ 
+Min:              0        Max:          44091        Mean:            11180.28
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: S31344.00[Default] S31345.00[Default]
+Default Next Question: S31348.00
+--------------------------------------------------------------------------------
+S35928.00    [SYMBOL!KEY!AGE]                               Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+     113          18
+    1501          19
+    1605          20
+    1590          21
+    1570          22
+    1296          23
+      79          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7754
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Min:             18        Max:             24        Mean:               20.93
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: S35918.00[Default]
+Default Next Question: S35941.00
+--------------------------------------------------------------------------------
+S38123.01    [CV_HGC_0405]                                  Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             RS HIGHEST GRADE COMPLETED PRIOR TO THE 04/05 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2004/2005 academic school year.
+ 
+       0       0 NONE
+       0       1 1ST GRADE
+       0       2 2ND GRADE
+       0       3 3RD GRADE
+       0       4 4TH GRADE
+       1       5 5TH GRADE
+      20       6 6TH GRADE
+      39       7 7TH GRADE
+     247       8 8TH GRADE
+     384       9 9TH GRADE
+     474      10 10TH GRADE
+     581      11 11TH GRADE
+    5673      12 12TH GRADE
+       6      95 UNGRADED
+  -------
+    7425
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      77
+TOTAL =========>    7502   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1482
+ 
+Lead In: S38123.00[Default]
+Default Next Question: S38124.00
+--------------------------------------------------------------------------------
+S38236.00    [CV_BIO_CHILD_HH]                              Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     371           0
+    1101           1
+     513           2
+     124           3
+      16           4
+       1           5
+       1           6
+       1           7
+       0           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    2128
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      14
+TOTAL =========>    2142   VALID SKIP(-4)    5360     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:              7        Mean:                1.21
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: S38235.00[Default]
+Default Next Question: S38237.00
+--------------------------------------------------------------------------------
+S38762.00    [YHHI-3600]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     179           0
+    2692           1
+     660           2
+     136           3
+      37           4
+      14           5
+       1           6
+       1           7
+       1           8
+       1           9
+       1          10
+       0          11
+       2          12
+       0          13
+       0          14
+       0          15 TO 999: 15+
+  -------
+    3725
+ 
+Refusal(-1)            2
+Don't Know(-2)        13
+TOTAL =========>    3740   VALID SKIP(-4)    3762     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:             12        Mean:                1.26
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: S38761.00[Default]
+Default Next Question: S38763.00
+--------------------------------------------------------------------------------
+S38763.00    [YHHI-3700]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1784       1 YES   (Go To S38800.00)
+    1953       0 NO
+  -------
+    3737
+ 
+Refusal(-1)            1
+Don't Know(-2)         2
+TOTAL =========>    3740   VALID SKIP(-4)    3762     NON-INTERVIEW(-5)    1482
+ 
+Lead In: S38762.00[Default]
+Default Next Question: S38816.00
+--------------------------------------------------------------------------------
+S47994.00    [YINC-1400]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2003, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing odd jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 2003 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5971       1 YES
+    1457       0 NO   (Go To S47998.00)
+  -------
+    7428
+ 
+Refusal(-1)           22   (Go To S47995.00)
+Don't Know(-2)        52   (Go To S47995.00)
+TOTAL =========>    7502   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1482
+ 
+Lead In: S47993.00[Default]
+Default Next Question: S47996.00
+--------------------------------------------------------------------------------
+S47996.00    [YINC-1700]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2003, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 43,000 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      36           0
+     164           1 TO 999
+     217        1000 TO 1999
+     213        2000 TO 2999
+     217        3000 TO 3999
+     155        4000 TO 4999
+     224        5000 TO 5999
+     147        6000 TO 6999
+     142        7000 TO 7999
+     170        8000 TO 8999
+      92        9000 TO 9999
+     805       10000 TO 14999
+     644       15000 TO 19999
+     530       20000 TO 24999
+     651       25000 TO 49999
+      86       50000 TO 99999999: 50000+
+  -------
+    4493
+ 
+Refusal(-1)           32   (Go To S47997.00)
+Don't Know(-2)      1464   (Go To S47997.00)
+TOTAL =========>    5989   VALID SKIP(-4)    1513     NON-INTERVIEW(-5)    1482
+ 
+Min:              0        Max:          70712        Mean:            14372.87
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: S47994.00[Default] S47995.00[Default]
+Default Next Question: S47998.00
+--------------------------------------------------------------------------------
+S49677.00    [SYMBOL_KEY_AGE]                               Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+      52          19
+    1447          20
+    1519          21
+    1554          22
+    1535          23
+    1298          24
+      97          25
+       0          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7502
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7502   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1482
+ 
+Min:             19        Max:             25        Mean:               21.98
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: None.
+Default Next Question: 
+--------------------------------------------------------------------------------
+S54127.00    [CV_HGC_0506]                                  Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED PRIOR TO THE 05/06 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2005/2006 academic school year.
+ 
+       0       0 None
+       0       1 1st Grade
+       0       2 2nd Grade
+       0       3 3rd Grade
+       0       4 4th Grade
+       1       5 5th Grade
+      20       6 6th Grade
+      36       7 7th Grade
+     250       8 8th Grade
+     369       9 9th Grade
+     484      10 10th Grade
+     565      11 11th Grade
+    5536      12 12th Grade
+       6      95 Ungraded
+  -------
+    7267
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      71
+TOTAL =========>    7338   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1646
+ 
+Lead In: S54126.00[Default]
+Default Next Question: S54128.00
+--------------------------------------------------------------------------------
+S54236.00    [CV_BIO_CHILD_HH]                              Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     432           0
+    1167           1
+     607           2
+     191           3
+      31           4
+       2           5
+       1           6
+       1           7
+       1           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    2433
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       9
+TOTAL =========>    2442   VALID SKIP(-4)    4896     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:              8        Mean:                1.28
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: S54235.00[Default]
+Default Next Question: S54237.00
+--------------------------------------------------------------------------------
+S54660.00    [YHHI-3600]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     164           0
+    2615           1
+     568           2
+     133           3
+      38           4
+      13           5
+       5           6
+       2           7
+       0           8
+       1           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       1          15 TO 999: 15+
+  -------
+    3540
+ 
+Refusal(-1)            1
+Don't Know(-2)        11
+TOTAL =========>    3552   VALID SKIP(-4)    3786     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:             15        Mean:                1.25
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: S54659.00[Default]
+Default Next Question: S54661.00
+--------------------------------------------------------------------------------
+S54661.00    [YHHI-3700]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1805       1 YES   (Go To S54697.00)
+    1747       0 NO
+  -------
+    3552
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3552   VALID SKIP(-4)    3786     NON-INTERVIEW(-5)    1646
+ 
+Lead In: S54660.00[Default]
+Default Next Question: S54711.00
+--------------------------------------------------------------------------------
+S65008.00    [YINC-1400]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2004, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing odd jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 2004 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5960       1 YES
+    1313       0 NO   (Go To S65012.00)
+  -------
+    7273
+ 
+Refusal(-1)           16   (Go To S65009.00)
+Don't Know(-2)        49   (Go To S65009.00)
+TOTAL =========>    7338   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1646
+ 
+Lead In: S65007.00[Default]
+Default Next Question: S65010.00
+--------------------------------------------------------------------------------
+S65010.00    [YINC-1700]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2004, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 69,342 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      31           0
+     122           1 TO 999
+     126        1000 TO 1999
+     175        2000 TO 2999
+     149        3000 TO 3999
+     148        4000 TO 4999
+     177        5000 TO 5999
+     131        6000 TO 6999
+     107        7000 TO 7999
+     143        8000 TO 8999
+      86        9000 TO 9999
+     755       10000 TO 14999
+     635       15000 TO 19999
+     628       20000 TO 24999
+    1071       25000 TO 49999
+     105       50000 TO 99999999: 50000+
+  -------
+    4589
+ 
+Refusal(-1)           29   (Go To S65011.00)
+Don't Know(-2)      1365   (Go To S65011.00)
+TOTAL =========>    5983   VALID SKIP(-4)    1355     NON-INTERVIEW(-5)    1646
+ 
+Min:              0        Max:          69342        Mean:            17316.09
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: S65008.00[Default] S65009.00[Default]
+Default Next Question: S65012.00
+--------------------------------------------------------------------------------
+S67075.00    [SYMBOL_KEY_AGE]                               Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+      75          20
+    1432          21
+    1492          22
+    1543          23
+    1470          24
+    1249          25
+      76          26
+       0          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7337
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>    7338   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1646
+ 
+Min:             20        Max:             26        Mean:               22.95
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: S67068.00[Default]
+Default Next Question: S67088.00
+--------------------------------------------------------------------------------
+S75136.00    [CV_HGC_0607]                                  Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED PRIOR TO THE 06/07 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2006/2007 academic school year.
+ 
+       0       0 None
+       0       1 1st Grade
+       0       2 2nd Grade
+       0       3 3rd Grade
+       0       4 4th Grade
+       2       5 5th Grade
+      19       6 6th Grade
+      41       7 7th Grade
+     260       8 8th Grade
+     395       9 9th Grade
+     492      10 10th Grade
+     586      11 11th Grade
+    5680      12 12th Grade
+       5      95 Ungraded
+  -------
+    7480
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      79
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Lead In: S75135.00[Default]
+Default Next Question: S75137.00
+--------------------------------------------------------------------------------
+S75257.00    [CV_BIO_CHILD_HH]                              Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     535           0
+    1252           1
+     732           2
+     268           3
+      55           4
+       2           5
+       1           6
+       1           7
+       1           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    2847
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      16
+TOTAL =========>    2863   VALID SKIP(-4)    4696     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              8        Mean:                1.32
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: S75256.00[Default]
+Default Next Question: S75258.00
+--------------------------------------------------------------------------------
+S75695.00    [YHHI-3600]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     134           0
+    2813           1
+     546           2
+     103           3
+      29           4
+      19           5
+       9           6
+       2           7
+       0           8
+       1           9
+       1          10
+       1          11
+       0          12
+       0          13
+       0          14
+       1          15 TO 999: 15+
+  -------
+    3659
+ 
+Refusal(-1)            1
+Don't Know(-2)         4
+TOTAL =========>    3664   VALID SKIP(-4)    3895     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:             15        Mean:                1.24
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: S75694.00[Default]
+Default Next Question: S75696.00
+--------------------------------------------------------------------------------
+S75696.00    [YHHI-3700]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1829       1 YES   (Go To S75737.00)
+    1834       0 NO
+  -------
+    3663
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>    3664   VALID SKIP(-4)    3895     NON-INTERVIEW(-5)    1425
+ 
+Lead In: S75695.00[Default]
+Default Next Question: S75755.00
+--------------------------------------------------------------------------------
+S84963.00    [YINC-1400]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2005, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing odd jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 2005 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    6371       1 YES
+    1146       0 NO   (Go To S84967.00)
+  -------
+    7517
+ 
+Refusal(-1)           14   (Go To S84964.00)
+Don't Know(-2)        28   (Go To S84964.00)
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Lead In: S84962.00[Default]
+Default Next Question: S84965.00
+--------------------------------------------------------------------------------
+S84965.00    [YINC-1700]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2005, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 80,471 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      29           0
+      94           1 TO 999
+     128        1000 TO 1999
+     134        2000 TO 2999
+     133        3000 TO 3999
+     100        4000 TO 4999
+     177        5000 TO 5999
+     114        6000 TO 6999
+      91        7000 TO 7999
+      94        8000 TO 8999
+      68        9000 TO 9999
+     728       10000 TO 14999
+     709       15000 TO 19999
+     689       20000 TO 24999
+    1575       25000 TO 49999
+     223       50000 TO 99999999: 50000+
+  -------
+    5086
+ 
+Refusal(-1)           48   (Go To S84966.00)
+Don't Know(-2)      1252   (Go To S84966.00)
+TOTAL =========>    6386   VALID SKIP(-4)    1173     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:          80471        Mean:            20686.46
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: S84963.00[Default] S84964.00[Default]
+Default Next Question: S84967.00
+--------------------------------------------------------------------------------
+S86801.00    [SYMBOL_KEY_AGE]                               Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+     133          21
+    1475          22
+    1541          23
+    1581          24
+    1548          25
+    1231          26
+      48          27
+       0          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7557
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:             21        Max:             27        Mean:                23.9
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: S86797.00[Default]
+Default Next Question: S86811.00
+--------------------------------------------------------------------------------
+T00140.00    [CV_HGC_0708]                                  Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED PRIOR TO THE 07/08 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2007/2008 academic school year.
+ 
+       0       0 None
+       0       1 1st Grade
+       0       2 2nd Grade
+       0       3 3rd Grade
+       0       4 4th Grade
+       1       5 5th Grade
+      18       6 6th Grade
+      37       7 7th Grade
+     260       8 8th Grade
+     396       9 9th Grade
+     482      10 10th Grade
+     581      11 11th Grade
+    5565      12 12th Grade
+       5      95 Ungraded
+  -------
+    7345
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      73
+TOTAL =========>    7418   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1566
+ 
+Lead In: T00139.00[Default]
+Default Next Question: T00141.00
+--------------------------------------------------------------------------------
+T00260.00    [CV_BIO_CHILD_HH]                              Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     562           0
+    1318           1
+     831           2
+     306           3
+      83           4
+       8           5
+       2           6
+       1           7
+       1           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    3112
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       3
+TOTAL =========>    3115   VALID SKIP(-4)    4303     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:              8        Mean:                1.38
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: T00259.00[Default]
+Default Next Question: T00261.00
+--------------------------------------------------------------------------------
+T00542.00    [YHHI-3600]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     152           0
+    2718           1
+     428           2
+      86           3
+      16           4
+      11           5
+       8           6
+       3           7
+       1           8
+       1           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       1          15 TO 999: 15+
+  -------
+    3425
+ 
+Refusal(-1)            2
+Don't Know(-2)         2
+TOTAL =========>    3429   VALID SKIP(-4)    3989     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:             15        Mean:                1.18
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: T00541.00[Default]
+Default Next Question: T00543.00
+--------------------------------------------------------------------------------
+T00543.00    [YHHI-3700]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1698       1 YES   (Go To T00579.00)
+    1729       0 NO
+  -------
+    3427
+ 
+Refusal(-1)            0
+Don't Know(-2)         2
+TOTAL =========>    3429   VALID SKIP(-4)    3989     NON-INTERVIEW(-5)    1566
+ 
+Lead In: T00542.00[Default]
+Default Next Question: T00593.00
+--------------------------------------------------------------------------------
+T08896.00    [YINC-1400]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2006, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing odd jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 2006 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    6352       1 YES
+    1043       0 NO   (Go To T08900.00)
+  -------
+    7395
+ 
+Refusal(-1)            7   (Go To T08897.00)
+Don't Know(-2)        16   (Go To T08897.00)
+TOTAL =========>    7418   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1566
+ 
+Lead In: T08895.00[Default]
+Default Next Question: T08898.00
+--------------------------------------------------------------------------------
+T08898.00    [YINC-1700]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2006, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 70,000 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      46           0
+      66           1 TO 999
+      96        1000 TO 1999
+      97        2000 TO 2999
+     106        3000 TO 3999
+      84        4000 TO 4999
+     115        5000 TO 5999
+      84        6000 TO 6999
+      60        7000 TO 7999
+     114        8000 TO 8999
+      59        9000 TO 9999
+     613       10000 TO 14999
+     596       15000 TO 19999
+     687       20000 TO 24999
+    1912       25000 TO 49999
+     369       50000 TO 99999999: 50000+
+  -------
+    5104
+ 
+Refusal(-1)           38   (Go To T08899.00)
+Don't Know(-2)      1219   (Go To T08899.00)
+TOTAL =========>    6361   VALID SKIP(-4)    1057     NON-INTERVIEW(-5)    1566
+ 
+Min:              0        Max:         112215        Mean:            24583.49
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: T08896.00[Default] T08897.00[Default]
+Default Next Question: T08900.00
+--------------------------------------------------------------------------------
+T11000.00    [SYMBOL_KEY_AGE]                               Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+     188          22
+    1460          23
+    1536          24
+    1530          25
+    1481          26
+    1198          27
+      21          28
+       0          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7414
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>    7418   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1566
+ 
+Min:             22        Max:             28        Mean:               24.85
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T10996.00[Default]
+Default Next Question: T11009.00
+--------------------------------------------------------------------------------
+T20161.00    [CV_HGC_0809]                                  Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED PRIOR TO THE 08/09 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2008/2009 academic school year.
+ 
+       0       0 None
+       0       1 1st Grade
+       0       2 2nd Grade
+       0       3 3rd Grade
+       0       4 4th Grade
+       2       5 5th Grade
+      17       6 6th Grade
+      39       7 7th Grade
+     257       8 8th Grade
+     400       9 9th Grade
+     492      10 10th Grade
+     575      11 11th Grade
+    5632      12 12th Grade
+       5      95 Ungraded
+  -------
+    7419
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      71
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Lead In: T20160.00[Default]
+Default Next Question: T20162.00
+--------------------------------------------------------------------------------
+T20209.00    [CV_BIO_CHILD_HH]                              Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     593           0
+    1411           1
+     952           2
+     369           3
+     104           4
+      24           5
+       6           6
+       1           7
+       1           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    3461
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>    3472   VALID SKIP(-4)    4018     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              8        Mean:                1.45
+ 
+Lead In: T20208.00[Default]
+Default Next Question: T20210.00
+--------------------------------------------------------------------------------
+T20349.00    [YHHI-3600]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     103           0
+    2621           1
+     492           2
+      98           3
+      33           4
+      13           5
+       3           6
+       3           7
+       2           8
+       1           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15 TO 999: 15+
+  -------
+    3369
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+TOTAL =========>    3372   VALID SKIP(-4)    4118     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:              9        Mean:                1.23
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: T20348.00[Default]
+Default Next Question: T20350.00
+--------------------------------------------------------------------------------
+T20350.00    [YHHI-3700]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1569       1 YES   (Go To T20393.00)
+    1802       0 NO
+  -------
+    3371
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>    3372   VALID SKIP(-4)    4118     NON-INTERVIEW(-5)    1494
+ 
+Lead In: T20349.00[Default]
+Default Next Question: T20411.00
+--------------------------------------------------------------------------------
+T30028.00    [YINC-1400]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2007, did you receive any income from a job such as wages, salary, 
+commissions, or tips?
+Please include any income you received from doing odd jobs, temporary or 
+seasonal work, and service in the military, the military reserves, or the 
+National Guard. Also, please be sure to include any 2007 income from the jobs 
+you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    6408       1 YES
+    1036       0 NO   (Go To T30032.00)
+  -------
+    7444
+ 
+Refusal(-1)           26   (Go To T30029.00)
+Don't Know(-2)        20   (Go To T30029.00)
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Lead In: T30027.00[Default]
+Default Next Question: T30030.00
+--------------------------------------------------------------------------------
+T30030.00    [YINC-1700]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2007, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 74,900 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      37           0
+      75           1 TO 999
+      68        1000 TO 1999
+      81        2000 TO 2999
+      90        3000 TO 3999
+      64        4000 TO 4999
+     126        5000 TO 5999
+      69        6000 TO 6999
+      54        7000 TO 7999
+      99        8000 TO 8999
+      49        9000 TO 9999
+     559       10000 TO 14999
+     569       15000 TO 19999
+     630       20000 TO 24999
+    2285       25000 TO 49999
+     609       50000 TO 99999999: 50000+
+  -------
+    5464
+ 
+Refusal(-1)           70   (Go To T30031.00)
+Don't Know(-2)       882   (Go To T30031.00)
+TOTAL =========>    6416   VALID SKIP(-4)    1074     NON-INTERVIEW(-5)    1494
+ 
+Min:              0        Max:         104353        Mean:            27749.27
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: T30028.00[Default] T30029.00[Default]
+Default Next Question: T30032.00
+--------------------------------------------------------------------------------
+T31772.00    [SYMBOL_KEY_AGE]                               Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+     163          23
+    1455          24
+    1507          25
+    1572          26
+    1526          27
+    1214          28
+      45          29
+       0          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7482
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       8
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Min:             23        Max:             29        Mean:               25.89
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T31769.00[Default]
+Default Next Question: T31783.00
+--------------------------------------------------------------------------------
+T36064.00    [CV_HGC_0910]                                  Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED PRIOR TO THE 09/10 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2009/2010 academic school year.
+ 
+       0       0 None
+       0       1 1st Grade
+       0       2 2nd Grade
+       0       3 3rd Grade
+       0       4 4th Grade
+       2       5 5th Grade
+      18       6 6th Grade
+      38       7 7th Grade
+     250       8 8th Grade
+     407       9 9th Grade
+     499      10 10th Grade
+     575      11 11th Grade
+    5695      12 12th Grade
+       4      95 Ungraded
+  -------
+    7488
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      71
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Lead In: T36063.00[Default]
+Default Next Question: T36065.00
+--------------------------------------------------------------------------------
+T36116.00    [CV_BIO_CHILD_HH]                              Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     638           0
+    1444           1
+    1067           2
+     441           3
+     130           4
+      29           5
+       7           6
+       1           7
+       1           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    3758
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      11
+TOTAL =========>    3769   VALID SKIP(-4)    3790     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              8        Mean:                 1.5
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: T36115.00[Default]
+Default Next Question: T36117.00
+--------------------------------------------------------------------------------
+T36358.00    [YHHI-3600]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+      57           0
+    2434           1
+     373           2
+      81           3
+      22           4
+       8           5
+       8           6
+       2           7
+       2           8
+       0           9
+       0          10
+       0          11
+       1          12
+       0          13
+       1          14
+       1          15 TO 999: 15+
+  -------
+    2990
+ 
+Refusal(-1)            1
+Don't Know(-2)         4
+TOTAL =========>    2995   VALID SKIP(-4)    4564     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:             15        Mean:                1.23
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: T36357.00[Default]
+Default Next Question: T36359.00
+--------------------------------------------------------------------------------
+T36359.00    [YHHI-3700]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1434       1 YES   (Go To T36410.00)
+    1561       0 NO
+  -------
+    2995
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    2995   VALID SKIP(-4)    4564     NON-INTERVIEW(-5)    1425
+ 
+Lead In: T36358.00[Default]
+Default Next Question: T36430.00
+--------------------------------------------------------------------------------
+T44058.00    [YINC-1400]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2008, did you receive any income from a job such as wages, salary, 
+commissions, or tips? Please include any income you received from doing odd 
+jobs, temporary or seasonal work, and service in the military, the military 
+reserves, or the National Guard. Also, please be sure to include any 2008 income
+from the jobs you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    6362       1 YES
+    1170       0 NO   (Go To T44062.00)
+  -------
+    7532
+ 
+Refusal(-1)           15   (Go To T44059.00)
+Don't Know(-2)        12   (Go To T44059.00)
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Lead In: T44057.00[Default]
+Default Next Question: T44060.00
+--------------------------------------------------------------------------------
+T44060.00    [YINC-1700]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2008, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 84,000 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      35           0
+      80           1 TO 999
+      69        1000 TO 1999
+      74        2000 TO 2999
+      79        3000 TO 3999
+      75        4000 TO 4999
+     103        5000 TO 5999
+      61        6000 TO 6999
+      55        7000 TO 7999
+      78        8000 TO 8999
+      43        9000 TO 9999
+     529       10000 TO 14999
+     493       15000 TO 19999
+     615       20000 TO 24999
+    2471       25000 TO 49999
+     802       50000 TO 99999999: 50000+
+  -------
+    5662
+ 
+Refusal(-1)           54   (Go To T44061.00)
+Don't Know(-2)       654   (Go To T44061.00)
+TOTAL =========>    6370   VALID SKIP(-4)    1189     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:         121993        Mean:            30306.99
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: T44058.00[Default] T44059.00[Default]
+Default Next Question: T44062.00
+--------------------------------------------------------------------------------
+T45883.00    [SYMBOL_KEY_AGE]                               Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+     262          24
+    1494          25
+    1553          26
+    1539          27
+    1545          28
+    1152          29
+      14          30
+       0          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7559
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:             24        Max:             30        Mean:               26.81
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T45880.00[Default]
+Default Next Question: T45891.00
+--------------------------------------------------------------------------------
+T52068.00    [CV_HGC_1011]                                  Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED PRIOR TO THE 10/11 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2010/2011 academic school year.
+ 
+       0       0 None
+       0       1 1st Grade
+       0       2 2nd Grade
+       0       3 3rd Grade
+       0       4 4th Grade
+       2       5 5th Grade
+      17       6 6th Grade
+      37       7 7th Grade
+     260       8 8th Grade
+     406       9 9th Grade
+     500      10 10th Grade
+     576      11 11th Grade
+    5605      12 12th Grade
+       5      95 Ungraded
+  -------
+    7408
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      71
+TOTAL =========>    7479   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1505
+ 
+Lead In: T52067.00[Default]
+Default Next Question: T52069.00
+--------------------------------------------------------------------------------
+T52117.00    [CV_BIO_CHILD_HH]                              Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     675           0
+    1478           1
+    1130           2
+     500           3
+     152           4
+      41           5
+      12           6
+       2           7
+       1           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    3991
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      23
+TOTAL =========>    4014   VALID SKIP(-4)    3465     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:              8        Mean:                1.54
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: T52116.00[Default]
+Default Next Question: T52118.00
+--------------------------------------------------------------------------------
+T52330.00    [YHHI-3600]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+     107           0
+    2420           1
+     398           2
+      65           3
+      23           4
+      10           5
+       2           6
+       1           7
+       1           8
+       1           9
+       0          10
+       1          11
+       0          12
+       0          13
+       0          14
+       2          15 TO 999: 15+
+  -------
+    3031
+ 
+Refusal(-1)            2
+Don't Know(-2)         1
+TOTAL =========>    3034   VALID SKIP(-4)    4445     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:             15        Mean:                 1.2
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: T52329.00[Default]
+Default Next Question: T52331.00
+--------------------------------------------------------------------------------
+T52331.00    [YHHI-3700]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1402       1 YES   (Go To T52360.00)
+    1631       0 NO
+  -------
+    3033
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>    3034   VALID SKIP(-4)    4445     NON-INTERVIEW(-5)    1505
+ 
+Lead In: T52330.00[Default]
+Default Next Question: T52372.00
+--------------------------------------------------------------------------------
+T60553.00    [YINC-1400]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2009, did you receive any income from a job such as wages, salary, 
+commissions, or tips? Please include any income you received from doing odd 
+jobs, temporary or seasonal work, and service in the military, the military 
+reserves, or the National Guard. Also, please be sure to include any 2009 income
+from the jobs you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5941       1 YES
+    1509       0 NO   (Go To T60557.00)
+  -------
+    7450
+ 
+Refusal(-1)           19   (Go To T60554.00)
+Don't Know(-2)         8   (Go To T60554.00)
+TOTAL =========>    7477   VALID SKIP(-4)       2     NON-INTERVIEW(-5)    1505
+ 
+Lead In: T60552.00[Default]
+Default Next Question: T60555.00
+--------------------------------------------------------------------------------
+T60555.00    [YINC-1700]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2009, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 88,000 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      37           0
+      85           1 TO 999
+      55        1000 TO 1999
+      77        2000 TO 2999
+      71        3000 TO 3999
+      60        4000 TO 4999
+      83        5000 TO 5999
+      52        6000 TO 6999
+      45        7000 TO 7999
+      66        8000 TO 8999
+      48        9000 TO 9999
+     465       10000 TO 14999
+     474       15000 TO 19999
+     564       20000 TO 24999
+    2183       25000 TO 49999
+     893       50000 TO 99999999: 50000+
+  -------
+    5258
+ 
+Refusal(-1)           45   (Go To T60556.00)
+Don't Know(-2)       641   (Go To T60556.00)
+TOTAL =========>    5944   VALID SKIP(-4)    1535     NON-INTERVIEW(-5)    1505
+ 
+Min:              0        Max:         130254        Mean:             31785.2
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: T60553.00[Default] T60554.00[Default]
+Default Next Question: T60557.00
+--------------------------------------------------------------------------------
+T62216.00    [SYMBOL_KEY_AGE]                               Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+     146          25
+    1469          26
+    1497          27
+    1565          28
+    1520          29
+    1248          30
+      34          31
+       0          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7479
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7479   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1505
+ 
+Min:             25        Max:             31        Mean:                27.9
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T62211.00[Default]
+Default Next Question: T62224.00
+--------------------------------------------------------------------------------
+T66566.00    [CV_HGC_1112]                                  Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED PRIOR TO THE 11/12 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2011/2012 academic school year.
+ 
+       0       0 None
+       0       1 1st Grade
+       0       2 2nd Grade
+       0       3 3rd Grade
+       0       4 4th Grade
+       2       5 5th Grade
+      19       6 6th Grade
+      39       7 7th Grade
+     258       8 8th Grade
+     400       9 9th Grade
+     502      10 10th Grade
+     566      11 11th Grade
+    5553      12 12th Grade
+       3      95 Ungraded
+  -------
+    7342
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      81
+TOTAL =========>    7423   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1561
+ 
+Lead In: T66565.00[Default]
+Default Next Question: T66567.00
+--------------------------------------------------------------------------------
+T66631.00    [CV_BIO_CHILD_HH]                              Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     711           0
+    1455           1
+    1246           2
+     562           3
+     175           4
+      47           5
+      12           6
+       4           7
+       1           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    4213
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       7
+TOTAL =========>    4220   VALID SKIP(-4)    3203     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              8        Mean:                1.58
+ 
+Hard Minimum: [0]  Hard Maximum: [10]
+ 
+Lead In: T66630.00[Default]
+Default Next Question: T66632.00
+--------------------------------------------------------------------------------
+T66854.00    [YHHI-3600]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+      54           0
+    2139           1
+     295           2
+      23           3
+      16           4
+       5           5
+       3           6
+       2           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15 TO 999: 15+
+  -------
+    2537
+ 
+Refusal(-1)            1
+Don't Know(-2)         6
+TOTAL =========>    2544   VALID SKIP(-4)    4879     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:              7        Mean:                1.15
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: T66853.00[Default]
+Default Next Question: T66855.00
+--------------------------------------------------------------------------------
+T66855.00    [YHHI-3700]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1209       1 YES   (Go To T66883.00)
+    1335       0 NO
+  -------
+    2544
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    2544   VALID SKIP(-4)    4879     NON-INTERVIEW(-5)    1561
+ 
+Lead In: T66854.00[Default]
+Default Next Question: T66895.00
+--------------------------------------------------------------------------------
+T75454.00    [YINC-1400]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2010, did you receive any income from a job such as wages, salary, 
+commissions, or tips? Please include any income you received from doing odd 
+jobs, temporary or seasonal work, and service in the military, the military 
+reserves, or the National Guard. Also, please be sure to include any 2010 income
+from the jobs you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5887       1 YES
+    1516       0 NO   (Go To T75458.00)
+  -------
+    7403
+ 
+Refusal(-1)           12   (Go To T75455.00)
+Don't Know(-2)         8   (Go To T75455.00)
+TOTAL =========>    7423   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1561
+ 
+Lead In: T75453.00[Default]
+Default Next Question: T75456.00
+--------------------------------------------------------------------------------
+T75456.00    [YINC-1700]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2010, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 94,000 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      24           0
+      80           1 TO 999
+      59        1000 TO 1999
+      50        2000 TO 2999
+      56        3000 TO 3999
+      57        4000 TO 4999
+      67        5000 TO 5999
+      59        6000 TO 6999
+      58        7000 TO 7999
+      58        8000 TO 8999
+      49        9000 TO 9999
+     390       10000 TO 14999
+     473       15000 TO 19999
+     546       20000 TO 24999
+    2226       25000 TO 49999
+    1050       50000 TO 99999999: 50000+
+  -------
+    5302
+ 
+Refusal(-1)           64   (Go To T75457.00)
+Don't Know(-2)       523   (Go To T75457.00)
+TOTAL =========>    5889   VALID SKIP(-4)    1534     NON-INTERVIEW(-5)    1561
+ 
+Min:              0        Max:         146002        Mean:            34163.66
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: T75454.00[Default] T75455.00[Default]
+Default Next Question: T75458.00
+--------------------------------------------------------------------------------
+T77188.00    [SYMBOL_KEY_AGE]                               Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+       0          25
+     282          26
+    1484          27
+    1507          28
+    1512          29
+    1547          30
+    1075          31
+      16          32
+       0          33
+       0          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7423
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7423   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1561
+ 
+Min:             26        Max:             32        Mean:               28.79
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T77183.00[Default]
+Default Next Question: T77207.00
+--------------------------------------------------------------------------------
+T81290.00    [CV_HGC_1314]                                  Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED PRIOR TO THE 13/14 ACAD YEAR
+ 
+The highest elementary or secondary grade completed prior to the start of the 
+2013/2014 academic school year.
+ 
+       0       0 None
+       0       1 1st Grade
+       0       2 2nd Grade
+       0       3 3rd Grade
+       0       4 4th Grade
+       1       5 5th Grade
+      17       6 6th Grade
+      38       7 7th Grade
+     240       8 8th Grade
+     391       9 9th Grade
+     462      10 10th Grade
+     543      11 11th Grade
+    5374      12 12th Grade
+       3      95 Ungraded
+  -------
+    7069
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      71
+TOTAL =========>    7140   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1844
+ 
+Lead In: T81289.00[Default]
+Default Next Question: T81291.00
+--------------------------------------------------------------------------------
+T81343.00    [CV_BIO_CHILD_HH]                              Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     671           0
+    1426           1
+    1391           2
+     697           3
+     215           4
+      62           5
+      19           6
+       5           7
+       2           8
+       0           9
+       0          10 TO 999: 10+
+  -------
+    4488
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      22
+TOTAL =========>    4510   VALID SKIP(-4)    2630     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:              8        Mean:                 1.7
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: T81342.00[Default]
+Default Next Question: T81344.00
+--------------------------------------------------------------------------------
+T81586.00    [YHHI-3600]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+      27           0
+    2649           1
+     754           2
+     177           3
+      44           4
+      30           5
+      12           6
+      10           7
+       3           8
+       2           9
+       1          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15 TO 999: 15+
+  -------
+    3709
+ 
+Refusal(-1)            1
+Don't Know(-2)         4
+TOTAL =========>    3714   VALID SKIP(-4)    3426     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:             10        Mean:                 1.4
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: T81585.00[Default]
+Default Next Question: T81587.00
+--------------------------------------------------------------------------------
+T81587.00    [YHHI-3700]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1800       1 YES   (Go To T81626.00)
+    1912       0 NO
+  -------
+    3712
+ 
+Refusal(-1)            0
+Don't Know(-2)         2
+TOTAL =========>    3714   VALID SKIP(-4)    3426     NON-INTERVIEW(-5)    1844
+ 
+Lead In: T81586.00[Default]
+Default Next Question: T81644.00
+--------------------------------------------------------------------------------
+T89765.00    [YINC-1400]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2012, did you receive any income from a job such as wages, salary, 
+commissions, or tips? Please include any income you received from doing odd 
+jobs, temporary or seasonal work, and service in the military, the military 
+reserves, or the National Guard. Also, please be sure to include any 2012 income
+from the jobs you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5828       1 YES
+    1284       0 NO   (Go To T89769.00)
+  -------
+    7112
+ 
+Refusal(-1)           25   (Go To T89766.00)
+Don't Know(-2)         3   (Go To T89766.00)
+TOTAL =========>    7140   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1844
+ 
+Lead In: T89764.00[Default]
+Default Next Question: T89767.00
+--------------------------------------------------------------------------------
+T89767.00    [YINC-1700]                                    Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2012, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 112,000 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      31           0
+      50           1 TO 999
+      53        1000 TO 1999
+      51        2000 TO 2999
+      58        3000 TO 3999
+      47        4000 TO 4999
+      86        5000 TO 5999
+      55        6000 TO 6999
+      48        7000 TO 7999
+      66        8000 TO 8999
+      29        9000 TO 9999
+     357       10000 TO 14999
+     345       15000 TO 19999
+     472       20000 TO 24999
+    2127       25000 TO 49999
+    1349       50000 TO 99999999: 50000+
+  -------
+    5224
+ 
+Refusal(-1)           73   (Go To T89768.00)
+Don't Know(-2)       533   (Go To T89768.00)
+TOTAL =========>    5830   VALID SKIP(-4)    1310     NON-INTERVIEW(-5)    1844
+ 
+Min:              0        Max:         180331        Mean:            38242.89
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: T89765.00[Default] T89766.00[Default]
+Default Next Question: T89769.00
+--------------------------------------------------------------------------------
+T91194.00    [SYMBOL_KEY_AGE]                               Survey Year: 2013
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+       0          25
+       0          26
+       0          27
+      58          28
+    1335          29
+    1453          30
+    1455          31
+    1476          32
+    1261          33
+     102          34
+       0          35
+       0          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7140
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7140   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1844
+ 
+Min:             28        Max:             34        Mean:                  31
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: T91190.00[Default]
+Default Next Question: T91198.00
+--------------------------------------------------------------------------------
+U00148.00    [CV_BIO_CHILD_HH]                              Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # BIO CHILDREN R HAS IN HOUSEHOLD
+ 
+Number of biological children born and residing in the household as of the 
+survey date.
+Note: Rs without any biological children are assigned a valid skip (-4).
+ 
+     710           0
+    1373           1
+    1491           2
+     809           3
+     270           4
+      85           5
+      27           6
+       4           7
+       1           8
+       0           9
+       1          10 TO 999: 10+
+  -------
+    4771
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      27
+TOTAL =========>    4798   VALID SKIP(-4)    2305     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:             12        Mean:                1.78
+ 
+Hard Minimum: [0]  Hard Maximum: [20]
+ 
+Lead In: U00147.00[Default]
+Default Next Question: U00149.00
+--------------------------------------------------------------------------------
+U00412.00    [YHHI-3600]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             # DIFFERENT ADDRESSES R LIVED AT SINCE DLI
+ 
+Not including where you were living at the time of last interview, 
+[{prev_address_street}], how many different addresses have you lived at for more
+than a month?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+      40           0
+    1257           1
+     277           2
+      70           3
+      11           4
+       9           5
+       7           6
+       3           7
+       2           8
+       1           9
+       1          10
+       1          11
+       0          12
+       0          13
+       0          14
+       0          15 TO 999: 15+
+  -------
+    1679
+ 
+Refusal(-1)            1
+Don't Know(-2)         7
+TOTAL =========>    1687   VALID SKIP(-4)    5416     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:             11        Mean:                1.32
+ 
+Hard Minimum: [0]  Hard Maximum: [15]
+Soft Minimum: [1]  Soft Maximum: [5]
+ 
+Lead In: U00411.00[Default]
+Default Next Question: U00414.00
+--------------------------------------------------------------------------------
+U00414.00    [YHHI-3700]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             HAS R MOVED FROM STATE, CITY OR COUNTY TO ANOTHER SINCE DLI?
+ 
+Since [date of last interview], have you moved from one state, city, or county 
+to another?
+ 
+UNIVERSE: R has lived at different address since DLI
+ 
+    1600       1 YES   (Go To U00471.00)
+    3613       0 NO
+  -------
+    5213
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5213   VALID SKIP(-4)    1890     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:              1        Mean:                 .31
+ 
+Lead In: U00412.00[Default] U00413.00[Default]
+Default Next Question: U00491.00
+--------------------------------------------------------------------------------
+U09567.00    [YINC-1400]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             R RECEIVE INCOME FROM JOB IN PAST YEAR?
+ 
+During 2014, did you receive any income from a job such as wages, salary, 
+commissions, or tips? Please include any income you received from doing odd 
+jobs, temporary or seasonal work, and service in the military, the military 
+reserves, or the National Guard. Also, please be sure to include any 2014 income
+from the jobs you discussed with me earlier.
+ 
+UNIVERSE: All
+ 
+    5767       1 YES
+    1290       0 NO   (Go To U09571.00)
+  -------
+    7057
+ 
+Refusal(-1)           37   (Go To U09568.00)
+Don't Know(-2)         9   (Go To U09568.00)
+TOTAL =========>    7103   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:              1        Mean:                 .82
+ 
+Lead In: U09566.00[Default]
+Default Next Question: U09569.00
+--------------------------------------------------------------------------------
+U09569.00    [YINC-1700]                                    Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2014, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+Truncated values are applied to the top 2 percent of respondents with valid 
+non-missing responses.  The lowest value for the top 2 percent of cases is used 
+as the truncation level ($ 135,000 for this variable).  Values for all cases at 
+or over that level are averaged. That average is then assigned to each of the 
+top 2 percent of the cases.
+ 
+      23           0
+      52           1 TO 999
+      36        1000 TO 1999
+      39        2000 TO 2999
+      28        3000 TO 3999
+      23        4000 TO 4999
+      72        5000 TO 5999
+      37        6000 TO 6999
+      40        7000 TO 7999
+      46        8000 TO 8999
+      26        9000 TO 9999
+     267       10000 TO 14999
+     305       15000 TO 19999
+     397       20000 TO 24999
+    1952       25000 TO 49999
+    1644       50000 TO 99999999: 50000+
+  -------
+    4987
+ 
+Refusal(-1)           70   (Go To U09570.00)
+Don't Know(-2)       713   (Go To U09570.00)
+TOTAL =========>    5770   VALID SKIP(-4)    1333     NON-INTERVIEW(-5)    1881
+ 
+Min:              0        Max:         212641        Mean:            44181.51
+ 
+Hard Minimum: [0]  Hard Maximum: [5000000]
+Soft Minimum: [0]  Soft Maximum: [200000]
+ 
+Lead In: U09567.00[Default] U09568.00[Default]
+Default Next Question: U09571.00
+--------------------------------------------------------------------------------
+U11109.00    [SYMBOL_KEY_AGE]                               Survey Year: 2015
+  PRIMARY VARIABLE
+
+ 
+             SYMBOL!KEY!AGE, RS CURRENT AGE
+ 
+COMMENT: Age of Respondent
+ 
+       0           1
+       0           2
+       0           3
+       0           4
+       0           5
+       0           6
+       0           7
+       0           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       0          15
+       0          16
+       0          17
+       0          18
+       0          19
+       0          20
+       0          21
+       0          22
+       0          23
+       0          24
+       0          25
+       0          26
+       0          27
+       0          28
+       0          29
+     132          30
+    1353          31
+    1437          32
+    1493          33
+    1454          34
+    1164          35
+      69          36
+       0          37
+       0          38
+       0          39
+       0          40 TO 999: 40+
+  -------
+    7102
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7102   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    1881
+ 
+Min:             30        Max:             36        Mean:               32.92
+ 
+Hard Minimum: [0]  Hard Maximum: [99]
+ 
+Lead In: U11105.00[Default]
+Default Next Question: U11136.00
