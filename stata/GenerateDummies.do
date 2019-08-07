@@ -1,5 +1,3 @@
-ISH
-
 * MARITAL STATUS
 generate NeverMarried1997 = 0
 replace NeverMarried1997 = 1 if E7011701 == 0 | E7011701 == 1
@@ -190,3 +188,233 @@ replace Married2015 = 1 if E7013501 == 2
 
 generate Seperated2015 = 0 
 replace Seperated2015 = 1 if E7013501 == 3 | E7013501 = 4 | E7013501 == 5
+
+
+* REFERENCE
+
+generate isMale = 0
+replace isMale = 1 if R0536300 == 1
+
+generate isFemale = 0
+replace isFemale = 1 if R0536300 == 2
+
+* ATRITED
+
+generate atrited2009 = 0
+replace atrited2009 = 1 if T4588300 < 0
+
+generate atrited2010 = 0
+replace atrited2010 = 1 if T6221600 < 0
+
+generate atrited2011 = 0
+replace atrited2011 = 1 if T7718800 < 0
+
+generate atrited2013 = 0
+replace atrited2013 = 1 if T9119400 < 0
+
+generate atrited2015 = 0
+replace atrited2015 = 1 if U1110900 < 0
+
+* DID R RECEIVE INCOME
+
+generate receivedIncome2009 = 0
+replace receivedIncome2009 = 1 if T4405800 == 1
+
+generate receivedIncome2010 = 0
+replace receivedIncome2010 = 1 if T6055300 == 1
+
+generate receivedIncome2011 = 0
+replace receivedIncome2011 = 1 if T7545400 == 1
+
+generate receivedIncome2013 = 0
+replace receivedIncome2013 = 1 if T8976500 == 1
+
+generate receivedIncome2015 = 0
+replace receivedIncome2015 = 1 if U0956700 == 1
+
+* INCOME EARNED 
+
+generate k10y2009 = 0
+replace k10y2009 = 1 if T4406000 < 10000
+
+generate k20y2009 = 0
+replace k20y2009 = 1 if T4406000 >= 10000 & T4406000 < 20000
+
+generate k50y2009 = 0
+replace k10y2009 = 1 if T4406000 >= 20000 & T4406000 < 50000
+
+generate kLargey2009 = 0
+replace k10y2009 = 1 if T4406000 >= 50000
+
+
+
+generate k10y2010 = 0
+replace k10y2010 = 1 if T6055500 < 10000
+
+generate k20y2010 = 0
+replace k20y2010 = 1 if T6055500 >= 10000 & T6055500 < 20000
+
+generate k50y2010 = 0
+replace k10y2010 = 1 if T6055500 >= 20000 & T6055500 < 50000
+
+generate kLargey2010 = 0
+replace k10y2010 = 1 if T6055500 >= 50000
+
+
+
+generate k10y2011 = 0
+replace k10y2011 = 1 if T7545600 < 10000
+
+generate k20y2011 = 0
+replace k20y2011 = 1 if T7545600 >= 10000 & T7545600 < 20000
+
+generate k50y2011 = 0
+replace k10y2011 = 1 if T7545600 >= 20000 & T7545600 < 50000
+
+generate kLargey2011 = 0
+replace k10y2011 = 1 if T7545600 >= 50000
+
+
+
+generate k10y2013 = 0
+replace k10y2013 = 1 if T8976700 < 10000
+
+generate k20y2013 = 0
+replace k20y2013 = 1 if T8976700 >= 10000 & T8976700 < 20000
+
+generate k50y2013 = 0
+replace k10y2013 = 1 if T8976700 >= 20000 & T8976700 < 50000
+
+generate kLargey2013 = 0
+replace k10y2013 = 1 if T8976700 >= 50000
+
+
+
+generate k10y2015 = 0
+replace k10y2015 = 1 if U0956900 < 10000
+
+generate k20y2015 = 0
+replace k20y2015 = 1 if U0956900 >= 10000 & U0956900 < 20000
+
+generate k50y2015 = 0
+replace k10y2015 = 1 if U0956900 >= 20000 & U0956900 < 50000
+
+generate kLargey2015 = 0
+replace k10y2015 = 1 if U0956900 >= 50000
+
+* NUMBER OF DIFFERENT ADDRESSES R LIVED AT
+
+generate oneDifferentAddress2010 = 0
+replace oneDifferentAddress2010 = 1 if T5233000 == 1
+
+generate moreThanTwoDifferentAddresses2010 = 0
+generate moreThanTwoDifferentAddresses2010 = 1 if T5233000 > 1
+
+
+
+generate oneDifferentAddress2011 = 0
+replace oneDifferentAddress2011 = 1 if T6685400 == 1
+
+generate moreThanTwoDifferentAddresses2011 = 0
+generate moreThanTwoDifferentAddresses2011 = 1 if T6685400 > 1
+
+
+
+generate oneDifferentAddress2013 = 0
+replace oneDifferentAddress2013 = 1 if T8158600 == 1
+
+generate moreThanTwoDifferentAddresses2013 = 0
+generate moreThanTwoDifferentAddresses2013 = 1 if T8158600 > 1
+
+* HAS R MOVED TO A DIFFERENT STATE OR COUNTY
+
+generate rDifState2010 = 0
+replace rDifState2010 = 1 if T5233100 == 1
+
+generate rDifState2011 = 0
+replace rDifState2011 = 1 if T6685500 == 1
+
+generate rDifState2013 = 0
+replace rDifState2013 = 1 if T8158700 == 1
+
+generate rDifState2015 = 0
+replace rDifState2015 = 1 if U0041400 == 1
+
+* NUMBER OF BIO KIDS IN THE HH
+
+generate has0kids2010 = 0
+replace has0kids2010 = 1 if T5211700 == 0 | T5211700 == -4
+
+generate has1kid2010 = 0
+replace has1kid2010 = 1 if T5211700 == 1
+
+generate has02ids2010 = 0
+replace has2kids2010 = 1 if T5211700 == 2
+
+generate has3or4kids2010 = 0
+replace has3or4kids2010 = 1 if T5211700 == 3| T5211700 == 4
+
+generate hasATonOfKids2010 = 0
+replace hasATonOfKids2010 = 1 if T5211700 > 4
+
+
+
+generate has0kids2011 = 0
+replace has0kids2011 = 1 if T6663100 == 0 | T6663100 == -4
+
+generate has1kid2011 = 0
+replace has1kid2011 = 1 if T6663100 == 1
+
+generate has02ids2011 = 0
+replace has2kids2011 = 1 if T6663100 == 2
+
+generate has3or4kids2011 = 0
+replace has3or4kids2011 = 1 if T6663100 == 3| T6663100 == 4
+
+generate hasATonOfKids2011 = 0
+replace hasATonOfKids2011 = 1 if T6663100 > 4
+
+
+
+generate has0kids2013 = 0
+replace has0kids2013 = 1 if T8134300 == 0 | T8134300 == -4
+
+generate has1kid2013 = 0
+replace has1kid2013 = 1 if T8134300 == 1
+
+generate has02ids2013 = 0
+replace has2kids2013 = 1 if T8134300 == 2
+
+generate has3or4kids2013 = 0
+replace has3or4kids2013 = 1 if T8134300 == 3| T8134300 == 4
+
+generate hasATonOfKids2013 = 0
+replace hasATonOfKids2013 = 1 if T8134300 > 4
+
+
+
+generate has0kids2015 = 0
+replace has0kids2015 = 1 if U0014800 == 0 | U0014800 == -4
+
+generate has1kid2015 = 0
+replace has1kid2015 = 1 if U0014800 == 1
+
+generate has02ids2015 = 0
+replace has2kids2015 = 1 if U0014800 == 2
+
+generate has3or4kids2015 = 0
+replace has3or4kids2015 = 1 if U0014800 == 3| U0014800 == 4
+
+generate hasATonOfKids2015 = 0
+replace hasATonOfKids2015 = 1 if U0014800 > 4
+
+* HAS HIGHSCHOOL DIMPLOMA?
+
+generate hasHighschoolDiploma2010 = 0
+replace hasHighschoolDiploma2010 = 1 if T5206800 == 12
+
+generate hasHighschoolDiploma2011 = 0
+replace hasHighschoolDiploma2011 = 1 if T6656600 == 12
+
+generate hasHighschoolDiploma2013 = 0
+replace hasHighschoolDiploma2013 = 1 if T8129000 == 12
