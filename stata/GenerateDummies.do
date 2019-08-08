@@ -1,3 +1,8 @@
+set memory 30m
+
+infile using Gravity.dct
+
+log using DummiesLog, replace
 
 * MARITAL STATUS
 generate NeverMarried1997 = 0
@@ -350,10 +355,10 @@ generate k20y1997 = 0
 replace k20y1997 = 1 if R0490200 >= 10000 & R0490200 < 20000
 
 generate k50y1997 = 0
-replace k10y1997 = 1 if R0490200 >= 20000 & R0490200 < 50000
+replace k50y1997 = 1 if R0490200 >= 20000 & R0490200 < 50000
 
 generate kLargey1997 = 0
-replace k10y1997 = 1 if R0490200 >= 50000
+replace kLargey1997 = 1 if R0490200 >= 50000
 
 
 generate k10y1998 = 0
@@ -362,7 +367,7 @@ replace k10y1998 = 1 if R2341200 < 10000
 generate k20y1998 = 0
 replace k20y1998 = 1 if R2341200 >= 10000 & R2341200 < 20000
 
-generate k50y1998 = 0s
+generate k50y1998 = 0
 replace k50y1998 = 1 if R2341200 >= 20000 & R2341200 < 50000
 
 generate kLargey1998 = 0
@@ -375,7 +380,7 @@ replace k10y1999 = 1 if R3650200 < 10000
 generate k20y1999 = 0
 replace k20y1999 = 1 if R3650200 >= 10000 & R3650200 < 20000
 
-generate k50y1999 = 0s
+generate k50y1999 = 0
 replace k50y1999 = 1 if R3650200 >= 20000 & R3650200 < 50000
 
 generate kLargey1999 = 0
@@ -516,10 +521,10 @@ generate k20y2009 = 0
 replace k20y2009 = 1 if T4406000 >= 10000 & T4406000 < 20000
 
 generate k50y2009 = 0
-replace k10y2009 = 1 if T4406000 >= 20000 & T4406000 < 50000
+replace k50y2009 = 1 if T4406000 >= 20000 & T4406000 < 50000
 
 generate kLargey2009 = 0
-replace k10y2009 = 1 if T4406000 >= 50000
+replace kLargey2009 = 1 if T4406000 >= 50000
 
 
 
@@ -530,10 +535,10 @@ generate k20y2010 = 0
 replace k20y2010 = 1 if T6055500 >= 10000 & T6055500 < 20000
 
 generate k50y2010 = 0
-replace k10y2010 = 1 if T6055500 >= 20000 & T6055500 < 50000
+replace k50y2010 = 1 if T6055500 >= 20000 & T6055500 < 50000
 
 generate kLargey2010 = 0
-replace k10y2010 = 1 if T6055500 >= 50000
+replace kLargey2010 = 1 if T6055500 >= 50000
 
 
 
@@ -544,10 +549,10 @@ generate k20y2011 = 0
 replace k20y2011 = 1 if T7545600 >= 10000 & T7545600 < 20000
 
 generate k50y2011 = 0
-replace k10y2011 = 1 if T7545600 >= 20000 & T7545600 < 50000
+replace k50y2011 = 1 if T7545600 >= 20000 & T7545600 < 50000
 
 generate kLargey2011 = 0
-replace k10y2011 = 1 if T7545600 >= 50000
+replace kLargey2011 = 1 if T7545600 >= 50000
 
 
 
@@ -558,10 +563,10 @@ generate k20y2013 = 0
 replace k20y2013 = 1 if T8976700 >= 10000 & T8976700 < 20000
 
 generate k50y2013 = 0
-replace k10y2013 = 1 if T8976700 >= 20000 & T8976700 < 50000
+replace k50y2013 = 1 if T8976700 >= 20000 & T8976700 < 50000
 
 generate kLargey2013 = 0
-replace k10y2013 = 1 if T8976700 >= 50000
+replace kLargey2013 = 1 if T8976700 >= 50000
 
 
 
@@ -572,126 +577,126 @@ generate k20y2015 = 0
 replace k20y2015 = 1 if U0956900 >= 10000 & U0956900 < 20000
 
 generate k50y2015 = 0
-replace k10y2015 = 1 if U0956900 >= 20000 & U0956900 < 50000
+replace k50y2015 = 1 if U0956900 >= 20000 & U0956900 < 50000
 
 generate kLargey2015 = 0
-replace k10y2015 = 1 if U0956900 >= 50000
+replace kLargey2015 = 1 if U0956900 >= 50000
 
 * NUMBER OF DIFFERENT ADDRESSES R LIVED AT
 
 generate oneDifferentAddress1998 = 0
 replace oneDifferentAddress1998 = 1 if R1490300 == 1
 
-generate moreThanTwoDifferentAddresses1998 = 0
-generate moreThanTwoDifferentAddresses1998 = 1 if R1490300 > 1
+generate moreThanTwoAddresses1998 = 0
+replace moreThanTwoAddresses1998 = 1 if R1490300 > 1
 
 
 generate oneDifferentAddress1999 = 0
 replace oneDifferentAddress1999 = 1 if R2733100 == 1
 
-generate moreThanTwoDifferentAddresses1999 = 0
-generate moreThanTwoDifferentAddresses1999 = 1 if R2733100 > 1
+generate moreThanTwoAddresses1999 = 0
+replace moreThanTwoAddresses1999 = 1 if R2733100 > 1
 
 
 generate oneDifferentAddress2000 = 0
 replace oneDifferentAddress2000 = 1 if R3994500 == 1
 
-generate moreThanTwoDifferentAddresses2000 = 0
-replace moreThanTwoDifferentAddresses2000 = 1 if R3994500 > 1
+generate moreThanTwoAddresses2000 = 0
+replace moreThanTwoAddresses2000 = 1 if R3994500 > 1
 
 
 
 generate oneDifferentAddress2001 = 0
 replace oneDifferentAddress2001 = 1 if R5663600 == 1
 
-generate moreThanTwoDifferentAddresses2001 = 0
-replace moreThanTwoDifferentAddresses2001 = 1 if R5663600 > 1
+generate moreThanTwoAddresses2001 = 0
+replace moreThanTwoAddresses2001 = 1 if R5663600 > 1
 
 
 
 generate oneDifferentAddress2002 = 0
 replace oneDifferentAddress2002 = 1 if S0014300 == 1
 
-generate moreThanTwoDifferentAddresses2002 = 0
-replace moreThanTwoDifferentAddresses2002 = 1 if S0014300 > 1
+generate moreThanTwoAddresses2002 = 0
+replace moreThanTwoAddresses2002 = 1 if S0014300 > 1
 
 
 
 generate oneDifferentAddress2003 = 0
 replace oneDifferentAddress2003 = 1 if S2082300 == 1
 
-generate moreThanTwoDifferentAddresses2003 = 0
-replace moreThanTwoDifferentAddresses2003 = 1 if S2082300 > 1
+generate moreThanTwoAddresses2003 = 0
+replace moreThanTwoAddresses2003 = 1 if S2082300 > 1
 
 
 
 generate oneDifferentAddress2004 = 0
 replace oneDifferentAddress2004 = 1 if S3876200 == 1
 
-generate moreThanTwoDifferentAddresses2004 = 0
-replace moreThanTwoDifferentAddresses2004 = 1 if S3876200 > 1
+generate moreThanTwoAddresses2004 = 0
+replace moreThanTwoAddresses2004 = 1 if S3876200 > 1
 
 
 
 generate oneDifferentAddress2005 = 0
 replace oneDifferentAddress2005 = 1 if S5466000 == 1
 
-generate moreThanTwoDifferentAddresses2005 = 0
-replace moreThanTwoDifferentAddresses2005 = 1 if S5466000 > 1
+generate moreThanTwoAddresses2005 = 0
+replace moreThanTwoAddresses2005 = 1 if S5466000 > 1
 
 
 
 generate oneDifferentAddress2006 = 0
 replace oneDifferentAddress2006 = 1 if S7569500 == 1
 
-generate moreThanTwoDifferentAddresses2006 = 0
-replace moreThanTwoDifferentAddresses2006 = 1 if S7569500 > 1
+generate moreThanTwoAddresses2006 = 0
+replace moreThanTwoAddresses2006 = 1 if S7569500 > 1
 
 
 
 generate oneDifferentAddress2007 = 0
 replace oneDifferentAddress2007 = 1 if T0054200 == 1
 
-generate moreThanTwoDifferentAddresses2007 = 0
-replace moreThanTwoDifferentAddresses2007 = 1 if T0054200 > 1
+generate moreThanTwoAddresses2007 = 0
+replace moreThanTwoAddresses2007 = 1 if T0054200 > 1
 
 
 
 generate oneDifferentAddress2008 = 0
 replace oneDifferentAddress2008 = 1 if T2034900 == 1
 
-generate moreThanTwoDifferentAddresses2008 = 0
-replace moreThanTwoDifferentAddresses2008 = 1 if T2034900 > 1
+generate moreThanTwoAddresses2008 = 0
+replace moreThanTwoAddresses2008 = 1 if T2034900 > 1
 
 generate oneDifferentAddress2009 = 0
 replace oneDifferentAddress2009 = 1 if T3635800 == 1
 
 
-generate moreThanTwoDifferentAddresses2009 = 0
-replace moreThanTwoDifferentAddresses2009 = 1 if T3635800 > 1
+generate moreThanTwoAddresses2009 = 0
+replace moreThanTwoAddresses2009 = 1 if T3635800 > 1
 
 
 
 generate oneDifferentAddress2010 = 0
 replace oneDifferentAddress2010 = 1 if T5233000 == 1
 
-generate moreThanTwoDifferentAddresses2010 = 0
-generate moreThanTwoDifferentAddresses2010 = 1 if T5233000 > 1
+generate moreThanTwoAddresses2010 = 0
+replace moreThanTwoAddresses2010 = 1 if T5233000 > 1
 
 
 generate oneDifferentAddress2011 = 0
 replace oneDifferentAddress2011 = 1 if T6685400 == 1
 
-generate moreThanTwoDifferentAddresses2011 = 0
-generate moreThanTwoDifferentAddresses2011 = 1 if T6685400 > 1
+generate moreThanTwoAddresses2011 = 0
+replace moreThanTwoAddresses2011 = 1 if T6685400 > 1
 
 
 
 generate oneDifferentAddress2013 = 0
 replace oneDifferentAddress2013 = 1 if T8158600 == 1
 
-generate moreThanTwoDifferentAddresses2013 = 0
-generate moreThanTwoDifferentAddresses2013 = 1 if T8158600 > 1
+generate moreThanTwoAddresses2013 = 0
+replace moreThanTwoAddresses2013 = 1 if T8158600 > 1
 
 * HAS R MOVED TO A DIFFERENT STATE OR COUNTY
 
@@ -751,7 +756,7 @@ replace has0kids1997 = 1 if R1211100 == 0 | R1211100 == -4
 generate has1kid1997 = 0
 replace has1kid1997 = 1 if R1211100 == 1
 
-generate has02ids1997 = 0
+generate has2kids1997 = 0
 replace has2kids1997 = 1 if R1211100 == 2
 
 generate has3or4kids1997 = 0
@@ -767,7 +772,7 @@ replace has0kids1998 = 1 if R2570100 == 0 | R2570100 == -4
 generate has1kid1998 = 0
 replace has1kid1998 = 1 if R2570100 == 1
 
-generate has02ids1998 = 0
+generate has2kids1998 = 0
 replace has2kids1998 = 1 if R2570100 == 2
 
 generate has3or4kids1998 = 0
@@ -783,7 +788,7 @@ replace has0kids1999 = 1 if R3892100 == 0 | R3892100 == -4
 generate has1kid1999 = 0
 replace has1kid1999 = 1 if R3892100 == 1
 
-generate has02ids1999 = 0
+generate has2kids1999 = 0
 replace has2kids1999 = 1 if R3892100 == 2
 
 generate has3or4kids1999 = 0
@@ -800,7 +805,7 @@ replace has0kids2000 = 1 if R5474100 == 0 | R5474100 == -4
 generate has1kid2000 = 0
 replace has1kid2000 = 1 if R5474100 == 1
 
-generate has02ids2000 = 0
+generate has2kids2000 = 0
 replace has2kids2000 = 1 if R5474100 == 2
 
 generate has3or4kids2000 = 0
@@ -817,7 +822,7 @@ replace has0kids2001 = 1 if R7237800 == 0 | R7237800 == -4
 generate has1kid2001 = 0
 replace has1kid2001 = 1 if R7237800 == 1
 
-generate has02ids2001 = 0
+generate has2kids2001 = 0
 replace has2kids2001 = 1 if R7237800 == 2
 
 generate has3or4kids2001 = 0
@@ -834,7 +839,7 @@ replace has0kids2002 = 1 if S1553100 == 0 | S1553100 == -4
 generate has1kid2002 = 0
 replace has1kid2002 = 1 if S1553100 == 1
 
-generate has02ids2002 = 0
+generate has2kids2002 = 0
 replace has2kids2002 = 1 if S1553100 == 2
 
 generate has3or4kids2002 = 0
@@ -851,7 +856,7 @@ replace has0kids2003 = 1 if S2022700 == 0 | S2022700 == -4
 generate has1kid2003 = 0
 replace has1kid2003 = 1 if S2022700 == 1
 
-generate has02ids2003 = 0
+generate has2kids2003 = 0
 replace has2kids2003 = 1 if S2022700 == 2
 
 generate has3or4kids2003 = 0
@@ -868,7 +873,7 @@ replace has0kids2004 = 1 if S3823600 == 0 | S3823600 == -4
 generate has1kid2004 = 0
 replace has1kid2004 = 1 if S3823600 == 1
 
-generate has02ids2004 = 0
+generate has2kids2004 = 0
 replace has2kids2004 = 1 if S3823600 == 2
 
 generate has3or4kids2004 = 0
@@ -885,7 +890,7 @@ replace has0kids2005 = 1 if S5423600 == 0 | S5423600 == -4
 generate has1kid2005 = 0
 replace has1kid2005 = 1 if S5423600 == 1
 
-generate has02ids2005 = 0
+generate has2kids2005 = 0
 replace has2kids2005 = 1 if S5423600 == 2
 
 generate has3or4kids2005 = 0
@@ -902,7 +907,7 @@ replace has0kids2006 = 1 if S7525700 == 0 | S7525700 == -4
 generate has1kid2006 = 0
 replace has1kid2006 = 1 if S7525700 == 1
 
-generate has02ids2006 = 0
+generate has2kids2006 = 0
 replace has2kids2006 = 1 if S7525700 == 2
 
 generate has3or4kids2006 = 0
@@ -919,7 +924,7 @@ replace has0kids2007 = 1 if T0026000 == 0 | T0026000 == -4
 generate has1kid2007 = 0
 replace has1kid2007 = 1 if T0026000 == 1
 
-generate has02ids2007 = 0
+generate has2kids2007 = 0
 replace has2kids2007 = 1 if T0026000 == 2
 
 generate has3or4kids2007 = 0
@@ -936,7 +941,7 @@ replace has0kids2008 = 1 if T2020900 == 0 | T2020900 == -4
 generate has1kid2008 = 0
 replace has1kid2008 = 1 if T2020900 == 1
 
-generate has02ids2008 = 0
+generate has2kids2008 = 0
 replace has2kids2008 = 1 if T2020900 == 2
 
 generate has3or4kids2008 = 0
@@ -953,7 +958,7 @@ replace has0kids2009 = 1 if T3611600 == 0 | T3611600 == -4
 generate has1kid2009 = 0
 replace has1kid2009 = 1 if T3611600 == 1
 
-generate has02ids2009 = 0
+generate has2kids2009 = 0
 replace has2kids2009 = 1 if T3611600 == 2
 
 generate has3or4kids2009 = 0
@@ -970,7 +975,7 @@ replace has0kids2010 = 1 if T5211700 == 0 | T5211700 == -4
 generate has1kid2010 = 0
 replace has1kid2010 = 1 if T5211700 == 1
 
-generate has02ids2010 = 0
+generate has2kids2010 = 0
 replace has2kids2010 = 1 if T5211700 == 2
 
 generate has3or4kids2010 = 0
@@ -987,7 +992,7 @@ replace has0kids2011 = 1 if T6663100 == 0 | T6663100 == -4
 generate has1kid2011 = 0
 replace has1kid2011 = 1 if T6663100 == 1
 
-generate has02ids2011 = 0
+generate has2kids2011 = 0
 replace has2kids2011 = 1 if T6663100 == 2
 
 generate has3or4kids2011 = 0
@@ -1004,7 +1009,7 @@ replace has0kids2013 = 1 if T8134300 == 0 | T8134300 == -4
 generate has1kid2013 = 0
 replace has1kid2013 = 1 if T8134300 == 1
 
-generate has02ids2013 = 0
+generate has2kids2013 = 0
 replace has2kids2013 = 1 if T8134300 == 2
 
 generate has3or4kids2013 = 0
@@ -1021,7 +1026,7 @@ replace has0kids2015 = 1 if U0014800 == 0 | U0014800 == -4
 generate has1kid2015 = 0
 replace has1kid2015 = 1 if U0014800 == 1
 
-generate has02ids2015 = 0
+generate has2kids2015 = 0
 replace has2kids2015 = 1 if U0014800 == 2
 
 generate has3or4kids2015 = 0
@@ -1039,7 +1044,7 @@ generate hasHighschoolDiploma1999 = 0
 replace hasHighschoolDiploma1999 = 1 if R3884801 == 12
 
 generate hasHighschoolDiploma2000 = 0
-relplace hasHighschoolDiploma2000 = 1 if R5464001 == 12
+replace hasHighschoolDiploma2000 = 1 if R5464001 == 12
 
 generate hasHighschoolDiploma2001 = 0
 replace hasHighschoolDiploma2001 = 1 if R7227701 == 12
@@ -1063,7 +1068,7 @@ generate hasHighschoolDiploma2007 = 0
 replace hasHighschoolDiploma2007 = 1 if T0014000 == 12
 
 generate hasHighschoolDiploma2008 = 0
-replace hasHighschoolDiploma2008 = 1 if kLarge == 12
+replace hasHighschoolDiploma2008 = 1 if T2016100 == 12
 
 generate hasHighschoolDiploma2009 = 0
 replace hasHighschoolDiploma2009 = 1 if T3606400 == 12
@@ -1104,3 +1109,4 @@ replace MomBA = 1 if R1302700 == 16
 generate MomHE = 0
 replace MomHE =1 if R1302700 > 16
 
+log close

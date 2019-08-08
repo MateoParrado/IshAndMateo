@@ -1,0 +1,2099 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/home/parradom/stata/DummiesLog.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 8 Aug 2019, 10:55:52
+{txt}
+{com}. 
+. * MARITAL STATUS
+. generate NeverMarried1997 = 0
+{txt}
+{com}. replace NeverMarried1997 = 1 if E7011701 == 0 | E7011701 == 1
+{txt}(5465 real changes made)
+
+{com}. 
+. generate Married1997 = 0
+{txt}
+{com}. replace Married1997 = 1 if E7011701 == 2
+{txt}(2 real changes made)
+
+{com}. 
+. generate Seperated1997 = 0 
+{txt}
+{com}. replace Seperated1997 = 1 if E7011701 == 3 | E7011701 == 4 | E7011701 == 5
+{txt}(1 real change made)
+
+{com}. 
+. 
+. generate NeverMarried1998 = 0
+{txt}
+{com}. replace NeverMarried1998 = 1 if E7011801 == 0 | E7011801 == 1
+{txt}(7242 real changes made)
+
+{com}. 
+. generate Married1998 = 0
+{txt}
+{com}. replace Married1998 = 1 if E7011801 == 2
+{txt}(18 real changes made)
+
+{com}. 
+. generate Seperated1998 = 0 
+{txt}
+{com}. replace Seperated1998 = 1 if E7011801 == 3 | E7011801 == 4 | E7011801 == 5
+{txt}(1 real change made)
+
+{com}. 
+. 
+. generate NeverMarried1999 = 0
+{txt}
+{com}. replace NeverMarried1999 = 1 if E7011901 == 0 | E7011901 == 1
+{txt}(8736 real changes made)
+
+{com}. 
+. generate Married1999 = 0
+{txt}
+{com}. replace Married1999 = 1 if E7011901 == 2
+{txt}(57 real changes made)
+
+{com}. 
+. generate Seperated1999 = 0 
+{txt}
+{com}. replace Seperated1999 = 1 if E7011901 == 3 | E7011901 == 4 | E7011901 == 5
+{txt}(3 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2000 = 0
+{txt}
+{com}. replace NeverMarried2000 = 1 if E7012001 == 0 | E7012001 == 1
+{txt}(8647 real changes made)
+
+{com}. 
+. generate Married2000 = 0
+{txt}
+{com}. replace Married2000 = 1 if E7012001 == 2
+{txt}(136 real changes made)
+
+{com}. 
+. generate Seperated2000 = 0 
+{txt}
+{com}. replace Seperated2000 = 1 if E7012001 == 3 | E7012001 == 4 | E7012001 == 5
+{txt}(5 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2001 = 0
+{txt}
+{com}. replace NeverMarried2001 = 1 if E7012101 == 0 | E7012101 == 1
+{txt}(8480 real changes made)
+
+{com}. 
+. generate Married2001 = 0
+{txt}
+{com}. replace Married2001 = 1 if E7012101 == 2
+{txt}(260 real changes made)
+
+{com}. 
+. generate Seperated2001 = 0 
+{txt}
+{com}. replace Seperated2001 = 1 if E7012101 == 3 | E7012101== 4 | E7012101 == 5
+{txt}(23 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2002 = 0
+{txt}
+{com}. replace NeverMarried2002 = 1 if E7012201 == 0 | E7012201 == 1
+{txt}(8206 real changes made)
+
+{com}. 
+. generate Married2002 = 0
+{txt}
+{com}. replace Married2002 = 1 if E7012201 == 2
+{txt}(479 real changes made)
+
+{com}. 
+. generate Seperated2002 = 0 
+{txt}
+{com}. replace Seperated2002 = 1 if E7012201 == 3 | E7012201== 4 | E7012201 == 5
+{txt}(42 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2003 = 0
+{txt}
+{com}. replace NeverMarried2003 = 1 if E7012301 == 0 | E7012301 == 1
+{txt}(7891 real changes made)
+
+{com}. 
+. generate Married2003 = 0
+{txt}
+{com}. replace Married2003 = 1 if E7012301 == 2
+{txt}(693 real changes made)
+
+{com}. 
+. generate Seperated2003 = 0 
+{txt}
+{com}. replace Seperated2003 = 1 if E7012301 == 3 | E7012301== 4 | E7012301 == 5
+{txt}(68 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2004 = 0
+{txt}
+{com}. replace NeverMarried2004 = 1 if E7012401 == 0 | E7012401 == 1
+{txt}(7496 real changes made)
+
+{com}. 
+. generate Married2004 = 0
+{txt}
+{com}. replace Married2004 = 1 if E7012401 == 2
+{txt}(959 real changes made)
+
+{com}. 
+. generate Seperated2004 = 0 
+{txt}
+{com}. replace Seperated2004 = 1 if E7012401 == 3 | E7012401== 4 | E7012401 == 5
+{txt}(101 real changes made)
+
+{com}. 
+. 
+. 
+. generate NeverMarried2005 = 0
+{txt}
+{com}. replace NeverMarried2005 = 1 if E7012501 == 0 | E7012501 == 1
+{txt}(7106 real changes made)
+
+{com}. 
+. generate Married2005 = 0
+{txt}
+{com}. replace Married2005 = 1 if E7012501 == 2
+{txt}(1241 real changes made)
+
+{com}. 
+. generate Seperated2005 = 0 
+{txt}
+{com}. replace Seperated2005 = 1 if E7012501 == 3 | E7012501== 4 | E7012501 == 5
+{txt}(137 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2006 = 0
+{txt}
+{com}. replace NeverMarried2006 = 1 if E7012601 == 0 | E7012601 == 1
+{txt}(6652 real changes made)
+
+{com}. 
+. generate Married2006 = 0
+{txt}
+{com}. replace Married2006 = 1 if E7012601 == 2
+{txt}(1536 real changes made)
+
+{com}. 
+. generate Seperated2006 = 0 
+{txt}
+{com}. replace Seperated2006 = 1 if E7012601 == 3 | E7012601== 4 | E7012601 == 5
+{txt}(207 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2007 = 0
+{txt}
+{com}. replace NeverMarried2007 = 1 if E7012701 == 0 | E7012701 == 1
+{txt}(6207 real changes made)
+
+{com}. 
+. generate Married2007 = 0
+{txt}
+{com}. replace Married2007 = 1 if E7012701 == 2
+{txt}(1816 real changes made)
+
+{com}. 
+. generate Seperated2007 = 0 
+{txt}
+{com}. replace Seperated2007 = 1 if E7012701 == 3 | E7012701 == 4 | E7012701 == 5
+{txt}(299 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2008 = 0
+{txt}
+{com}. replace NeverMarried2008 = 1 if E7012801 == 0 | E7012801 == 1
+{txt}(5786 real changes made)
+
+{com}. 
+. generate Married2008 = 0
+{txt}
+{com}. replace Married2008 = 1 if E7012801 == 2
+{txt}(2065 real changes made)
+
+{com}. 
+. generate Seperated2008 = 0 
+{txt}
+{com}. replace Seperated2008 = 1 if E7012801 == 3 | E7012801 == 4 | E7012801 == 5
+{txt}(372 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2009 = 0
+{txt}
+{com}. replace NeverMarried2009 = 1 if E7012901 == 0 | E7012901 == 1
+{txt}(5420 real changes made)
+
+{com}. 
+. generate Married2009 = 0
+{txt}
+{com}. replace Married2009 = 1 if E7012901 == 2
+{txt}(2273 real changes made)
+
+{com}. 
+. generate Seperated2009 = 0 
+{txt}
+{com}. replace Seperated2009 = 1 if E7012901 == 3 | E7012901 == 4 | E7012901 == 5
+{txt}(471 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2010 = 0
+{txt}
+{com}. replace NeverMarried2010 = 1 if E7013001 == 0 | E7013001 == 1
+{txt}(5005 real changes made)
+
+{com}. 
+. generate Married2010 = 0
+{txt}
+{com}. replace Married2010 = 1 if E7013001 == 2
+{txt}(2483 real changes made)
+
+{com}. 
+. generate Seperated2010 = 0 
+{txt}
+{com}. replace Seperated2010 = 1 if E7013001 == 3 | E7013001== 4 | E7013001 == 5
+{txt}(548 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2011 = 0
+{txt}
+{com}. replace NeverMarried2011 = 1 if E7013101 == 0 | E7013101 == 1
+{txt}(4664 real changes made)
+
+{com}. 
+. generate Married2011 = 0
+{txt}
+{com}. replace Married2011 = 1 if E7013101 == 2
+{txt}(2684 real changes made)
+
+{com}. 
+. generate Seperated2011 = 0 
+{txt}
+{com}. replace Seperated2011 = 1 if E7013101 == 3 | E7013101 == 4 | E7013101 == 5
+{txt}(586 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2012 = 0
+{txt}
+{com}. replace NeverMarried2012 = 1 if E7013201 == 0 | E7013201 == 1
+{txt}(4236 real changes made)
+
+{com}. 
+. generate Married2012 = 0
+{txt}
+{com}. replace Married2012 = 1 if E7013201 == 2
+{txt}(2734 real changes made)
+
+{com}. 
+. generate Seperated2012 = 0 
+{txt}
+{com}. replace Seperated2012 = 1 if E7013201 == 3 | E7013201 == 4 | E7013201 == 5
+{txt}(645 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2013 = 0
+{txt}
+{com}. replace NeverMarried2013 = 1 if E7013301 == 0 | E7013301 == 1
+{txt}(3969 real changes made)
+
+{com}. 
+. generate Married2013 = 0
+{txt}
+{com}. replace Married2013 = 1 if E7013301 == 2
+{txt}(2904 real changes made)
+
+{com}. 
+. generate Seperated2013 = 0 
+{txt}
+{com}. replace Seperated2013 = 1 if E7013301 == 3 | E7013301 == 4 | E7013301 == 5
+{txt}(661 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2014 = 0
+{txt}
+{com}. replace NeverMarried2014 = 1 if E7013401 == 0 | E7013401 == 1
+{txt}(3696 real changes made)
+
+{com}. 
+. generate Married2014 = 0
+{txt}
+{com}. replace Married2014 = 1 if E7013401 == 2
+{txt}(2998 real changes made)
+
+{com}. 
+. generate Seperated2014 = 0 
+{txt}
+{com}. replace Seperated2014 = 1 if E7013401 == 3 | E7013401== 4 | E7013401 == 5
+{txt}(704 real changes made)
+
+{com}. 
+. 
+. generate NeverMarried2015 = 0
+{txt}
+{com}. replace NeverMarried2015 = 1 if E7013501 == 0 | E7013501 == 1
+{txt}(3371 real changes made)
+
+{com}. 
+. generate Married2015 = 0
+{txt}
+{com}. replace Married2015 = 1 if E7013501 == 2
+{txt}(2994 real changes made)
+
+{com}. 
+. generate Seperated2015 = 0 
+{txt}
+{com}. replace Seperated2015 = 1 if E7013501 == 3 | E7013501 == 4 | E7013501 == 5
+{txt}(690 real changes made)
+
+{com}. 
+. 
+. * REFERENCE
+. 
+. generate isMale = 0
+{txt}
+{com}. replace isMale = 1 if R0536300 == 1
+{txt}(4599 real changes made)
+
+{com}. 
+. generate isFemale = 0
+{txt}
+{com}. replace isFemale = 1 if R0536300 == 2
+{txt}(4385 real changes made)
+
+{com}. 
+. 
+. generate USBorn = 0
+{txt}
+{com}. replace USBorn = 1 if R1201300 == 1
+{txt}(6869 real changes made)
+
+{com}. 
+. generate NotUSBorn = 0 
+{txt}
+{com}. replace NotUSBorn =1 if R1201300 == 2 | R1201300 == 3
+{txt}(1073 real changes made)
+
+{com}. 
+. 
+. generate isBlack = 0
+{txt}
+{com}. replace isBlack = 1 if R1482600 == 1
+{txt}(2335 real changes made)
+
+{com}. 
+. generate isHispanic = 0
+{txt}
+{com}. replace isHispanic = 1 if R1482600 == 2
+{txt}(1901 real changes made)
+
+{com}. 
+. generate isMixed = 0
+{txt}
+{com}. replace isMixed = 1 if R1482600 == 3
+{txt}(83 real changes made)
+
+{com}. 
+. generate isOther = 0
+{txt}
+{com}. replace isOther = 1 if R1482600 == 4
+{txt}(4665 real changes made)
+
+{com}. 
+. 
+. generate Parentk10y1997 = 0
+{txt}
+{com}. replace Parentk10y1997 = 1 if R1204500 < 10000
+{txt}(3280 real changes made)
+
+{com}. 
+. generate Parentk20y1997 = 0
+{txt}
+{com}. replace Parentk20y1997 = 1 if R1204500 >= 10000 & R1204500 < 20000
+{txt}(927 real changes made)
+
+{com}. 
+. generate Parentk50y1997 = 0
+{txt}
+{com}. replace Parentk50y1997 = 1 if R1204500 >= 20000 & R1204500 < 50000
+{txt}(2410 real changes made)
+
+{com}. 
+. generate ParentkLargey1997 = 0
+{txt}
+{com}. replace ParentkLargey1997 = 1 if R1204500 >= 50000 & R1204500 < 100000
+{txt}(1874 real changes made)
+
+{com}. 
+. generate ParentkXLargey1997 = 0
+{txt}
+{com}. replace ParentkXLargey1997 = 1 if R1204500 >= 100000 & R1204500 < 200000
+{txt}(360 real changes made)
+
+{com}. 
+. generate ParentkXXLargey1997 = 0
+{txt}
+{com}. replace ParentkXXLargey1997 = 1 if R1204500 >= 200000
+{txt}(133 real changes made)
+
+{com}. 
+. * ATRITED
+. 
+. generate atrited1998 = 0
+{txt}
+{com}. replace atrited1998 = 1 if R2516200 < 0
+{txt}(598 real changes made)
+
+{com}. 
+. generate atrited1999 = 0 
+{txt}
+{com}. replace atrited1999 = 1 if R3828100 < 0
+{txt}(776 real changes made)
+
+{com}. 
+. generate atrited2000 = 0
+{txt}
+{com}. replace atrited2000 = 1 if R5342000 < 0
+{txt}(904 real changes made)
+
+{com}. 
+. generate atrited2001 = 0
+{txt}
+{com}. replace atrited2001 = 1 if R7085900 < 0
+{txt}(1102 real changes made)
+
+{com}. 
+. generate atrited2002 = 0
+{txt}
+{com}. replace atrited2002 = 1 if S1527400 < 0
+{txt}(1088 real changes made)
+
+{com}. 
+. generate atrited2003 = 0
+{txt}
+{com}. replace atrited2003 = 1 if S3592800 < 0
+{txt}(1230 real changes made)
+
+{com}. 
+. generate atrited2004 = 0
+{txt}
+{com}. replace atrited2004 = 1 if S4967700 < 0
+{txt}(1482 real changes made)
+
+{com}. 
+. generate atrited2005 = 0
+{txt}
+{com}. replace atrited2005 = 1 if S6707500 < 0
+{txt}(1647 real changes made)
+
+{com}. 
+. generate atrited2006 = 0
+{txt}
+{com}. replace atrited2006 = 1 if S8680100 < 0
+{txt}(1427 real changes made)
+
+{com}. 
+. generate atrited2007 = 0
+{txt}
+{com}. replace atrited2007 = 1 if T1100000 < 0
+{txt}(1570 real changes made)
+
+{com}. 
+. generate atrited2008 = 0
+{txt}
+{com}. replace atrited2008 = 1 if T3177200 < 0
+{txt}(1502 real changes made)
+
+{com}. 
+. generate atrited2009 = 0
+{txt}
+{com}. replace atrited2009 = 1 if T4588300 < 0
+{txt}(1425 real changes made)
+
+{com}. 
+. generate atrited2010 = 0
+{txt}
+{com}. replace atrited2010 = 1 if T6221600 < 0
+{txt}(1505 real changes made)
+
+{com}. 
+. generate atrited2011 = 0
+{txt}
+{com}. replace atrited2011 = 1 if T7718800 < 0
+{txt}(1561 real changes made)
+
+{com}. 
+. generate atrited2013 = 0
+{txt}
+{com}. replace atrited2013 = 1 if T9119400 < 0
+{txt}(1844 real changes made)
+
+{com}. 
+. generate atrited2015 = 0
+{txt}
+{com}. replace atrited2015 = 1 if U1110900 < 0
+{txt}(1882 real changes made)
+
+{com}. 
+. * DID R RECEIVE INCOME
+. 
+. generate receivedIncome1997 = 0
+{txt}
+{com}. replace receivedIncome1997 = 1 if R0489900 == 1
+{txt}(3946 real changes made)
+
+{com}. 
+. generate receivedIncome1998 = 0
+{txt}
+{com}. replace receivedIncome1998 = 1 if R2340900 == 1
+{txt}(4149 real changes made)
+
+{com}. 
+. generate receivedIncome1999 = 0
+{txt}
+{com}. replace receivedIncome1999 = 1 if R3649900 == 1
+{txt}(4225 real changes made)
+
+{com}. 
+. generate receivedIncome2000 = 0
+{txt}
+{com}. replace receivedIncome2000 = 1 if R5098600 == 1
+{txt}(4925 real changes made)
+
+{com}. 
+. generate receivedIncome2001 = 0
+{txt}
+{com}. replace receivedIncome2001 = 1 if R6827200 == 1
+{txt}(5422 real changes made)
+
+{com}. 
+. generate receivedIncome2002 = 0
+{txt}
+{com}. replace receivedIncome2002 = 1 if S1055500 == 1
+{txt}(5854 real changes made)
+
+{com}. 
+. generate receivedIncome2003 = 0
+{txt}
+{com}. replace receivedIncome2003 = 1 if S3134400 == 1
+{txt}(5990 real changes made)
+
+{com}. 
+. generate receiveIncome2004 = 0
+{txt}
+{com}. replace receiveIncome2004 = 1 if S4799400 == 1
+{txt}(5971 real changes made)
+
+{com}. 
+. generate receivedIncome2005 = 0
+{txt}
+{com}. replace receivedIncome2005 = 1 if S6500800 == 1
+{txt}(5960 real changes made)
+
+{com}. 
+. generate receivedIncome2006 = 0
+{txt}
+{com}. replace receivedIncome2006 = 1 if S8496300 == 1
+{txt}(6371 real changes made)
+
+{com}. 
+. generate receivedIncome2007 = 0
+{txt}
+{com}. replace receivedIncome2007 = 1 if T0889600 == 1
+{txt}(6352 real changes made)
+
+{com}. 
+. generate receivedIncome2008 = 0
+{txt}
+{com}. replace receivedIncome2008 = 1 if T3002800 == 1
+{txt}(6408 real changes made)
+
+{com}. 
+. generate receivedIncome2009 = 0
+{txt}
+{com}. replace receivedIncome2009 = 1 if T4405800 == 1
+{txt}(6362 real changes made)
+
+{com}. 
+. generate receivedIncome2010 = 0
+{txt}
+{com}. replace receivedIncome2010 = 1 if T6055300 == 1
+{txt}(5941 real changes made)
+
+{com}. 
+. generate receivedIncome2011 = 0
+{txt}
+{com}. replace receivedIncome2011 = 1 if T7545400 == 1
+{txt}(5887 real changes made)
+
+{com}. 
+. generate receivedIncome2013 = 0
+{txt}
+{com}. replace receivedIncome2013 = 1 if T8976500 == 1
+{txt}(5828 real changes made)
+
+{com}. 
+. generate receivedIncome2015 = 0
+{txt}
+{com}. replace receivedIncome2015 = 1 if U0956700 == 1
+{txt}(5767 real changes made)
+
+{com}. 
+. * INCOME EARNED 
+. 
+. generate k10y1997 = 0
+{txt}
+{com}. replace k10y1997 = 1 if R0490200 < 10000
+{txt}(8977 real changes made)
+
+{com}. 
+. generate k20y1997 = 0
+{txt}
+{com}. replace k20y1997 = 1 if R0490200 >= 10000 & R0490200 < 20000
+{txt}(5 real changes made)
+
+{com}. 
+. generate k50y1997 = 0
+{txt}
+{com}. replace k50y1997 = 1 if R0490200 >= 20000 & R0490200 < 50000
+{txt}(2 real changes made)
+
+{com}. 
+. generate kLargey1997 = 0
+{txt}
+{com}. replace kLargey1997 = 1 if R0490200 >= 50000
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. generate k10y1998 = 0
+{txt}
+{com}. replace k10y1998 = 1 if R2341200 < 10000
+{txt}(8909 real changes made)
+
+{com}. 
+. generate k20y1998 = 0
+{txt}
+{com}. replace k20y1998 = 1 if R2341200 >= 10000 & R2341200 < 20000
+{txt}(75 real changes made)
+
+{com}. 
+. generate k50y1998 = 0
+{txt}
+{com}. replace k50y1998 = 1 if R2341200 >= 20000 & R2341200 < 50000
+{txt}(0 real changes made)
+
+{com}. 
+. generate kLargey1998 = 0
+{txt}
+{com}. replace kLargey1998 = 1 if R2341200 >= 50000
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. generate k10y1999 = 0
+{txt}
+{com}. replace k10y1999 = 1 if R3650200 < 10000
+{txt}(8744 real changes made)
+
+{com}. 
+. generate k20y1999 = 0
+{txt}
+{com}. replace k20y1999 = 1 if R3650200 >= 10000 & R3650200 < 20000
+{txt}(153 real changes made)
+
+{com}. 
+. generate k50y1999 = 0
+{txt}
+{com}. replace k50y1999 = 1 if R3650200 >= 20000 & R3650200 < 50000
+{txt}(87 real changes made)
+
+{com}. 
+. generate kLargey1999 = 0
+{txt}
+{com}. replace kLargey1999 = 1 if R3650200 >= 50000
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. generate k10y2000 = 0
+{txt}
+{com}. replace k10y2000 = 1 if R5098900 < 10000
+{txt}(8335 real changes made)
+
+{com}. 
+. generate k20y2000= 0
+{txt}
+{com}. replace k20y2000 = 1 if R5098900 >= 10000 & R5098900 < 20000
+{txt}(522 real changes made)
+
+{com}. 
+. generate k50y2000 = 0
+{txt}
+{com}. replace k50y2000 = 1 if R5098900 >= 20000 & R5098900 < 50000
+{txt}(127 real changes made)
+
+{com}. 
+. generate kLargey2000 = 0
+{txt}
+{com}. replace kLargey2000 = 1 if R5098900 >= 50000
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2001 = 0
+{txt}
+{com}. replace k10y2001 = 1 if R6827500 < 10000
+{txt}(7765 real changes made)
+
+{com}. 
+. generate k20y2001= 0
+{txt}
+{com}. replace k20y2001 = 1 if R6827500 >= 10000 & R6827500 < 20000
+{txt}(880 real changes made)
+
+{com}. 
+. generate k50y2001 = 0
+{txt}
+{com}. replace k50y2001 = 1 if R6827500 >= 20000 & R6827500 < 50000
+{txt}(339 real changes made)
+
+{com}. 
+. generate kLargey2001 = 0
+{txt}
+{com}. replace kLargey2001 = 1 if R6827500 >= 50000
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2002 = 0
+{txt}
+{com}. replace k10y2002 = 1 if S1055800 < 10000
+{txt}(7355 real changes made)
+
+{com}. 
+. generate k20y2002= 0
+{txt}
+{com}. replace k20y2002 = 1 if S1055800 >= 10000 & S1055800 < 20000
+{txt}(1073 real changes made)
+
+{com}. 
+. generate k50y2002 = 0
+{txt}
+{com}. replace k50y2002 = 1 if S1055800 >= 20000 & S1055800 < 50000
+{txt}(556 real changes made)
+
+{com}. 
+. generate kLargey2002 = 0
+{txt}
+{com}. replace kLargey2002 = 1 if S1055800 >= 50000
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2003 = 0
+{txt}
+{com}. replace k10y2003 = 1 if S3134600 < 10000
+{txt}(6786 real changes made)
+
+{com}. 
+. generate k20y2003= 0
+{txt}
+{com}. replace k20y2003 = 1 if S3134600 >= 10000 & S3134600 < 20000
+{txt}(1353 real changes made)
+
+{com}. 
+. generate k50y2003 = 0
+{txt}
+{com}. replace k50y2003 = 1 if S3134600 >= 20000 & S3134600 < 50000
+{txt}(845 real changes made)
+
+{com}. 
+. generate kLargey2003 = 0
+{txt}
+{com}. replace kLargey2003 = 1 if S3134600 >= 50000
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2004 = 0
+{txt}
+{com}. replace k10y2004 = 1 if S4799600 < 10000
+{txt}(6268 real changes made)
+
+{com}. 
+. generate k20y2004= 0
+{txt}
+{com}. replace k20y2004 = 1 if S4799600 >= 10000 & S4799600 < 20000
+{txt}(1449 real changes made)
+
+{com}. 
+. generate k50y2004 = 0
+{txt}
+{com}. replace k50y2004 = 1 if S4799600 >= 20000 & S4799600 < 50000
+{txt}(1181 real changes made)
+
+{com}. 
+. generate kLargey2004 = 0
+{txt}
+{com}. replace kLargey2004 = 1 if S4799600 >= 50000
+{txt}(86 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2005 = 0
+{txt}
+{com}. replace k10y2005 = 1 if S6501000 < 10000
+{txt}(5790 real changes made)
+
+{com}. 
+. generate k20y2005= 0
+{txt}
+{com}. replace k20y2005 = 1 if S6501000 >= 10000 & S6501000 < 20000
+{txt}(1390 real changes made)
+
+{com}. 
+. generate k50y2005 = 0
+{txt}
+{com}. replace k50y2005 = 1 if S6501000 >= 20000 & S6501000 < 50000
+{txt}(1699 real changes made)
+
+{com}. 
+. generate kLargey2005 = 0
+{txt}
+{com}. replace kLargey2005 = 1 if S6501000 >= 50000
+{txt}(105 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2006 = 0
+{txt}
+{com}. replace k10y2006 = 1 if S8496500 < 10000
+{txt}(5060 real changes made)
+
+{com}. 
+. generate k20y2006= 0
+{txt}
+{com}. replace k20y2006 = 1 if S8496500 >= 10000 & S8496500 < 20000
+{txt}(1437 real changes made)
+
+{com}. 
+. generate k50y2006 = 0
+{txt}
+{com}. replace k50y2006 = 1 if S8496500 >= 20000 & S8496500 < 50000
+{txt}(2264 real changes made)
+
+{com}. 
+. generate kLargey2006 = 0
+{txt}
+{com}. replace kLargey2006 = 1 if S8496500 >= 50000
+{txt}(223 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2007 = 0
+{txt}
+{com}. replace k10y2007 = 1 if T0889800 < 10000
+{txt}(4807 real changes made)
+
+{com}. 
+. generate k20y2007= 0
+{txt}
+{com}. replace k20y2007 = 1 if T0889800 >= 10000 & T0889800 < 20000
+{txt}(1209 real changes made)
+
+{com}. 
+. generate k50y2007 = 0
+{txt}
+{com}. replace k50y2007 = 1 if T0889800 >= 20000 & T0889800 < 50000
+{txt}(2599 real changes made)
+
+{com}. 
+. generate kLargey2007 = 0
+{txt}
+{com}. replace kLargey2007 = 1 if T0889800 >= 50000
+{txt}(369 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2008 = 0
+{txt}
+{com}. replace k10y2008 = 1 if T3003000 < 10000
+{txt}(4332 real changes made)
+
+{com}. 
+. generate k20y2008= 0
+{txt}
+{com}. replace k20y2008 = 1 if T3003000 >= 10000 & T3003000 < 20000
+{txt}(1128 real changes made)
+
+{com}. 
+. generate k50y2008 = 0
+{txt}
+{com}. replace k50y2008 = 1 if T3003000 >= 20000 & T3003000 < 50000
+{txt}(2915 real changes made)
+
+{com}. 
+. generate kLargey2008 = 0
+{txt}
+{com}. replace kLargey2008 = 1 if T3003000 >= 50000
+{txt}(609 real changes made)
+
+{com}. 
+. 
+. 
+. 
+. generate k10y2009 = 0
+{txt}
+{com}. replace k10y2009 = 1 if T4406000 < 10000
+{txt}(4074 real changes made)
+
+{com}. 
+. generate k20y2009 = 0
+{txt}
+{com}. replace k20y2009 = 1 if T4406000 >= 10000 & T4406000 < 20000
+{txt}(1022 real changes made)
+
+{com}. 
+. generate k50y2009 = 0
+{txt}
+{com}. replace k50y2009 = 1 if T4406000 >= 20000 & T4406000 < 50000
+{txt}(3086 real changes made)
+
+{com}. 
+. generate kLargey2009 = 0
+{txt}
+{com}. replace kLargey2009 = 1 if T4406000 >= 50000
+{txt}(802 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2010 = 0
+{txt}
+{com}. replace k10y2010 = 1 if T6055500 < 10000
+{txt}(4405 real changes made)
+
+{com}. 
+. generate k20y2010 = 0
+{txt}
+{com}. replace k20y2010 = 1 if T6055500 >= 10000 & T6055500 < 20000
+{txt}(939 real changes made)
+
+{com}. 
+. generate k50y2010 = 0
+{txt}
+{com}. replace k50y2010 = 1 if T6055500 >= 20000 & T6055500 < 50000
+{txt}(2747 real changes made)
+
+{com}. 
+. generate kLargey2010 = 0
+{txt}
+{com}. replace kLargey2010 = 1 if T6055500 >= 50000
+{txt}(893 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2011 = 0
+{txt}
+{com}. replace k10y2011 = 1 if T7545600 < 10000
+{txt}(4299 real changes made)
+
+{com}. 
+. generate k20y2011 = 0
+{txt}
+{com}. replace k20y2011 = 1 if T7545600 >= 10000 & T7545600 < 20000
+{txt}(863 real changes made)
+
+{com}. 
+. generate k50y2011 = 0
+{txt}
+{com}. replace k50y2011 = 1 if T7545600 >= 20000 & T7545600 < 50000
+{txt}(2772 real changes made)
+
+{com}. 
+. generate kLargey2011 = 0
+{txt}
+{com}. replace kLargey2011 = 1 if T7545600 >= 50000
+{txt}(1050 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2013 = 0
+{txt}
+{com}. replace k10y2013 = 1 if T8976700 < 10000
+{txt}(4334 real changes made)
+
+{com}. 
+. generate k20y2013 = 0
+{txt}
+{com}. replace k20y2013 = 1 if T8976700 >= 10000 & T8976700 < 20000
+{txt}(702 real changes made)
+
+{com}. 
+. generate k50y2013 = 0
+{txt}
+{com}. replace k50y2013 = 1 if T8976700 >= 20000 & T8976700 < 50000
+{txt}(2599 real changes made)
+
+{com}. 
+. generate kLargey2013 = 0
+{txt}
+{com}. replace kLargey2013 = 1 if T8976700 >= 50000
+{txt}(1349 real changes made)
+
+{com}. 
+. 
+. 
+. generate k10y2015 = 0
+{txt}
+{com}. replace k10y2015 = 1 if U0956900 < 10000
+{txt}(4419 real changes made)
+
+{com}. 
+. generate k20y2015 = 0
+{txt}
+{com}. replace k20y2015 = 1 if U0956900 >= 10000 & U0956900 < 20000
+{txt}(572 real changes made)
+
+{com}. 
+. generate k50y2015 = 0
+{txt}
+{com}. replace k50y2015 = 1 if U0956900 >= 20000 & U0956900 < 50000
+{txt}(2349 real changes made)
+
+{com}. 
+. generate kLargey2015 = 0
+{txt}
+{com}. replace kLargey2015 = 1 if U0956900 >= 50000
+{txt}(1644 real changes made)
+
+{com}. 
+. * NUMBER OF DIFFERENT ADDRESSES R LIVED AT
+. 
+. generate oneDifferentAddress1998 = 0
+{txt}
+{com}. replace oneDifferentAddress1998 = 1 if R1490300 == 1
+{txt}(1785 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses1998 = 0
+{txt}
+{com}. replace moreThanTwoAddresses1998 = 1 if R1490300 > 1
+{txt}(636 real changes made)
+
+{com}. 
+. 
+. generate oneDifferentAddress1999 = 0
+{txt}
+{com}. replace oneDifferentAddress1999 = 1 if R2733100 == 1
+{txt}(1812 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses1999 = 0
+{txt}
+{com}. replace moreThanTwoAddresses1999 = 1 if R2733100 > 1
+{txt}(476 real changes made)
+
+{com}. 
+. 
+. generate oneDifferentAddress2000 = 0
+{txt}
+{com}. replace oneDifferentAddress2000 = 1 if R3994500 == 1
+{txt}(2064 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2000 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2000 = 1 if R3994500 > 1
+{txt}(698 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2001 = 0
+{txt}
+{com}. replace oneDifferentAddress2001 = 1 if R5663600 == 1
+{txt}(2247 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2001 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2001 = 1 if R5663600 > 1
+{txt}(727 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2002 = 0
+{txt}
+{com}. replace oneDifferentAddress2002 = 1 if S0014300 == 1
+{txt}(2650 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2002 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2002 = 1 if S0014300 > 1
+{txt}(834 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2003 = 0
+{txt}
+{com}. replace oneDifferentAddress2003 = 1 if S2082300 == 1
+{txt}(2675 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2003 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2003 = 1 if S2082300 > 1
+{txt}(890 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2004 = 0
+{txt}
+{com}. replace oneDifferentAddress2004 = 1 if S3876200 == 1
+{txt}(2692 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2004 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2004 = 1 if S3876200 > 1
+{txt}(854 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2005 = 0
+{txt}
+{com}. replace oneDifferentAddress2005 = 1 if S5466000 == 1
+{txt}(2615 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2005 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2005 = 1 if S5466000 > 1
+{txt}(761 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2006 = 0
+{txt}
+{com}. replace oneDifferentAddress2006 = 1 if S7569500 == 1
+{txt}(2813 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2006 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2006 = 1 if S7569500 > 1
+{txt}(712 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2007 = 0
+{txt}
+{com}. replace oneDifferentAddress2007 = 1 if T0054200 == 1
+{txt}(2718 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2007 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2007 = 1 if T0054200 > 1
+{txt}(555 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2008 = 0
+{txt}
+{com}. replace oneDifferentAddress2008 = 1 if T2034900 == 1
+{txt}(2621 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2008 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2008 = 1 if T2034900 > 1
+{txt}(645 real changes made)
+
+{com}. 
+. generate oneDifferentAddress2009 = 0
+{txt}
+{com}. replace oneDifferentAddress2009 = 1 if T3635800 == 1
+{txt}(2434 real changes made)
+
+{com}. 
+. 
+. generate moreThanTwoAddresses2009 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2009 = 1 if T3635800 > 1
+{txt}(499 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2010 = 0
+{txt}
+{com}. replace oneDifferentAddress2010 = 1 if T5233000 == 1
+{txt}(2420 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2010 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2010 = 1 if T5233000 > 1
+{txt}(504 real changes made)
+
+{com}. 
+. 
+. generate oneDifferentAddress2011 = 0
+{txt}
+{com}. replace oneDifferentAddress2011 = 1 if T6685400 == 1
+{txt}(2139 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2011 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2011 = 1 if T6685400 > 1
+{txt}(344 real changes made)
+
+{com}. 
+. 
+. 
+. generate oneDifferentAddress2013 = 0
+{txt}
+{com}. replace oneDifferentAddress2013 = 1 if T8158600 == 1
+{txt}(2649 real changes made)
+
+{com}. 
+. generate moreThanTwoAddresses2013 = 0
+{txt}
+{com}. replace moreThanTwoAddresses2013 = 1 if T8158600 > 1
+{txt}(1033 real changes made)
+
+{com}. 
+. * HAS R MOVED TO A DIFFERENT STATE OR COUNTY
+. 
+. generate rDifState1998 = 0
+{txt}
+{com}. replace rDifState1998 = 1 if R1490400 == 1
+{txt}(1087 real changes made)
+
+{com}. 
+. generate rDifState1999 = 0
+{txt}
+{com}. replace rDifState1999 =1 if R2733200 == 1
+{txt}(1133 real changes made)
+
+{com}. 
+. generate rDifState2000 = 0
+{txt}
+{com}. replace rDifState2000 = 1 if R3994600 == 1
+{txt}(1355 real changes made)
+
+{com}. 
+. generate rDifState2001 = 0
+{txt}
+{com}. replace rDifState2001 = 1 if R5663700 == 1
+{txt}(1606 real changes made)
+
+{com}. 
+. generate rDifState2002 = 0
+{txt}
+{com}. replace rDifState2002 = 1 if S0014400 == 1
+{txt}(1887 real changes made)
+
+{com}. 
+. generate rDifState2003 = 0
+{txt}
+{com}. replace rDifState2003 = 1 if S2082400 == 1
+{txt}(1852 real changes made)
+
+{com}. 
+. generate rDifState2004 = 0
+{txt}
+{com}. replace rDifState2004 = 1 if  S3876300 == 1
+{txt}(1784 real changes made)
+
+{com}. 
+. generate rDifState2005 = 0
+{txt}
+{com}. replace rDifState2005 = 1 if S5466100 == 1
+{txt}(1805 real changes made)
+
+{com}. 
+. generate rDifState2006 = 0
+{txt}
+{com}. replace rDifState2006 = 1 if S7569600 == 1
+{txt}(1829 real changes made)
+
+{com}. 
+. generate rDifState2007 = 0
+{txt}
+{com}. replace rDifState2007 = 1 if T0054300 == 1
+{txt}(1698 real changes made)
+
+{com}. 
+. generate rDifState2008 = 0
+{txt}
+{com}. replace rDifState2008 = 1 if T2035000 == 1
+{txt}(1569 real changes made)
+
+{com}. 
+. generate rDifState2009 = 0
+{txt}
+{com}. replace rDifState2009 = 1 if T3635900 == 1
+{txt}(1434 real changes made)
+
+{com}. 
+. generate rDifState2010 = 0
+{txt}
+{com}. replace rDifState2010 = 1 if T5233100 == 1
+{txt}(1402 real changes made)
+
+{com}. 
+. generate rDifState2011 = 0
+{txt}
+{com}. replace rDifState2011 = 1 if T6685500 == 1
+{txt}(1209 real changes made)
+
+{com}. 
+. generate rDifState2013 = 0
+{txt}
+{com}. replace rDifState2013 = 1 if T8158700 == 1
+{txt}(1800 real changes made)
+
+{com}. 
+. generate rDifState2015 = 0
+{txt}
+{com}. replace rDifState2015 = 1 if U0041400 == 1
+{txt}(1600 real changes made)
+
+{com}. 
+. * NUMBER OF BIO KIDS IN THE HH
+. 
+. generate has0kids1997 = 0
+{txt}
+{com}. replace has0kids1997 = 1 if R1211100 == 0 | R1211100 == -4
+{txt}(8904 real changes made)
+
+{com}. 
+. generate has1kid1997 = 0
+{txt}
+{com}. replace has1kid1997 = 1 if R1211100 == 1
+{txt}(69 real changes made)
+
+{com}. 
+. generate has2kids1997 = 0
+{txt}
+{com}. replace has2kids1997 = 1 if R1211100 == 2
+{txt}(8 real changes made)
+
+{com}. 
+. generate has3or4kids1997 = 0
+{txt}
+{com}. replace has3or4kids1997 = 1 if R1211100 == 3| R1211100 == 4
+{txt}(0 real changes made)
+
+{com}. 
+. generate hasATonOfKids1997 = 0
+{txt}
+{com}. replace hasATonOfKids1997 = 1 if R1211100 > 4
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. generate has0kids1998 = 0
+{txt}
+{com}. replace has0kids1998 = 1 if R2570100 == 0 | R2570100 == -4
+{txt}(8147 real changes made)
+
+{com}. 
+. generate has1kid1998 = 0
+{txt}
+{com}. replace has1kid1998 = 1 if R2570100 == 1
+{txt}(215 real changes made)
+
+{com}. 
+. generate has2kids1998 = 0
+{txt}
+{com}. replace has2kids1998 = 1 if R2570100 == 2
+{txt}(20 real changes made)
+
+{com}. 
+. generate has3or4kids1998 = 0
+{txt}
+{com}. replace has3or4kids1998 = 1 if R2570100 == 3| R2570100 == 4
+{txt}(2 real changes made)
+
+{com}. 
+. generate hasATonOfKids1998 = 0
+{txt}
+{com}. replace hasATonOfKids1998 = 1 if R2570100 > 4
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. generate has0kids1999 = 0
+{txt}
+{com}. replace has0kids1999 = 1 if R3892100 == 0 | R3892100 == -4
+{txt}(7813 real changes made)
+
+{com}. 
+. generate has1kid1999 = 0
+{txt}
+{com}. replace has1kid1999 = 1 if R3892100 == 1
+{txt}(337 real changes made)
+
+{com}. 
+. generate has2kids1999 = 0
+{txt}
+{com}. replace has2kids1999 = 1 if R3892100 == 2
+{txt}(48 real changes made)
+
+{com}. 
+. generate has3or4kids1999 = 0
+{txt}
+{com}. replace has3or4kids1999 = 1 if R3892100 == 3| R3892100 == 4
+{txt}(5 real changes made)
+
+{com}. 
+. generate hasATonOfKids1999 = 0
+{txt}
+{com}. replace hasATonOfKids1999 = 1 if R3892100 > 4
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2000 = 0
+{txt}
+{com}. replace has0kids2000 = 1 if R5474100 == 0 | R5474100 == -4
+{txt}(7436 real changes made)
+
+{com}. 
+. generate has1kid2000 = 0
+{txt}
+{com}. replace has1kid2000 = 1 if R5474100 == 1
+{txt}(531 real changes made)
+
+{com}. 
+. generate has2kids2000 = 0
+{txt}
+{com}. replace has2kids2000 = 1 if R5474100 == 2
+{txt}(95 real changes made)
+
+{com}. 
+. generate has3or4kids2000 = 0
+{txt}
+{com}. replace has3or4kids2000 = 1 if R5474100 == 3| R5474100 == 4
+{txt}(13 real changes made)
+
+{com}. 
+. generate hasATonOfKids2000 = 0
+{txt}
+{com}. replace hasATonOfKids2000 = 1 if R5474100 > 4
+{txt}(0 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2001 = 0
+{txt}
+{com}. replace has0kids2001 = 1 if R7237800 == 0 | R7237800 == -4
+{txt}(7011 real changes made)
+
+{com}. 
+. generate has1kid2001 = 0
+{txt}
+{com}. replace has1kid2001 = 1 if R7237800 == 1
+{txt}(660 real changes made)
+
+{com}. 
+. generate has2kids2001 = 0
+{txt}
+{com}. replace has2kids2001 = 1 if R7237800 == 2
+{txt}(174 real changes made)
+
+{com}. 
+. generate has3or4kids2001 = 0
+{txt}
+{com}. replace has3or4kids2001 = 1 if R7237800 == 3| R7237800 == 4
+{txt}(21 real changes made)
+
+{com}. 
+. generate hasATonOfKids2001 = 0
+{txt}
+{com}. replace hasATonOfKids2001 = 1 if R7237800 > 4
+{txt}(1 real change made)
+
+{com}. 
+. 
+. 
+. generate has0kids2002 = 0
+{txt}
+{com}. replace has0kids2002 = 1 if S1553100 == 0 | S1553100 == -4
+{txt}(6713 real changes made)
+
+{com}. 
+. generate has1kid2002 = 0
+{txt}
+{com}. replace has1kid2002 = 1 if S1553100 == 1
+{txt}(841 real changes made)
+
+{com}. 
+. generate has2kids2002 = 0
+{txt}
+{com}. replace has2kids2002 = 1 if S1553100 == 2
+{txt}(271 real changes made)
+
+{com}. 
+. generate has3or4kids2002 = 0
+{txt}
+{com}. replace has3or4kids2002 = 1 if S1553100 == 3| S1553100 == 4
+{txt}(50 real changes made)
+
+{com}. 
+. generate hasATonOfKids2002 = 0
+{txt}
+{com}. replace hasATonOfKids2002 = 1 if S1553100 > 4
+{txt}(2 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2003 = 0
+{txt}
+{com}. replace has0kids2003 = 1 if S2022700 == 0 | S2022700 == -4
+{txt}(6239 real changes made)
+
+{com}. 
+. generate has1kid2003 = 0
+{txt}
+{com}. replace has1kid2003 = 1 if S2022700 == 1
+{txt}(993 real changes made)
+
+{com}. 
+. generate has2kids2003 = 0
+{txt}
+{com}. replace has2kids2003 = 1 if S2022700 == 2
+{txt}(385 real changes made)
+
+{com}. 
+. generate has3or4kids2003 = 0
+{txt}
+{com}. replace has3or4kids2003 = 1 if S2022700 == 3| S2022700 == 4
+{txt}(96 real changes made)
+
+{com}. 
+. generate hasATonOfKids2003 = 0
+{txt}
+{com}. replace hasATonOfKids2003 = 1 if S2022700 > 4
+{txt}(3 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2004 = 0
+{txt}
+{com}. replace has0kids2004 = 1 if S3823600 == 0 | S3823600 == -4
+{txt}(5731 real changes made)
+
+{com}. 
+. generate has1kid2004 = 0
+{txt}
+{com}. replace has1kid2004 = 1 if S3823600 == 1
+{txt}(1101 real changes made)
+
+{com}. 
+. generate has2kids2004 = 0
+{txt}
+{com}. replace has2kids2004 = 1 if S3823600 == 2
+{txt}(513 real changes made)
+
+{com}. 
+. generate has3or4kids2004 = 0
+{txt}
+{com}. replace has3or4kids2004 = 1 if S3823600 == 3| S3823600 == 4
+{txt}(140 real changes made)
+
+{com}. 
+. generate hasATonOfKids2004 = 0
+{txt}
+{com}. replace hasATonOfKids2004 = 1 if S3823600 > 4
+{txt}(3 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2005 = 0
+{txt}
+{com}. replace has0kids2005 = 1 if S5423600 == 0 | S5423600 == -4
+{txt}(5328 real changes made)
+
+{com}. 
+. generate has1kid2005 = 0
+{txt}
+{com}. replace has1kid2005 = 1 if S5423600 == 1
+{txt}(1167 real changes made)
+
+{com}. 
+. generate has2kids2005 = 0
+{txt}
+{com}. replace has2kids2005 = 1 if S5423600 == 2
+{txt}(607 real changes made)
+
+{com}. 
+. generate has3or4kids2005 = 0
+{txt}
+{com}. replace has3or4kids2005 = 1 if S5423600 == 3| S5423600 == 4
+{txt}(222 real changes made)
+
+{com}. 
+. generate hasATonOfKids2005 = 0
+{txt}
+{com}. replace hasATonOfKids2005 = 1 if S5423600 > 4
+{txt}(5 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2006 = 0
+{txt}
+{com}. replace has0kids2006 = 1 if S7525700 == 0 | S7525700 == -4
+{txt}(5231 real changes made)
+
+{com}. 
+. generate has1kid2006 = 0
+{txt}
+{com}. replace has1kid2006 = 1 if S7525700 == 1
+{txt}(1252 real changes made)
+
+{com}. 
+. generate has2kids2006 = 0
+{txt}
+{com}. replace has2kids2006 = 1 if S7525700 == 2
+{txt}(732 real changes made)
+
+{com}. 
+. generate has3or4kids2006 = 0
+{txt}
+{com}. replace has3or4kids2006 = 1 if S7525700 == 3| S7525700 == 4
+{txt}(323 real changes made)
+
+{com}. 
+. generate hasATonOfKids2006 = 0
+{txt}
+{com}. replace hasATonOfKids2006 = 1 if S7525700 > 4
+{txt}(5 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2007 = 0
+{txt}
+{com}. replace has0kids2007 = 1 if T0026000 == 0 | T0026000 == -4
+{txt}(4865 real changes made)
+
+{com}. 
+. generate has1kid2007 = 0
+{txt}
+{com}. replace has1kid2007 = 1 if T0026000 == 1
+{txt}(1318 real changes made)
+
+{com}. 
+. generate has2kids2007 = 0
+{txt}
+{com}. replace has2kids2007 = 1 if T0026000 == 2
+{txt}(831 real changes made)
+
+{com}. 
+. generate has3or4kids2007 = 0
+{txt}
+{com}. replace has3or4kids2007 = 1 if T0026000 == 3| T0026000 == 4
+{txt}(389 real changes made)
+
+{com}. 
+. generate hasATonOfKids2007 = 0
+{txt}
+{com}. replace hasATonOfKids2007 = 1 if T0026000 > 4
+{txt}(12 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2008 = 0
+{txt}
+{com}. replace has0kids2008 = 1 if T2020900 == 0 | T2020900 == -4
+{txt}(4611 real changes made)
+
+{com}. 
+. generate has1kid2008 = 0
+{txt}
+{com}. replace has1kid2008 = 1 if T2020900 == 1
+{txt}(1411 real changes made)
+
+{com}. 
+. generate has2kids2008 = 0
+{txt}
+{com}. replace has2kids2008 = 1 if T2020900 == 2
+{txt}(952 real changes made)
+
+{com}. 
+. generate has3or4kids2008 = 0
+{txt}
+{com}. replace has3or4kids2008 = 1 if T2020900 == 3| T2020900 == 4
+{txt}(473 real changes made)
+
+{com}. 
+. generate hasATonOfKids2008 = 0
+{txt}
+{com}. replace hasATonOfKids2008 = 1 if T2020900 > 4
+{txt}(32 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2009 = 0
+{txt}
+{com}. replace has0kids2009 = 1 if T3611600 == 0 | T3611600 == -4
+{txt}(4428 real changes made)
+
+{com}. 
+. generate has1kid2009 = 0
+{txt}
+{com}. replace has1kid2009 = 1 if T3611600 == 1
+{txt}(1444 real changes made)
+
+{com}. 
+. generate has2kids2009 = 0
+{txt}
+{com}. replace has2kids2009 = 1 if T3611600 == 2
+{txt}(1067 real changes made)
+
+{com}. 
+. generate has3or4kids2009 = 0
+{txt}
+{com}. replace has3or4kids2009 = 1 if T3611600 == 3| T3611600 == 4
+{txt}(571 real changes made)
+
+{com}. 
+. generate hasATonOfKids2009 = 0
+{txt}
+{com}. replace hasATonOfKids2009 = 1 if T3611600 > 4
+{txt}(38 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2010 = 0
+{txt}
+{com}. replace has0kids2010 = 1 if T5211700 == 0 | T5211700 == -4
+{txt}(4140 real changes made)
+
+{com}. 
+. generate has1kid2010 = 0
+{txt}
+{com}. replace has1kid2010 = 1 if T5211700 == 1
+{txt}(1478 real changes made)
+
+{com}. 
+. generate has2kids2010 = 0
+{txt}
+{com}. replace has2kids2010 = 1 if T5211700 == 2
+{txt}(1130 real changes made)
+
+{com}. 
+. generate has3or4kids2010 = 0
+{txt}
+{com}. replace has3or4kids2010 = 1 if T5211700 == 3| T5211700 == 4
+{txt}(652 real changes made)
+
+{com}. 
+. generate hasATonOfKids2010 = 0
+{txt}
+{com}. replace hasATonOfKids2010 = 1 if T5211700 > 4
+{txt}(56 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2011 = 0
+{txt}
+{com}. replace has0kids2011 = 1 if T6663100 == 0 | T6663100 == -4
+{txt}(3914 real changes made)
+
+{com}. 
+. generate has1kid2011 = 0
+{txt}
+{com}. replace has1kid2011 = 1 if T6663100 == 1
+{txt}(1455 real changes made)
+
+{com}. 
+. generate has2kids2011 = 0
+{txt}
+{com}. replace has2kids2011 = 1 if T6663100 == 2
+{txt}(1246 real changes made)
+
+{com}. 
+. generate has3or4kids2011 = 0
+{txt}
+{com}. replace has3or4kids2011 = 1 if T6663100 == 3| T6663100 == 4
+{txt}(737 real changes made)
+
+{com}. 
+. generate hasATonOfKids2011 = 0
+{txt}
+{com}. replace hasATonOfKids2011 = 1 if T6663100 > 4
+{txt}(64 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2013 = 0
+{txt}
+{com}. replace has0kids2013 = 1 if T8134300 == 0 | T8134300 == -4
+{txt}(3301 real changes made)
+
+{com}. 
+. generate has1kid2013 = 0
+{txt}
+{com}. replace has1kid2013 = 1 if T8134300 == 1
+{txt}(1426 real changes made)
+
+{com}. 
+. generate has2kids2013 = 0
+{txt}
+{com}. replace has2kids2013 = 1 if T8134300 == 2
+{txt}(1391 real changes made)
+
+{com}. 
+. generate has3or4kids2013 = 0
+{txt}
+{com}. replace has3or4kids2013 = 1 if T8134300 == 3| T8134300 == 4
+{txt}(912 real changes made)
+
+{com}. 
+. generate hasATonOfKids2013 = 0
+{txt}
+{com}. replace hasATonOfKids2013 = 1 if T8134300 > 4
+{txt}(88 real changes made)
+
+{com}. 
+. 
+. 
+. generate has0kids2015 = 0
+{txt}
+{com}. replace has0kids2015 = 1 if U0014800 == 0 | U0014800 == -4
+{txt}(3015 real changes made)
+
+{com}. 
+. generate has1kid2015 = 0
+{txt}
+{com}. replace has1kid2015 = 1 if U0014800 == 1
+{txt}(1373 real changes made)
+
+{com}. 
+. generate has2kids2015 = 0
+{txt}
+{com}. replace has2kids2015 = 1 if U0014800 == 2
+{txt}(1491 real changes made)
+
+{com}. 
+. generate has3or4kids2015 = 0
+{txt}
+{com}. replace has3or4kids2015 = 1 if U0014800 == 3| U0014800 == 4
+{txt}(1079 real changes made)
+
+{com}. 
+. generate hasATonOfKids2015 = 0
+{txt}
+{com}. replace hasATonOfKids2015 = 1 if U0014800 > 4
+{txt}(118 real changes made)
+
+{com}. 
+. * HAS HIGHSCHOOL DIMPLOMA?
+. 
+. generate hasHighschoolDiploma1998 = 0
+{txt}
+{com}. replace hasHighschoolDiploma1998 = 1 if R2563201 == 12
+{txt}(653 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma1999 = 0
+{txt}
+{com}. replace hasHighschoolDiploma1999 = 1 if R3884801 == 12
+{txt}(1811 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2000 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2000 = 1 if R5464001 == 12
+{txt}(2956 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2001 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2001 = 1 if R7227701 == 12
+{txt}(4111 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2002 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2002 = 1 if S1541601 == 12
+{txt}(5358 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2003 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2003 = 1 if S2011401 == 12
+{txt}(5747 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2004 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2004 = 1 if S3812301 == 12
+{txt}(5673 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2005 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2005 = 1 if S5412700 == 12
+{txt}(5536 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2006 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2006 =  1 if S7513600 == 0
+{txt}(0 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2007 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2007 = 1 if T0014000 == 12
+{txt}(5565 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2008 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2008 = 1 if T2016100 == 12
+{txt}(5632 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2009 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2009 = 1 if T3606400 == 12
+{txt}(5695 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2010 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2010 = 1 if T5206800 == 12
+{txt}(5605 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2011 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2011 = 1 if T6656600 == 12
+{txt}(5553 real changes made)
+
+{com}. 
+. generate hasHighschoolDiploma2013 = 0
+{txt}
+{com}. replace hasHighschoolDiploma2013 = 1 if T8129000 == 12
+{txt}(5374 real changes made)
+
+{com}. 
+. * Parents HGC
+. 
+. generate DadNoHS = 0
+{txt}
+{com}. replace DadNoHS = 1 if R1302600 < 12
+{txt}(4442 real changes made)
+
+{com}. 
+. generate DadHS = 0
+{txt}
+{com}. replace DadHS = 1 if R1302600 == 12
+{txt}(1917 real changes made)
+
+{com}. 
+. generate DadBA = 0
+{txt}
+{com}. replace DadBA = 1 if R1302600 == 16
+{txt}(780 real changes made)
+
+{com}. 
+. generate DadHE = 0
+{txt}
+{com}. replace DadHE =1 if R1302600 > 16
+{txt}(616 real changes made)
+
+{com}. 
+. 
+. generate MomNoHS = 0
+{txt}
+{com}. replace MomNoHS = 1 if R1302700 < 12
+{txt}(2785 real changes made)
+
+{com}. 
+. generate MomHS = 0
+{txt}
+{com}. replace MomHS = 1 if R1302700 == 12
+{txt}(2870 real changes made)
+
+{com}. 
+. generate MomBA = 0
+{txt}
+{com}. replace MomBA = 1 if R1302700 == 16
+{txt}(902 real changes made)
+
+{com}. 
+. generate MomHE = 0
+{txt}
+{com}. replace MomHE =1 if R1302700 > 16
+{txt}(541 real changes made)
+
+{com}. 
+. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/home/parradom/stata/DummiesLog.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 8 Aug 2019, 10:55:53
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
