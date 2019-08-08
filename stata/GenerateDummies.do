@@ -2,8 +2,6 @@ set memory 30m
 
 infile using Gravity.dct
 
-log using DummiesLog, replace
-
 * MARITAL STATUS
 generate NeverMarried1997 = 0
 replace NeverMarried1997 = 1 if E7011701 == 0 | E7011701 == 1
@@ -1109,4 +1107,4 @@ replace MomBA = 1 if R1302700 == 16
 generate MomHE = 0
 replace MomHE =1 if R1302700 > 16
 
-log close
+save DummiesData.dta, replace
