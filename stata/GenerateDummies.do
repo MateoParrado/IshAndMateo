@@ -276,9 +276,6 @@ replace atrited2008 = 1 if T3177200 < 0
 generate atrited2009 = 0
 replace atrited2009 = 1 if T4588300 < 0
 
-generate atrited2009 = 0
-replace atrited2009 = 1 if T4588300 < 0
-
 generate atrited2010 = 0
 replace atrited2010 = 1 if T6221600 < 0
 
@@ -1069,7 +1066,7 @@ generate hasHighschoolDiploma2008 = 0
 replace hasHighschoolDiploma2008 = 1 if kLarge == 12
 
 generate hasHighschoolDiploma2009 = 0
-replace hasHighschoolDiploma = 1 if T3606400 == 12
+replace hasHighschoolDiploma2009 = 1 if T3606400 == 12
 
 generate hasHighschoolDiploma2010 = 0
 replace hasHighschoolDiploma2010 = 1 if T5206800 == 12
