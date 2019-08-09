@@ -1,0 +1,13 @@
+#delimiter ;
+
+set memory 30m;
+
+use DummiesData.dta;
+
+generate incomeBefore1998Move = 0;
+generate incomeDuring1998Move = 0;
+generate incomeAfter1998Move = 0;
+
+replace incomeBefore1998Move = R0490200
+if rDifState1998 == 1;
+
