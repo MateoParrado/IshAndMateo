@@ -1,4 +1,4 @@
-#delimiter ;
+#delimit ;
 
 set memory 30m;
 
