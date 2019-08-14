@@ -132,8 +132,17 @@ replace USBorn = 1 if R1201300 == 1
 
 generate race = 0
 replace race = 1 if R1482600 == 2
-replace race= 1 if R1482600 == 3
-replace race= 1 if R1482600 == 4
+replace race= 2 if R1482600 == 3
+replace race= 3 if R1482600 == 4
+
+*black man is 0 black woman is 1 latino man is 2 latino woman is 3 other man is 4 other woman is 5
+
+generate raceGen = 0
+replace raceGen = 1 if R1482600 == 1 & R0536300 == 2
+replace raceGen = 2 if R1482600 == 2 & R0536300 == 1
+replace raceGen = 3 if R1482600 == 2 & R0536300 == 2
+replace raceGen = 4 if R1482600 == 4 & R0536300 == 1
+replace raceGen = 5 if R1482600 == 4 & R0536300 == 2
 
 * 1 is less than 10k, 2 is less than 20, 3 is less than 50, 4 is less than 100, 5 is less than 200, 6 is greater than 200
 
@@ -252,28 +261,32 @@ replace receivedIncome2015 = 1 if U0956700 == 1
 * 1 is <10k, 2 is <20k, 3 is < 50k, 4 is > 100k
 
 generate income1997 = 0
-replace income1997 = 1 if R0490200 < 10000
+replace income1997 = . if R0490200 < 0 
+replace income1997 = 1 if R0490200 >= 0 & R0490200 < 10000
 replace income1997 = 2 if R0490200 >= 10000 & R0490200 < 20000
 replace income1997 = 3 if R0490200 >= 20000 & R0490200 < 50000
 replace income1997 = 4 if R0490200 >= 50000
 
 
 generate income1998 = 0
-replace income1998 = 1 if R2341200 < 10000
+replace income1998 = . if R2341200 < 0 
+replace income1998 = 1 if R2341200 >= 0R2341200 < 10000
 replace income1998 = 2 if R2341200 >= 10000 & R2341200 < 20000
 replace income1998 = 3 if R2341200 >= 20000 & R2341200 < 50000
 replace income1998 = 4 if R2341200 >= 50000
 
 
 generate income1999 = 0
-replace income1999 = 1 if R3650200 < 10000
+replace income1999 = . if R3650200 < 0 
+replace income1999 = 1 if R3650200 >= 0 & R3650200 < 10000
 replace income1999 = 2 if R3650200 >= 10000 & R3650200 < 20000
 replace income1999 = 3 if R3650200 >= 20000 & R3650200 < 50000
 replace income1999 = 4 if R3650200 >= 50000
 
 
 generate income2000 = 0
-replace income2000 = 1 if R5098900 < 10000
+replace income2000 = . if R5098900 < 0 
+replace income2000 = 1 if R5098900 >= 0 & R5098900 < 10000
 replace income2000 = 2 if R5098900 >= 10000 & R5098900 < 20000
 replace income2000 = 3 if R5098900 >= 20000 & R5098900 < 50000
 replace income2000 = 4 if R5098900 >= 50000
@@ -281,7 +294,8 @@ replace income2000 = 4 if R5098900 >= 50000
 
 
 generate income2001 = 0
-replace income2001 = 1 if R6827500 < 10000
+replace income2001 = . if R6827500 < 0 
+replace income2001 = 1 if R6827500 >= 0 & R6827500 < 10000
 replace income2001 = 2 if R6827500 >= 10000 & R6827500 < 20000
 replace income2001 = 3 if R6827500 >= 20000 & R6827500 < 50000
 replace income2001 = 4 if R6827500 >= 50000
@@ -289,7 +303,8 @@ replace income2001 = 4 if R6827500 >= 50000
 
 
 generate income2002 = 0
-replace income2002 = 1 if S1055800 < 10000
+replace income2002 = . if S1055800 < 0 
+replace income2002 = 1 if S1055800 >= 0 & S1055800 < 10000
 replace income2002 = 2 if S1055800 >= 10000 & S1055800 < 20000
 replace income2002 = 3 if S1055800 >= 20000 & S1055800 < 50000
 replace income2002 = 4 if S1055800 >= 50000
@@ -297,7 +312,8 @@ replace income2002 = 4 if S1055800 >= 50000
 
 
 generate income2003 = 0
-replace income2003 = 1 if S3134600 < 10000
+replace income2003 = . if S3134600 < 0 
+replace income2003 = 1 if v >= 0 & S3134600 < 10000
 replace income2003 = 2 if S3134600 >= 10000 & S3134600 < 20000
 replace income2003 = 3 if S3134600 >= 20000 & S3134600 < 50000
 replace income2003 = 4 if S3134600 >= 50000
@@ -305,7 +321,8 @@ replace income2003 = 4 if S3134600 >= 50000
 
 
 generate income2004 = 0
-replace income2004 = 1 if S4799600 < 10000
+replace income2004 = . if S4799600 < 0 
+replace income2004 = 1 if S4799600 >= 0 & S4799600 < 10000
 replace income2004 = 2 if S4799600 >= 10000 & S4799600 < 20000
 replace income2004 = 3 if S4799600 >= 20000 & S4799600 < 50000
 replace income2004 = 4 if S4799600 >= 50000
@@ -313,7 +330,8 @@ replace income2004 = 4 if S4799600 >= 50000
 
 
 generate income2005 = 0
-replace income2005 = 1 if S6501000 < 10000
+replace income2005 = . if S6501000 < 0 
+replace income2005 = 1 if S6501000 >= 0 & S6501000 < 10000
 replace income2005 = 2 if S6501000 >= 10000 & S6501000 < 20000
 replace income2005 = 3 if S6501000 >= 20000 & S6501000 < 50000
 replace income2005 = 4 if S6501000 >= 50000
@@ -321,7 +339,8 @@ replace income2005 = 4 if S6501000 >= 50000
 
 
 generate income2006 = 0
-replace income2006 = 1 if S8496500 < 10000
+replace income2006 = . if S8496500 < 0 
+replace income2006 = 1 if S8496500 >= 0 & S8496500 < 10000
 replace income2006 = 2 if S8496500 >= 10000 & S8496500 < 20000
 replace income2006 = 3 if S8496500 >= 20000 & S8496500 < 50000
 replace income2006 = 4 if S8496500 >= 50000
@@ -329,7 +348,8 @@ replace income2006 = 4 if S8496500 >= 50000
 
 
 generate income2007 = 0
-replace income2007 = 1 if T0889800 < 10000
+replace income2007 = . if T0889800 < 0 
+replace income2007 = 1 if T0889800 >= 0 & T0889800 < 10000
 replace income2007 = 2 if T0889800 >= 10000 & T0889800 < 20000
 replace income2007 = 3 if T0889800 >= 20000 & T0889800 < 50000
 replace income2007 = 4 if T0889800 >= 50000
@@ -337,7 +357,8 @@ replace income2007 = 4 if T0889800 >= 50000
 
 
 generate income2008 = 0
-replace income2008 = 1 if T3003000 < 10000
+replace income2008 = . if T3003000 < 0 
+replace income2008 = 1 if T3003000 >= 0 & T3003000 < 10000
 replace income2008 = 2 if T3003000 >= 10000 & T3003000 < 20000
 replace income2008 = 3 if T3003000 >= 20000 & T3003000 < 50000
 replace income2008 = 4 if T3003000 >= 50000
@@ -346,7 +367,8 @@ replace income2008 = 4 if T3003000 >= 50000
 
 
 generate income2009 = 0
-replace income2009 = 1 if T4406000 < 10000
+replace income2009 = . if T4406000 < 0 
+replace income2009 = 1 if T4406000 >= 0 & T4406000 < 10000
 replace income2009 = 2 if T4406000 >= 10000 & T4406000 < 20000
 replace income2009 = 3 if T4406000 >= 20000 & T4406000 < 50000
 replace income2009 = 4 if T4406000 >= 50000
@@ -354,7 +376,8 @@ replace income2009 = 4 if T4406000 >= 50000
 
 
 generate income2010 = 0
-replace income2010 = 1 if T6055500 < 10000
+replace income2010 = . if T6055500 < 0 
+replace income2010 = 1 if T6055500 >= 0 & T6055500 < 10000
 replace income2010 = 2 if T6055500 >= 10000 & T6055500 < 20000
 replace income2010 = 3 if T6055500 >= 20000 & T6055500 < 50000
 replace income2010 = 4 if T6055500 >= 50000
@@ -362,7 +385,8 @@ replace income2010 = 4 if T6055500 >= 50000
 
 
 generate income2011 = 0
-replace income2011 = 1 if T7545600 < 10000
+replace income2011 = . if T7545600 < 0 
+replace income2011 = 1 if T7545600 >= 0 & T7545600< 10000
 replace income2011 = 2 if T7545600 >= 10000 & T7545600 < 20000
 replace income2011 = 3 if T7545600 >= 20000 & T7545600 < 50000
 replace income2011 = 4 if T7545600 >= 50000
@@ -370,7 +394,8 @@ replace income2011 = 4 if T7545600 >= 50000
 
 
 generate income2013 = 0
-replace income2013 = 1 if T8976700 < 10000
+replace income2013 = . if T8976700 < 0 
+replace income2013 = 1 if T8976700 >= 0 & T8976700 < 10000
 replace income2013 = 2 if T8976700 >= 10000 & T8976700 < 20000
 replace income2013 = 3 if T8976700 >= 20000 & T8976700 < 50000
 replace income2013 = 4 if T8976700 >= 50000
@@ -378,7 +403,8 @@ replace income2013 = 4 if T8976700 >= 50000
 
 
 generate income2015 = 0
-replace income2015 = 1 if U0956900 < 10000
+replace income2015 = . if U0956900 < 0 
+replace income2015 = 1 if U0956900 >= 0 & U0956900 < 10000
 replace income2015 = 2 if U0956900 >= 10000 & U0956900 < 20000
 replace income2015 = 3 if U0956900 >= 20000 & U0956900 < 50000
 replace income2015 = 4 if U0956900 >= 50000
