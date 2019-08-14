@@ -122,10 +122,8 @@ replace Married2015 = 3 if E7013501 == 3 | E7013501 == 4 | E7013501 == 5
 * REFERENCE
 
 * 0 is female, 1 is male
-Generate sex = 0
-Replace sex = 1 if R0536300 == 1
-generate isMale = 0
-replace isMale = 1 if == 1
+generate sex = 0
+replace sex = 1 if R0536300 == 1
 
 generate USBorn = 0
 replace USBorn = 1 if R1201300 == 1
@@ -711,15 +709,15 @@ replace hasHighschoolDiploma2013 = 1 if T8129000 == 12
 * 0 is no HS, 1 is HS, 2 is BA, 3 is higher ed
 
 generate DadEd = 0
-replace DadHS = 1 if R1302600 == 12
-replace DadBA = 2 if R1302600 == 16
-replace DadHE = 3 if R1302600 > 16
+replace DadEd = 1 if R1302600 == 12
+replace DadEd = 2 if R1302600 == 16
+replace DadEd = 3 if R1302600 > 16
 
 
 generate MomEd = 0
-replace MomHS = 1 if R1302700 == 12
-replace MomBA = 2 if R1302700 == 16
-replace MomHE = 3 if R1302700 > 16
+replace MomEd = 1 if R1302700 == 12
+replace MomEd = 2 if R1302700 == 16
+replace MomEd = 3 if R1302700 > 16
 
 save Descriptives.dta, replace
 
