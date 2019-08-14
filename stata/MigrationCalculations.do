@@ -212,3 +212,5 @@ if rDifState2013 == 1;
 
 replace incomeAfter2013Move = U0956900
 if rDifState2013 == 1;
+
+summarize;
