@@ -313,7 +313,7 @@ replace income2002 = 4 if S1055800 >= 50000
 
 generate income2003 = 0
 replace income2003 = . if S3134600 < 0 
-replace income2003 = 1 if v >= 0 & S3134600 < 10000
+replace income2003 = 1 if S3134600 >= 0 & S3134600 < 10000
 replace income2003 = 2 if S3134600 >= 10000 & S3134600 < 20000
 replace income2003 = 3 if S3134600 >= 20000 & S3134600 < 50000
 replace income2003 = 4 if S3134600 >= 50000
