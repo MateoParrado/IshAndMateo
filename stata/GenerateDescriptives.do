@@ -270,7 +270,7 @@ replace income1997 = 4 if R0490200 >= 50000
 
 generate income1998 = 0
 replace income1998 = . if R2341200 < 0 
-replace income1998 = 1 if R2341200 >= 0 R2341200 < 10000
+replace income1998 = 1 if R2341200 >= 0 & R2341200 < 10000
 replace income1998 = 2 if R2341200 >= 10000 & R2341200 < 20000
 replace income1998 = 3 if R2341200 >= 20000 & R2341200 < 50000
 replace income1998 = 4 if R2341200 >= 50000
