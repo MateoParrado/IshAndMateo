@@ -256,7 +256,7 @@ if rDifState2013 == 1 & T8976700 >= 0;
 
 replace incomeBefore2013Move = 0 if U0956900 == -4;
 replace incomeAfter2013Move = U0956900
-if rDifState2013 == 1 & U0956900s >= 0;
+if rDifState2013 == 1 & U0956900 >= 0;
 
 generate test = 0;
 replace test = 1 if 1==1;
