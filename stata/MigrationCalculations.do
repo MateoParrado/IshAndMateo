@@ -252,3 +252,16 @@ replace ageOfMigration2013 = T9119400 - 1 if rDifState2013 == 1;
 
 generate ageOfMigration2015 = 88;
 replace ageOfMigration2015 = U1110900 - 1 if rDifState2015 == 1;
+
+tab ageOfMigration2002;
+tab ageOfMigration2003;
+tab ageOfMigration2004;
+tab ageOfMigration2005;
+tab ageOfMigration2006;
+tab ageOfMigration2007;
+tab ageOfMigration2008;
+tab ageOfMigration2009;
+tab ageOfMigration2010;
+tab ageOfMigration2011;
+tab ageOfMigration2013;
+tab ageOfMigration2015;
