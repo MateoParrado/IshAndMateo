@@ -265,3 +265,5 @@ tab ageOfMigration2010;
 tab ageOfMigration2011;
 tab ageOfMigration2013;
 tab ageOfMigration2015;
+
+save MigrationCalculations.dta, replace;
