@@ -8,215 +8,260 @@ generate incomeBefore1998Move = .;
 generate incomeDuring1998Move = .;
 generate incomeAfter1998Move = .;
 
+replace incomeBefore1998Move = 0 if R0490200 == -4;
 replace incomeBefore1998Move = R0490200
-if rDifState1998 == 1;
+if rDifState1998 == 1 & R0490200 >= 0;
 
+replace incomeBefore1998Move = 0 if R0490200 == -4;
 replace incomeDuring1998Move = R2341200
-if rDifState1998 == 1;
+if rDifState1998 == 1 & R0490200 >= 0;
 
+replace incomeBefore1998Move = 0 if R0490200 == -4;
 replace incomeAfter1998Move = R3650200
-if rDifState1998 == 1;
+if rDifState1998 == 1 & R0490200 >= 0;
 
 
 generate incomeBefore1999Move = .;
 generate incomeDuring1999Move = .;
 generate incomeAfter1999Move = .;
 
+replace incomeBefore1999Move = 0 if R2341200 == -4;
 replace incomeBefore1999Move = R2341200
-if rDifState1999 == 1;
+if rDifState1999 == 1 & R2341200 >= 0;
 
+replace incomeBefore1999Move = 0 if R3650200 == -4;
 replace incomeDuring1999Move = R3650200
-if rDifState1999 == 1;
+if rDifState1999 == 1 & R3650200 >= 0;
 
+replace incomeBefore1999Move = 0 if R5098900 == -4;
 replace incomeAfter1999Move = R5098900
-if rDifState1999 == 1;
+if rDifState1999 == 1 & R5098900 >= 0;
 
 
 generate incomeBefore2000Move = .;
 generate incomeDuring2000Move = .;
 generate incomeAfter2000Move = .;
 
+replace incomeBefore2000Move = 0 if R3650200 == -4;
 replace incomeBefore2000Move = R3650200
-if rDifState2000 == 1;
+if rDifState2000 == 1 & R3650200 >= 0;
 
+replace incomeBefore2000Move = 0 if R5098900 == -4;
 replace incomeDuring2000Move = R5098900
-if rDifState2000 == 1;
+if rDifState2000 == 1 & R5098900 >= 0;
 
+replace incomeBefore2000Move = 0 if R6827500 == -4;
 replace incomeAfter2000Move = R6827500
-if rDifState2000 == 1;
+if rDifState2000 == 1 & R6827500 >= 0;
 
 
 generate incomeBefore2001Move = .;
 generate incomeDuring2001Move = .;
 generate incomeAfter2001Move = .;
 
+replace incomeBefore2001Move = 0 if R5098900 == -4;
 replace incomeBefore2001Move = R5098900
-if rDifState2001 == 1;
+if rDifState2001 == 1 & R5098900 >= 0;
 
+replace incomeBefore2001Move = 0 if R6827500 == -4;
 replace incomeDuring2001Move = R6827500
-if rDifState2001 == 1;
+if rDifState2001 == 1 & R6827500 >= 0;
 
+replace incomeBefore2001Move = 0 if S1055800 == -4;
 replace incomeAfter2001Move = S1055800
-if rDifState2001 == 1;
+if rDifState2001 == 1 & S1055800 >= 0;
 
 
 generate incomeBefore2002Move = .;
 generate incomeDuring2002Move = .;
 generate incomeAfter2002Move = .;
 
+replace incomeBefore2002Move = 0 if R6827500 == -4;
 replace incomeBefore2002Move = R6827500
-if rDifState2002 == 1;
+if rDifState2002 == 1 & R6827500 >= 0;
 
+replace incomeBefore2002Move = 0 if S1055800 == -4;
 replace incomeDuring2002Move = S1055800
-if rDifState2002 == 1;
+if rDifState2002 == 1 & S1055800 >= 0;
 
+replace incomeBefore2002Move = 0 if S3134600 == -4;
 replace incomeAfter2002Move = S3134600
-if rDifState2002 == 1;
+if rDifState2002 == 1 & S3134600 >= 0;
 
 
 generate incomeBefore2003Move = .;
 generate incomeDuring2003Move = .;
 generate incomeAfter2003Move = .;
 
+replace incomeBefore2003Move = 0 if S1055800 == -4;
 replace incomeBefore2003Move = S1055800
-if rDifState2003 == 1;
+if rDifState2003 == 1 & S1055800 >= 0;
 
+replace incomeBefore2003Move = 0 if S3134600 == -4;
 replace incomeDuring2003Move = S3134600
-if rDifState2003 == 1;
+if rDifState2003 == 1 & S3134600 >= 0;
 
+replace incomeBefore2003Move = 0 if S4799600 == -4;
 replace incomeAfter2003Move = S4799600
-if rDifState2003 == 1;
+if rDifState2003 == 1 & S4799600 >= 0;
 
 
 generate incomeBefore2004Move = .;
 generate incomeDuring2004Move = .;
 generate incomeAfter2004Move = .;
 
+replace incomeBefore2004Move = 0 if S3134600 == -4;
 replace incomeBefore2004Move = S3134600
-if rDifState2004 == 1;
+if rDifState2004 == 1 & S3134600 >= 0;
 
-replace incomeDuring2004Move = S4799600
-if rDifState2004 == 1;
+replace incomeBefore2004Move = 0 if S3134600 == -4;
+replace incomeDuring2004Move = S3134600
+if rDifState2004 == 1 & S3134600 >= 0;
 
+replace incomeBefore2004Move = 0 if S6501000 == -4;
 replace incomeAfter2004Move = S6501000
-if rDifState2004 == 1;
+if rDifState2004 == 1 & S6501000 >= 0;
 
 
 generate incomeBefore2005Move = .;
 generate incomeDuring2005Move = .;
 generate incomeAfter2005Move = .;
 
+replace incomeBefore2005Move = 0 if S4799600 == -4;
 replace incomeBefore2005Move = S4799600
-if rDifState2005 == 1;
+if rDifState2005 == 1 & S4799600 >= 0;
 
+replace incomeBefore2005Move = 0 if S6501000 == -4;
 replace incomeDuring2005Move = S6501000
-if rDifState2005 == 1;
+if rDifState2005 == 1 & S6501000 >= 0;
 
+replace incomeBefore2005Move = 0 if S8496500 == -4;
 replace incomeAfter2005Move = S8496500
-if rDifState2005 == 1;
+if rDifState2005 == 1 & S8496500 >= 0;
 
 
 generate incomeBefore2006Move = .;
 generate incomeDuring2006Move = .;
 generate incomeAfter2006Move = .;
 
+replace incomeBefore2006Move = 0 if S6501000 == -4;
 replace incomeBefore2006Move = S6501000
-if rDifState2006 == 1;
+if rDifState2006 == 1 & S6501000 >= 0;
 
+replace incomeBefore2006Move = 0 if S8496500 == -4;
 replace incomeDuring2006Move = S8496500
-if rDifState2006 == 1;
+if rDifState2006 == 1 & S8496500 >= 0;
 
+replace incomeBefore2006Move = 0 if T0889800 == -4;
 replace incomeAfter2006Move = T0889800
-if rDifState2006 == 1;
+if rDifState2006 == 1 & T0889800 >= 0;
 
 
 generate incomeBefore2007Move = .;
 generate incomeDuring2007Move = .;
 generate incomeAfter2007Move = .;
 
+replace incomeBefore2007Move = 0 if S8496500 == -4;
 replace incomeBefore2007Move = S8496500
-if rDifState2007 == 1;
+if rDifState2007 == 1 & S8496500 >= 0;
 
+replace incomeBefore2007Move = 0 if T0889800 == -4;
 replace incomeDuring2007Move = T0889800
-if rDifState2007 == 1;
+if rDifState2007 == 1 & T0889800 >= 0;
 
+replace incomeBefore2007Move = 0 if T3003000 == -4;
 replace incomeAfter2007Move = T3003000
-if rDifState2007 == 1;
+if rDifState2007 == 1 & T3003000 >= 0;
 
 
 generate incomeBefore2008Move = .;
 generate incomeDuring2008Move = .;
 generate incomeAfter2008Move = .;
 
+replace incomeBefore2008Move = 0 if T0889800 == -4;
 replace incomeBefore2008Move = T0889800
-if rDifState2008 == 1;
+if rDifState2008 == 1 & T0889800 >= 0;
 
+replace incomeBefore2008Move = 0 if T3003000 == -4;
 replace incomeDuring2008Move = T3003000
-if rDifState2008 == 1;
+if rDifState2008 == 1 & T3003000 >= 0;
 
+replace incomeBefore2008Move = 0 if T4406000 == -4;
 replace incomeAfter2008Move = T4406000
-if rDifState2008 == 1;
+if rDifState2008 == 1 & T4406000 >= 0;
 
 
 generate incomeBefore2009Move = .;
 generate incomeDuring2009Move = .;
 generate incomeAfter2009Move = .;
 
+replace incomeBefore2009Move = 0 if T3003000 == -4;
 replace incomeBefore2009Move = T3003000
-if rDifState2009 == 1;
+if rDifState2009 == 1 & T3003000 >= 0;
 
+replace incomeBefore2009Move = 0 if T4406000 == -4;
 replace incomeDuring2009Move = T4406000
-if rDifState2009 == 1;
+if rDifState2009 == 1 & T4406000 >= 0;
 
+replace incomeBefore2009Move = 0 if T6055500 == -4;
 replace incomeAfter2009Move = T6055500
-if rDifState2009 == 1;
+if rDifState2009 == 1 & T6055500 >= 0;
 
 
 generate incomeBefore2010Move = .;
 generate incomeDuring2010Move = .;
 generate incomeAfter2010Move = .;
 
+replace incomeBefore2010Move = 0 if T4406000 == -4;
 replace incomeBefore2010Move = T4406000
-if rDifState2010 == 1;
+if rDifState2010 == 1 & T4406000 >= 0;
 
+replace incomeBefore2010Move = 0 if T6055500 == -4;
 replace incomeDuring2010Move = T6055500
-if rDifState2010 == 1;
+if rDifState2010 == 1 & T6055500 >= 0;
 
+replace incomeBefore2010Move = 0 if T7545600 == -4;
 replace incomeAfter2010Move = T7545600
-if rDifState2010 == 1;
+if rDifState2010 == 1 & T7545600 >= 0;
 
 
 generate incomeBefore2011Move = .;
 generate incomeDuring2011Move = .;
 generate incomeAfter2011Move = .;
 
+replace incomeBefore2011Move = 0 if T6055500 == -4;
 replace incomeBefore2011Move = T6055500
-if rDifState2011 == 1;
+if rDifState2011 == 1 & T6055500 >= 0;
 
+replace incomeBefore2011Move = 0 if T7545600 == -4;
 replace incomeDuring2011Move = T7545600
-if rDifState2011 == 1;
+if rDifState2011 == 1 & T7545600 >= 0;
 
+replace incomeBefore2011Move = 0 if T8976700 == -4;
 replace incomeAfter2011Move = T8976700
-if rDifState2011 == 1;
+if rDifState2011 == 1 & T8976700 >= 0;
 
 
 generate incomeBefore2013Move = .;
 generate incomeDuring2013Move = .;
 generate incomeAfter2013Move = .;
 
+replace incomeBefore2013Move = 0 if T7545600 == -4;
 replace incomeBefore2013Move = T7545600
-if rDifState2013 == 1;
+if rDifState2013 == 1 & T7545600 >= 0;
 
+replace incomeBefore2013Move = 0 if T8976700 == -4;
 replace incomeDuring2013Move = T8976700
-if rDifState2013 == 1;
+if rDifState2013 == 1 & T8976700 >= 0;
 
+replace incomeBefore2013Move = 0 if U0956900 == -4;
 replace incomeAfter2013Move = U0956900
-if rDifState2013 == 1;
+if rDifState2013 == 1 & U0956900s >= 0;
 
 generate test = 0;
 replace test = 1 if 1==1;
 
-* summarize;
+summarize;
 
 *Migration Age
 replace test = 2 if 1 == 1;
@@ -318,5 +363,7 @@ replace everMoved = 1 if rDifState2013 == 1;
 replace totalMoves = totalMoves + 1 ir rDifState2013 == 1;
 replace everMoved = 1 if rDifState2015 == 1;
 replace totalMoves = totalMoves + 1 ir rDifState2015 == 1;
+
+
 
 save MigrationCalculations.dta, replace;
