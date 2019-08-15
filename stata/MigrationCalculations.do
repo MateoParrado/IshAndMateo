@@ -4,9 +4,9 @@ set memory 30m;
 
 use DummiesData;
 
-generate incomeBefore1998Move = -1;
-generate incomeDuring1998Move = -1;
-generate incomeAfter1998Move = -1;
+generate incomeBefore1998Move = .;
+generate incomeDuring1998Move = .;
+generate incomeAfter1998Move = .;
 
 replace incomeBefore1998Move = R0490200
 if rDifState1998 == 1;
@@ -18,9 +18,9 @@ replace incomeAfter1998Move = R3650200
 if rDifState1998 == 1;
 
 
-generate incomeBefore1999Move = -1;
-generate incomeDuring1999Move = -1;
-generate incomeAfter1999Move = -1;
+generate incomeBefore1999Move = .;
+generate incomeDuring1999Move = .;
+generate incomeAfter1999Move = .;
 
 replace incomeBefore1999Move = R2341200
 if rDifState1999 == 1;
@@ -32,9 +32,9 @@ replace incomeAfter1999Move = R5098900
 if rDifState1999 == 1;
 
 
-generate incomeBefore2000Move = -1;
-generate incomeDuring2000Move = -1;
-generate incomeAfter2000Move = -1;
+generate incomeBefore2000Move = .;
+generate incomeDuring2000Move = .;
+generate incomeAfter2000Move = .;
 
 replace incomeBefore2000Move = R3650200
 if rDifState2000 == 1;
@@ -46,9 +46,9 @@ replace incomeAfter2000Move = R6827500
 if rDifState2000 == 1;
 
 
-generate incomeBefore2001Move = -1;
-generate incomeDuring2001Move = -1;
-generate incomeAfter2001Move = -1;
+generate incomeBefore2001Move = .;
+generate incomeDuring2001Move = .;
+generate incomeAfter2001Move = .;
 
 replace incomeBefore2001Move = R5098900
 if rDifState2001 == 1;
@@ -60,9 +60,9 @@ replace incomeAfter2001Move = S1055800
 if rDifState2001 == 1;
 
 
-generate incomeBefore2002Move = -1;
-generate incomeDuring2002Move = -1;
-generate incomeAfter2002Move = -1;
+generate incomeBefore2002Move = .;
+generate incomeDuring2002Move = .;
+generate incomeAfter2002Move = .;
 
 replace incomeBefore2002Move = R6827500
 if rDifState2002 == 1;
@@ -74,9 +74,9 @@ replace incomeAfter2002Move = S3134600
 if rDifState2002 == 1;
 
 
-generate incomeBefore2003Move = -1;
-generate incomeDuring2003Move = -1;
-generate incomeAfter2003Move = -1;
+generate incomeBefore2003Move = .;
+generate incomeDuring2003Move = .;
+generate incomeAfter2003Move = .;
 
 replace incomeBefore2003Move = S1055800
 if rDifState2003 == 1;
@@ -88,9 +88,9 @@ replace incomeAfter2003Move = S4799600
 if rDifState2003 == 1;
 
 
-generate incomeBefore2004Move = -1;
-generate incomeDuring2004Move = -1;
-generate incomeAfter2004Move = -1;
+generate incomeBefore2004Move = .;
+generate incomeDuring2004Move = .;
+generate incomeAfter2004Move = .;
 
 replace incomeBefore2004Move = S3134600
 if rDifState2004 == 1;
@@ -102,9 +102,9 @@ replace incomeAfter2004Move = S6501000
 if rDifState2004 == 1;
 
 
-generate incomeBefore2005Move = -1;
-generate incomeDuring2005Move = -1;
-generate incomeAfter2005Move = -1;
+generate incomeBefore2005Move = .;
+generate incomeDuring2005Move = .;
+generate incomeAfter2005Move = .;
 
 replace incomeBefore2005Move = S4799600
 if rDifState2005 == 1;
@@ -116,9 +116,9 @@ replace incomeAfter2005Move = S8496500
 if rDifState2005 == 1;
 
 
-generate incomeBefore2006Move = -1;
-generate incomeDuring2006Move = -1;
-generate incomeAfter2006Move = -1;
+generate incomeBefore2006Move = .;
+generate incomeDuring2006Move = .;
+generate incomeAfter2006Move = .;
 
 replace incomeBefore2006Move = S6501000
 if rDifState2006 == 1;
@@ -130,9 +130,9 @@ replace incomeAfter2006Move = T0889800
 if rDifState2006 == 1;
 
 
-generate incomeBefore2007Move = -1;
-generate incomeDuring2007Move = -1;
-generate incomeAfter2007Move = -1;
+generate incomeBefore2007Move = .;
+generate incomeDuring2007Move = .;
+generate incomeAfter2007Move = .;
 
 replace incomeBefore2007Move = S8496500
 if rDifState2007 == 1;
@@ -144,9 +144,9 @@ replace incomeAfter2007Move = T3003000
 if rDifState2007 == 1;
 
 
-generate incomeBefore2008Move = -1;
-generate incomeDuring2008Move = -1;
-generate incomeAfter2008Move = -1;
+generate incomeBefore2008Move = .;
+generate incomeDuring2008Move = .;
+generate incomeAfter2008Move = .;
 
 replace incomeBefore2008Move = T0889800
 if rDifState2008 == 1;
@@ -158,9 +158,9 @@ replace incomeAfter2008Move = T4406000
 if rDifState2008 == 1;
 
 
-generate incomeBefore2009Move = -1;
-generate incomeDuring2009Move = -1;
-generate incomeAfter2009Move = -1;
+generate incomeBefore2009Move = .;
+generate incomeDuring2009Move = .;
+generate incomeAfter2009Move = .;
 
 replace incomeBefore2009Move = T3003000
 if rDifState2009 == 1;
@@ -172,9 +172,9 @@ replace incomeAfter2009Move = T6055500
 if rDifState2009 == 1;
 
 
-generate incomeBefore2010Move = -1;
-generate incomeDuring2010Move = -1;
-generate incomeAfter2010Move = -1;
+generate incomeBefore2010Move = .;
+generate incomeDuring2010Move = .;
+generate incomeAfter2010Move = .;
 
 replace incomeBefore2010Move = T4406000
 if rDifState2010 == 1;
@@ -186,9 +186,9 @@ replace incomeAfter2010Move = T7545600
 if rDifState2010 == 1;
 
 
-generate incomeBefore2011Move = -1;
-generate incomeDuring2011Move = -1;
-generate incomeAfter2011Move = -1;
+generate incomeBefore2011Move = .;
+generate incomeDuring2011Move = .;
+generate incomeAfter2011Move = .;
 
 replace incomeBefore2011Move = T6055500
 if rDifState2011 == 1;
@@ -200,9 +200,9 @@ replace incomeAfter2011Move = T8976700
 if rDifState2011 == 1;
 
 
-generate incomeBefore2013Move = -1;
-generate incomeDuring2013Move = -1;
-generate incomeAfter2013Move = -1;
+generate incomeBefore2013Move = .;
+generate incomeDuring2013Move = .;
+generate incomeAfter2013Move = .;
 
 replace incomeBefore2013Move = T7545600
 if rDifState2013 == 1;
@@ -213,45 +213,61 @@ if rDifState2013 == 1;
 replace incomeAfter2013Move = U0956900
 if rDifState2013 == 1;
 
-summarize;
+generate test = 0;
+replace test = 1 if 1==1;
+
+* summarize;
 
 *Migration Age
+replace test = 2 if 1 == 1;
 
 generate ageOfMigration2002 = 88;
-replace ageOfMigration2002 = S1527400 - 1 if rDifState2002 == 1;
+replace ageOfMigration2002 = . if S1527400 < 0;
+replace ageOfMigration2002 = S1527400 - 1 if S1527400 > 0 & rDifState2002 == 1;
 
 generate ageOfMigration2003 = 88;
-replace ageOfMigration2003 = S3592800 - 1 if rDifState2003 == 1;
+replace ageOfMigration2003 = . if S3592800 < 0;
+replace ageOfMigration2003 = S3592800 - 1 if S3592800 > 0 &  rDifState2003 == 1;
 
 generate ageOfMigration2004 = 88;
-replace ageOfMigration2004 = S4967700 - 1 if rDifState2004 == 1;
+replace ageOfMigration2004 = . if S4967700 < 0;
+replace ageOfMigration2004 = S4967700 - 1 if S4967700 > 0 &  rDifState2004 == 1;
 
 generate ageOfMigration2005 = 88;
-replace ageOfMigration2005 = S6707500 - 1 if rDifState2005 == 1;
+replace ageOfMigration2005 = . if S6707500 < 0;
+replace ageOfMigration2005 = S6707500 - 1 if S6707500 > 0 &  rDifState2005 == 1;
 
 generate ageOfMigration2006 = 88;
-replace ageOfMigration2006 = S8680100 - 1 if rDifState2006 == 1;
+replace ageOfMigration2006 = . if S8680100 < 0;
+replace ageOfMigration2006 = S8680100 - 1 if S8680100 > 0 &  rDifState2006 == 1;
 
 generate ageOfMigration2007 = 88;
-replace ageOfMigration2007 = T1100000 - 1 if rDifState2007 == 1;
+replace ageOfMigration2007 = . if T1100000 < 0;
+replace ageOfMigration2007 = T1100000 - 1 if T1100000 > 0 &  rDifState2007 == 1;
 
 generate ageOfMigration2008 = 88;
-replace ageOfMigration2008 = T3177200 - 1 if rDifState2008 == 1;
+replace ageOfMigration2008 = . if T3177200 < 0;
+replace ageOfMigration2008 = T3177200 - 1 if T3177200 > 0 &  rDifState2008 == 1;
 
 generate ageOfMigration2009 = 88;
-replace ageOfMigration2009 = T4588300 - 1 if rDifState2009 == 1;
+replace ageOfMigration2009 = . if T4588300 < 0;
+replace ageOfMigration2009 = T4588300 - 1 if T4588300 > 0 &  rDifState2009 == 1;
 
 generate ageOfMigration2010 = 88;
-replace ageOfMigration2010 = T6221600 - 1 if rDifState2010 == 1;
+replace ageOfMigration2010 = . if T6221600 < 0;
+replace ageOfMigration2010 = T6221600 - 1 if T6221600 > 0 & rDifState2010 == 1;
 
 generate ageOfMigration2011 = 88;
-replace ageOfMigration2011 = T7718800 - 1 if rDifState2011 == 1;
+replace ageOfMigration2011 = . if T7718800 < 0;
+replace ageOfMigration2011 = T7718800 - 1 if T7718800 > 0 &  rDifState2011 == 1;
 
 generate ageOfMigration2013 = 88;
-replace ageOfMigration2013 = T9119400 - 1 if rDifState2013 == 1;
+replace ageOfMigration2013 = . if T9119400 < 0;
+replace ageOfMigration2013 = T9119400 - 1 if T9119400 > 0 &  rDifState2013 == 1;
 
 generate ageOfMigration2015 = 88;
-replace ageOfMigration2015 = U1110900 - 1 if rDifState2015 == 1;
+replace ageOfMigration2015 = . if U1110900 < 0;
+replace ageOfMigration2015 = U1110900 - 1 if U1110900 > 0 &  rDifState2015 == 1;
 
 tab ageOfMigration2002;
 tab ageOfMigration2003;
@@ -265,5 +281,42 @@ tab ageOfMigration2010;
 tab ageOfMigration2011;
 tab ageOfMigration2013;
 tab ageOfMigration2015;
+
+* TOTAL STATS
+generate everMoved = 0;
+generate totalMoves = 0;
+
+replace everMoved = 1 if rDifState1998 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState1998 == 1;
+replace everMoved = 1 if rDifState1999 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState1999 == 1;
+replace everMoved = 1 if rDifState2000 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2000 == 1;
+replace everMoved = 1 if rDifState2001 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2001 == 1;
+replace everMoved = 1 if rDifState2002 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2002 == 1;
+replace everMoved = 1 if rDifState2003 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2003 == 1;
+replace everMoved = 1 if rDifState2004 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2004 == 1;
+replace everMoved = 1 if rDifState2005 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2005 == 1;
+replace everMoved = 1 if rDifState2006 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2006 == 1;
+replace everMoved = 1 if rDifState2007 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2007 == 1;
+replace everMoved = 1 if rDifState2008 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2008 == 1;
+replace everMoved = 1 if rDifState2009 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2009 == 1;
+replace everMoved = 1 if rDifState2010 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2010 == 1;
+replace everMoved = 1 if rDifState2011 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2011 == 1;
+replace everMoved = 1 if rDifState2013 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2013 == 1;
+replace everMoved = 1 if rDifState2015 == 1;
+replace totalMoves = totalMoves + 1 ir rDifState2015 == 1;
 
 save MigrationCalculations.dta, replace;

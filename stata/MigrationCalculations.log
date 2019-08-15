@@ -1,0 +1,615 @@
+
+  ___  ____  ____  ____  ____ (R)
+ /__    /   ____/   /   ____/
+___/   /   /___/   /   /___/   14.1   Copyright 1985-2015 StataCorp LP
+  Statistics/Data Analysis            StataCorp
+                                      4905 Lakeway Drive
+     MP - Parallel Edition            College Station, Texas 77845 USA
+                                      800-STATA-PC        http://www.stata.com
+                                      979-696-4600        stata@stata.com
+                                      979-696-4601 (fax)
+
+2-user 8-core Stata network perpetual license:
+       Serial number:  501406275515
+         Licensed to:  Research Data Services
+                       University of Pennsylvania
+
+Notes:
+      1.  Stata is running in batch mode.
+      2.  Unicode is supported; see help unicode_advice.
+      3.  More than 2 billion observations are allowed; see help obs_advice.
+      4.  Maximum number of variables is set to 5000; see help set_maxvar.
+
+. do "MigrationCalculations.do" MigrationCalculations.log 
+
+. #delimit ;
+delimiter now ;
+. set memory 30m;
+set memory ignored.
+    Memory no longer needs to be set in modern Statas; memory adjustments are
+    performed on the fly automatically.
+
+. use DummiesData;
+
+. generate incomeBefore1998Move = -1;
+
+. generate incomeDuring1998Move = -1;
+
+. generate incomeAfter1998Move = -1;
+
+. replace incomeBefore1998Move = R0490200
+> if rDifState1998 == 1;
+(1,085 real changes made)
+
+. replace incomeDuring1998Move = R2341200
+> if rDifState1998 == 1;
+(1,087 real changes made)
+
+. replace incomeAfter1998Move = R3650200
+> if rDifState1998 == 1;
+(1,085 real changes made)
+
+. generate incomeBefore1999Move = -1;
+
+. generate incomeDuring1999Move = -1;
+
+. generate incomeAfter1999Move = -1;
+
+. replace incomeBefore1999Move = R2341200
+> if rDifState1999 == 1;
+(1,133 real changes made)
+
+. replace incomeDuring1999Move = R3650200
+> if rDifState1999 == 1;
+(1,129 real changes made)
+
+. replace incomeAfter1999Move = R5098900
+> if rDifState1999 == 1;
+(1,129 real changes made)
+
+. generate incomeBefore2000Move = -1;
+
+. generate incomeDuring2000Move = -1;
+
+. generate incomeAfter2000Move = -1;
+
+. replace incomeBefore2000Move = R3650200
+> if rDifState2000 == 1;
+(1,353 real changes made)
+
+. replace incomeDuring2000Move = R5098900
+> if rDifState2000 == 1;
+(1,353 real changes made)
+
+. replace incomeAfter2000Move = R6827500
+> if rDifState2000 == 1;
+(1,347 real changes made)
+
+. generate incomeBefore2001Move = -1;
+
+. generate incomeDuring2001Move = -1;
+
+. generate incomeAfter2001Move = -1;
+
+. replace incomeBefore2001Move = R5098900
+> if rDifState2001 == 1;
+(1,604 real changes made)
+
+. replace incomeDuring2001Move = R6827500
+> if rDifState2001 == 1;
+(1,600 real changes made)
+
+. replace incomeAfter2001Move = S1055800
+> if rDifState2001 == 1;
+(1,595 real changes made)
+
+. generate incomeBefore2002Move = -1;
+
+. generate incomeDuring2002Move = -1;
+
+. generate incomeAfter2002Move = -1;
+
+. replace incomeBefore2002Move = R6827500
+> if rDifState2002 == 1;
+(1,884 real changes made)
+
+. replace incomeDuring2002Move = S1055800
+> if rDifState2002 == 1;
+(1,878 real changes made)
+
+. replace incomeAfter2002Move = S3134600
+> if rDifState2002 == 1;
+(1,880 real changes made)
+
+. generate incomeBefore2003Move = -1;
+
+. generate incomeDuring2003Move = -1;
+
+. generate incomeAfter2003Move = -1;
+
+. replace incomeBefore2003Move = S1055800
+> if rDifState2003 == 1;
+(1,846 real changes made)
+
+. replace incomeDuring2003Move = S3134600
+> if rDifState2003 == 1;
+(1,844 real changes made)
+
+. replace incomeAfter2003Move = S4799600
+> if rDifState2003 == 1;
+(1,845 real changes made)
+
+. generate incomeBefore2004Move = -1;
+
+. generate incomeDuring2004Move = -1;
+
+. generate incomeAfter2004Move = -1;
+
+. replace incomeBefore2004Move = S3134600
+> if rDifState2004 == 1;
+(1,781 real changes made)
+
+. replace incomeDuring2004Move = S4799600
+> if rDifState2004 == 1;
+(1,778 real changes made)
+
+. replace incomeAfter2004Move = S6501000
+> if rDifState2004 == 1;
+(1,779 real changes made)
+
+. generate incomeBefore2005Move = -1;
+
+. generate incomeDuring2005Move = -1;
+
+. generate incomeAfter2005Move = -1;
+
+. replace incomeBefore2005Move = S4799600
+> if rDifState2005 == 1;
+(1,799 real changes made)
+
+. replace incomeDuring2005Move = S6501000
+> if rDifState2005 == 1;
+(1,803 real changes made)
+
+. replace incomeAfter2005Move = S8496500
+> if rDifState2005 == 1;
+(1,799 real changes made)
+
+. generate incomeBefore2006Move = -1;
+
+. generate incomeDuring2006Move = -1;
+
+. generate incomeAfter2006Move = -1;
+
+. replace incomeBefore2006Move = S6501000
+> if rDifState2006 == 1;
+(1,827 real changes made)
+
+. replace incomeDuring2006Move = S8496500
+> if rDifState2006 == 1;
+(1,823 real changes made)
+
+. replace incomeAfter2006Move = T0889800
+> if rDifState2006 == 1;
+(1,826 real changes made)
+
+. generate incomeBefore2007Move = -1;
+
+. generate incomeDuring2007Move = -1;
+
+. generate incomeAfter2007Move = -1;
+
+. replace incomeBefore2007Move = S8496500
+> if rDifState2007 == 1;
+(1,692 real changes made)
+
+. replace incomeDuring2007Move = T0889800
+> if rDifState2007 == 1;
+(1,691 real changes made)
+
+. replace incomeAfter2007Move = T3003000
+> if rDifState2007 == 1;
+(1,684 real changes made)
+
+. generate incomeBefore2008Move = -1;
+
+. generate incomeDuring2008Move = -1;
+
+. generate incomeAfter2008Move = -1;
+
+. replace incomeBefore2008Move = T0889800
+> if rDifState2008 == 1;
+(1,567 real changes made)
+
+. replace incomeDuring2008Move = T3003000
+> if rDifState2008 == 1;
+(1,552 real changes made)
+
+. replace incomeAfter2008Move = T4406000
+> if rDifState2008 == 1;
+(1,562 real changes made)
+
+. generate incomeBefore2009Move = -1;
+
+. generate incomeDuring2009Move = -1;
+
+. generate incomeAfter2009Move = -1;
+
+. replace incomeBefore2009Move = T3003000
+> if rDifState2009 == 1;
+(1,427 real changes made)
+
+. replace incomeDuring2009Move = T4406000
+> if rDifState2009 == 1;
+(1,423 real changes made)
+
+. replace incomeAfter2009Move = T6055500
+> if rDifState2009 == 1;
+(1,426 real changes made)
+
+. generate incomeBefore2010Move = -1;
+
+. generate incomeDuring2010Move = -1;
+
+. generate incomeAfter2010Move = -1;
+
+. replace incomeBefore2010Move = T4406000
+> if rDifState2010 == 1;
+(1,396 real changes made)
+
+. replace incomeDuring2010Move = T6055500
+> if rDifState2010 == 1;
+(1,395 real changes made)
+
+. replace incomeAfter2010Move = T7545600
+> if rDifState2010 == 1;
+(1,391 real changes made)
+
+. generate incomeBefore2011Move = -1;
+
+. generate incomeDuring2011Move = -1;
+
+. generate incomeAfter2011Move = -1;
+
+. replace incomeBefore2011Move = T6055500
+> if rDifState2011 == 1;
+(1,203 real changes made)
+
+. replace incomeDuring2011Move = T7545600
+> if rDifState2011 == 1;
+(1,199 real changes made)
+
+. replace incomeAfter2011Move = T8976700
+> if rDifState2011 == 1;
+(1,201 real changes made)
+
+. generate incomeBefore2013Move = -1;
+
+. generate incomeDuring2013Move = -1;
+
+. generate incomeAfter2013Move = -1;
+
+. replace incomeBefore2013Move = T7545600
+> if rDifState2013 == 1;
+(1,792 real changes made)
+
+. replace incomeDuring2013Move = T8976700
+> if rDifState2013 == 1;
+(1,786 real changes made)
+
+. replace incomeAfter2013Move = U0956900
+> if rDifState2013 == 1;
+(1,783 real changes made)
+
+. generate test = 0;
+
+. replace test = 1 if 1==1;
+(8,984 real changes made)
+
+. * summarize;
+. *Migration Age
+> replace test = 2 if 1 == 1;
+. generate ageOfMigration2002 = 88;
+
+. replace ageOfMigration2002 = . if S1527400 < 0;
+(1,088 real changes made, 1,088 to missing)
+
+. replace ageOfMigration2002 = S1527400 - 1 if S1527400 > 0 & rDifState2002 == 
+> 1;
+(1,887 real changes made)
+
+. generate ageOfMigration2003 = 88;
+
+. replace ageOfMigration2003 = . if S3592800 < 0;
+(1,230 real changes made, 1,230 to missing)
+
+. replace ageOfMigration2003 = S3592800 - 1 if S3592800 > 0 &  rDifState2003 ==
+>  1;
+(1,852 real changes made)
+
+. generate ageOfMigration2004 = 88;
+
+. replace ageOfMigration2004 = . if S4967700 < 0;
+(1,482 real changes made, 1,482 to missing)
+
+. replace ageOfMigration2004 = S4967700 - 1 if S4967700 > 0 &  rDifState2004 ==
+>  1;
+(1,784 real changes made)
+
+. generate ageOfMigration2005 = 88;
+
+. replace ageOfMigration2005 = . if S6707500 < 0;
+(1,647 real changes made, 1,647 to missing)
+
+. replace ageOfMigration2005 = S6707500 - 1 if S6707500 > 0 &  rDifState2005 ==
+>  1;
+(1,804 real changes made)
+
+. generate ageOfMigration2006 = 88;
+
+. replace ageOfMigration2006 = . if S8680100 < 0;
+(1,427 real changes made, 1,427 to missing)
+
+. replace ageOfMigration2006 = S8680100 - 1 if S8680100 > 0 &  rDifState2006 ==
+>  1;
+(1,829 real changes made)
+
+. generate ageOfMigration2007 = 88;
+
+. replace ageOfMigration2007 = . if T1100000 < 0;
+(1,570 real changes made, 1,570 to missing)
+
+. replace ageOfMigration2007 = T1100000 - 1 if T1100000 > 0 &  rDifState2007 ==
+>  1;
+(1,697 real changes made)
+
+. generate ageOfMigration2008 = 88;
+
+. replace ageOfMigration2008 = . if T3177200 < 0;
+(1,502 real changes made, 1,502 to missing)
+
+. replace ageOfMigration2008 = T3177200 - 1 if T3177200 > 0 &  rDifState2008 ==
+>  1;
+(1,566 real changes made)
+
+. generate ageOfMigration2009 = 88;
+
+. replace ageOfMigration2009 = . if T4588300 < 0;
+(1,425 real changes made, 1,425 to missing)
+
+. replace ageOfMigration2009 = T4588300 - 1 if T4588300 > 0 &  rDifState2009 ==
+>  1;
+(1,434 real changes made)
+
+. generate ageOfMigration2010 = 88;
+
+. replace ageOfMigration2010 = . if T6221600 < 0;
+(1,505 real changes made, 1,505 to missing)
+
+. replace ageOfMigration2010 = T6221600 - 1 if T6221600 > 0 & rDifState2010 == 
+> 1;
+(1,402 real changes made)
+
+. generate ageOfMigration2011 = 88;
+
+. replace ageOfMigration2011 = . if T7718800 < 0;
+(1,561 real changes made, 1,561 to missing)
+
+. replace ageOfMigration2011 = T7718800 - 1 if T7718800 > 0 &  rDifState2011 ==
+>  1;
+(1,209 real changes made)
+
+. generate ageOfMigration2013 = 88;
+
+. replace ageOfMigration2013 = . if T9119400 < 0;
+(1,844 real changes made, 1,844 to missing)
+
+. replace ageOfMigration2013 = T9119400 - 1 if T9119400 > 0 &  rDifState2013 ==
+>  1;
+(1,800 real changes made)
+
+. generate ageOfMigration2015 = 88;
+
+. replace ageOfMigration2015 = . if U1110900 < 0;
+(1,882 real changes made, 1,882 to missing)
+
+. replace ageOfMigration2015 = U1110900 - 1 if U1110900 > 0 &  rDifState2015 ==
+>  1;
+(1,600 real changes made)
+
+. tab ageOfMigration2002;
+
+ageOfMigrat |
+    ion2002 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         17 |        296        3.75        3.75
+         18 |        407        5.15        8.90
+         19 |        403        5.10       14.01
+         20 |        404        5.12       19.12
+         21 |        330        4.18       23.30
+         22 |         47        0.60       23.90
+         88 |      6,009       76.10      100.00
+------------+-----------------------------------
+      Total |      7,896      100.00
+
+. tab ageOfMigration2003;
+
+ageOfMigrat |
+    ion2003 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         17 |         22        0.28        0.28
+         18 |        373        4.81        5.09
+         19 |        367        4.73        9.83
+         20 |        367        4.73       14.56
+         21 |        405        5.22       19.78
+         22 |        291        3.75       23.54
+         23 |         27        0.35       23.88
+         88 |      5,902       76.12      100.00
+------------+-----------------------------------
+      Total |      7,754      100.00
+
+. tab ageOfMigration2004;
+
+ageOfMigrat |
+    ion2004 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         18 |          7        0.09        0.09
+         19 |        349        4.65        4.75
+         20 |        344        4.59        9.33
+         21 |        345        4.60       13.93
+         22 |        372        4.96       18.89
+         23 |        331        4.41       23.30
+         24 |         36        0.48       23.78
+         88 |      5,718       76.22      100.00
+------------+-----------------------------------
+      Total |      7,502      100.00
+
+. tab ageOfMigration2005;
+
+ageOfMigrat |
+    ion2005 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         19 |         20        0.27        0.27
+         20 |        342        4.66        4.93
+         21 |        394        5.37       10.30
+         22 |        374        5.10       15.40
+         23 |        336        4.58       19.98
+         24 |        310        4.23       24.21
+         25 |         28        0.38       24.59
+         88 |      5,533       75.41      100.00
+------------+-----------------------------------
+      Total |      7,337      100.00
+
+. tab ageOfMigration2006;
+
+ageOfMigrat |
+    ion2006 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         20 |         25        0.33        0.33
+         21 |        376        4.98        5.31
+         22 |        408        5.40       10.71
+         23 |        349        4.62       15.32
+         24 |        365        4.83       20.15
+         25 |        287        3.80       23.95
+         26 |         19        0.25       24.20
+         88 |      5,728       75.80      100.00
+------------+-----------------------------------
+      Total |      7,557      100.00
+
+. tab ageOfMigration2007;
+
+ageOfMigrat |
+    ion2007 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         21 |         36        0.49        0.49
+         22 |        363        4.90        5.38
+         23 |        380        5.13       10.51
+         24 |        342        4.61       15.12
+         25 |        327        4.41       19.53
+         26 |        240        3.24       22.77
+         27 |          9        0.12       22.89
+         88 |      5,717       77.11      100.00
+------------+-----------------------------------
+      Total |      7,414      100.00
+
+. tab ageOfMigration2008;
+
+ageOfMigrat |
+    ion2008 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         22 |         32        0.43        0.43
+         23 |        351        4.69        5.12
+         24 |        355        4.74        9.86
+         25 |        302        4.04       13.90
+         26 |        306        4.09       17.99
+         27 |        210        2.81       20.80
+         28 |         10        0.13       20.93
+         88 |      5,916       79.07      100.00
+------------+-----------------------------------
+      Total |      7,482      100.00
+
+. tab ageOfMigration2009;
+
+ageOfMigrat |
+    ion2009 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         23 |         50        0.66        0.66
+         24 |        331        4.38        5.04
+         25 |        312        4.13        9.17
+         26 |        267        3.53       12.70
+         27 |        271        3.59       16.29
+         28 |        196        2.59       18.88
+         29 |          7        0.09       18.97
+         88 |      6,125       81.03      100.00
+------------+-----------------------------------
+      Total |      7,559      100.00
+
+. tab ageOfMigration2010;
+
+ageOfMigrat |
+    ion2010 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         24 |         21        0.28        0.28
+         25 |        310        4.14        4.43
+         26 |        302        4.04        8.46
+         27 |        291        3.89       12.35
+         28 |        253        3.38       15.74
+         29 |        217        2.90       18.64
+         30 |          8        0.11       18.75
+         88 |      6,077       81.25      100.00
+------------+-----------------------------------
+      Total |      7,479      100.00
+
+. tab ageOfMigration2011;
+
+ageOfMigrat |
+    ion2011 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         25 |         46        0.62        0.62
+         26 |        258        3.48        4.10
+         27 |        269        3.62        7.72
+         28 |        222        2.99       10.71
+         29 |        245        3.30       14.01
+         30 |        164        2.21       16.22
+         31 |          5        0.07       16.29
+         88 |      6,214       83.71      100.00
+------------+-----------------------------------
+      Total |      7,423      100.00
+
+. tab ageOfMigration2013;
+
+ageOfMigrat |
+    ion2013 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         27 |         14        0.20        0.20
+         28 |        364        5.10        5.29
+         29 |        395        5.53       10.83
+         30 |        360        5.04       15.87
+         31 |        359        5.03       20.90
+         32 |        280        3.92       24.82
+         33 |         28        0.39       25.21
+         88 |      5,340       74.79      100.00
+------------+-----------------------------------
+      Total |      7,140      100.00
+
+. tab ageOfMigration2015;
+
+ageOfMigrat |
+    ion2015 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         29 |         28        0.39        0.39
+         30 |        327        4.60        5.00
+         31 |        357        5.03       10.03
+         32 |        308        4.34       14.36
+         33 |        320        4.51       18.87
+         34 |        241        3.39       22.26
+         35 |         19        0.27       22.53
+         88 |      5,502       77.47      100.00
+------------+-----------------------------------
+      Total |      7,102      100.00
+
+. save MigrationCalculations.dta, replace;
+file MigrationCalculations.dta saved
+
+. 
+end of do-file
