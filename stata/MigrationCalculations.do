@@ -4,6 +4,23 @@ set memory 30m;
 
 use DummiesData;
 
+*black is 0, latino is 1, mixed is 3, other is 4
+
+generate race = 0
+replace race = 1 if R1482600 == 2
+replace race= 2 if R1482600 == 3
+replace race= 3 if R1482600 == 4
+
+*black man is 0 black woman is 1 latino man is 2 latino woman is 3 other man is 4 other woman is 5
+
+generate raceGen = 0
+replace raceGen = 1 if R1482600 == 1 & R0536300 == 2
+replace raceGen = 2 if R1482600 == 2 & R0536300 == 1
+replace raceGen = 3 if R1482600 == 2 & R0536300 == 2
+replace raceGen = 4 if R1482600 == 4 & R0536300 == 1
+replace raceGen = 5 if R1482600 == 4 & R0536300 == 2
+***
+
 generate incomeBefore1998Move = .;
 generate incomeDuring1998Move = .;
 generate incomeAfter1998Move = .;
@@ -250,11 +267,11 @@ replace incomeBefore2013Move = 0 if T7545600 == -4;
 replace incomeBefore2013Move = T7545600
 if rDifState2013 == 1 & T7545600 >= 0;
 
-replace incomeBefore2013Move = 0 if T8976700 == -4;
+replace incomeDuring2013Move = 0 if T8976700 == -4;
 replace incomeDuring2013Move = T8976700
 if rDifState2013 == 1 & T8976700 >= 0;
 
-replace incomeBefore2013Move = 0 if U0956900 == -4;
+replace incomeAfter2013Move = 0 if U0956900 == -4;
 replace incomeAfter2013Move = U0956900
 if rDifState2013 == 1 & U0956900 >= 0;
 
@@ -328,8 +345,13 @@ tab ageOfMigration2013;
 tab ageOfMigration2015;
 
 * TOTAL STATS
+generate test2 = 0;
+replace test2 = 1 if 1 == 1;
+
 generate everMoved = 0;
 generate totalMoves = 0;
+
+replace test2 = 2 if 1 == 1;
 
 replace everMoved = 1 if rDifState1998 == 1;
 replace totalMoves = totalMoves + 1 ir rDifState1998 == 1;
