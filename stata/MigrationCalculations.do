@@ -214,3 +214,41 @@ replace incomeAfter2013Move = U0956900
 if rDifState2013 == 1;
 
 summarize;
+
+*Migration Age
+
+generate ageOfMigration2002 = 88;
+replace ageOfMigration2002 = S1527400 - 1 if rDifState2002 == 1;
+
+generate ageOfMigration2003 = 88;
+replace ageOfMigration2003 = S3592800 - 1 if rDifState2003 == 1;
+
+generate ageOfMigration2004 = 88;
+replace ageOfMigration2004 = S4967700 - 1 if rDifState2004 == 1;
+
+generate ageOfMigration2005 = 88;
+replace ageOfMigration2005 = S6707500 - 1 if rDifState2005 == 1;
+
+generate ageOfMigration2006 = 88;
+replace ageOfMigration2006 = S8680100 - 1 if rDifState2006 == 1;
+
+generate ageOfMigration2007 = 88;
+replace ageOfMigration2007 = T1100000 - 1 if rDifState2007 == 1;
+
+generate ageOfMigration2008 = 88;
+replace ageOfMigration2008 = T3177200 - 1 if rDifState2008 == 1;
+
+generate ageOfMigration2009 = 88;
+replace ageOfMigration2009 = T4588300 - 1 if rDifState2009 == 1;
+
+generate ageOfMigration2010 = 88;
+replace ageOfMigration2010 = T6221600 - 1 if rDifState2010 == 1;
+
+generate ageOfMigration2011 = 88;
+replace ageOfMigration2011 = T7718800 - 1 if rDifState2011 == 1;
+
+generate ageOfMigration2013 = 88;
+replace ageOfMigration2013 = T9119400 - 1 if rDifState2013 == 1;
+
+generate ageOfMigration2015 = 88;
+replace ageOfMigration2015 = U1110900 - 1 if rDifState2015 == 1;
