@@ -4,26 +4,37 @@ set memory 30m;
 
 use DummiesData;
 
-*black is 0, latino is 1, mixed is 3, other is 4
+*black is 0, latino is 1, mixed is 3, other is 4;
 
-generate race = 0
-replace race = 1 if R1482600 == 2
-replace race= 2 if R1482600 == 3
-replace race= 3 if R1482600 == 4
+generate race = 0;
+replace race = 1 if R1482600 == 2;
+replace race= 2 if R1482600 == 3;
+replace race= 3 if R1482600 == 4;
 
-*black man is 0 black woman is 1 latino man is 2 latino woman is 3 other man is 4 other woman is 5
+*black man is 0 black woman is 1 latino man is 2 latino woman is 3 other man is 4 other woman is 5;
 
-generate raceGen = 0
-replace raceGen = 1 if R1482600 == 1 & R0536300 == 2
-replace raceGen = 2 if R1482600 == 2 & R0536300 == 1
-replace raceGen = 3 if R1482600 == 2 & R0536300 == 2
-replace raceGen = 4 if R1482600 == 4 & R0536300 == 1
-replace raceGen = 5 if R1482600 == 4 & R0536300 == 2
-***
+generate raceGen = 0;
+replace raceGen = 1 if R1482600 == 1 & R0536300 == 2;
+replace raceGen = 2 if R1482600 == 2 & R0536300 == 1;
+replace raceGen = 3 if R1482600 == 2 & R0536300 == 2;
+replace raceGen = 4 if R1482600 == 4 & R0536300 == 1;
+replace raceGen = 5 if R1482600 == 4 & R0536300 == 2;
+***;
+
+generate test8 = 0;
+replace test8 = 1 if 1 == 1;
 
 generate incomeBefore1998Move = .;
+
+replace test8 = 2 if 1 == 1;
+
 generate incomeDuring1998Move = .;
+
+replace test8 = 3 if 1 == 1;
+
 generate incomeAfter1998Move = .;
+
+replace test8 = 4 if 1 == 1;
 
 replace incomeBefore1998Move = 0 if R0490200 == -4;
 replace incomeBefore1998Move = R0490200
@@ -344,7 +355,7 @@ tab ageOfMigration2011;
 tab ageOfMigration2013;
 tab ageOfMigration2015;
 
-* TOTAL STATS
+* TOTAL STATS;
 generate test2 = 0;
 replace test2 = 1 if 1 == 1;
 
@@ -354,37 +365,37 @@ generate totalMoves = 0;
 replace test2 = 2 if 1 == 1;
 
 replace everMoved = 1 if rDifState1998 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState1998 == 1;
+replace totalMoves = totalMoves + 1 if rDifState1998 == 1;
 replace everMoved = 1 if rDifState1999 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState1999 == 1;
+replace totalMoves = totalMoves + 1 if rDifState1999 == 1;
 replace everMoved = 1 if rDifState2000 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2000 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2000 == 1;
 replace everMoved = 1 if rDifState2001 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2001 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2001 == 1;
 replace everMoved = 1 if rDifState2002 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2002 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2002 == 1;
 replace everMoved = 1 if rDifState2003 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2003 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2003 == 1;
 replace everMoved = 1 if rDifState2004 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2004 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2004 == 1;
 replace everMoved = 1 if rDifState2005 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2005 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2005 == 1;
 replace everMoved = 1 if rDifState2006 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2006 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2006 == 1;
 replace everMoved = 1 if rDifState2007 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2007 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2007 == 1;
 replace everMoved = 1 if rDifState2008 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2008 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2008 == 1;
 replace everMoved = 1 if rDifState2009 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2009 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2009 == 1;
 replace everMoved = 1 if rDifState2010 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2010 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2010 == 1;
 replace everMoved = 1 if rDifState2011 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2011 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2011 == 1;
 replace everMoved = 1 if rDifState2013 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2013 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2013 == 1;
 replace everMoved = 1 if rDifState2015 == 1;
-replace totalMoves = totalMoves + 1 ir rDifState2015 == 1;
+replace totalMoves = totalMoves + 1 if rDifState2015 == 1;
 
 
 
