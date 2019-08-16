@@ -1,0 +1,12 @@
+.config/
+.elinks/
+.ssh/
+.stata11/
+.stata14/
+.Xauthority
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.emacs
+.DS_Store
