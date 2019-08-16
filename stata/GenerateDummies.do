@@ -1080,6 +1080,9 @@ replace hasHighschoolDiploma2011 = 1 if T6656600 == 12
 generate hasHighschoolDiploma2013 = 0
 replace hasHighschoolDiploma2013 = 1 if T8129000 == 12
 
+generate noHighschoolDiploma2013 = 0
+replace noHighschoolDiploma = 1 if T8129000 < 12
+
 * Parents HGC
 
 generate DadNoHS = 0
