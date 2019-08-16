@@ -21,20 +21,15 @@ replace raceGen = 4 if R1482600 == 4 & R0536300 == 1;
 replace raceGen = 5 if R1482600 == 4 & R0536300 == 2;
 ***;
 
-generate test8 = 0;
-replace test8 = 1 if 1 == 1;
 
 generate incomeBefore1998Move = .;
 
-replace test8 = 2 if 1 == 1;
 
 generate incomeDuring1998Move = .;
 
-replace test8 = 3 if 1 == 1;
 
 generate incomeAfter1998Move = .;
 
-replace test8 = 4 if 1 == 1;
 
 replace incomeBefore1998Move = 0 if R0490200 == -4;
 replace incomeBefore1998Move = R0490200
@@ -286,13 +281,10 @@ replace incomeAfter2013Move = 0 if U0956900 == -4;
 replace incomeAfter2013Move = U0956900
 if rDifState2013 == 1 & U0956900 >= 0;
 
-generate test = 0;
-replace test = 1 if 1==1;
 
 summarize;
 
 *Migration Age
-replace test = 2 if 1 == 1;
 
 generate ageOfMigration2002 = 88;
 replace ageOfMigration2002 = . if S1527400 < 0;
@@ -356,13 +348,10 @@ tab ageOfMigration2013;
 tab ageOfMigration2015;
 
 * TOTAL STATS;
-generate test2 = 0;
-replace test2 = 1 if 1 == 1;
 
 generate everMoved = 0;
 generate totalMoves = 0;
 
-replace test2 = 2 if 1 == 1;
 
 replace everMoved = 1 if rDifState1998 == 1;
 replace totalMoves = totalMoves + 1 if rDifState1998 == 1;
