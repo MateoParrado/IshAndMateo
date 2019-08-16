@@ -353,14 +353,14 @@ generate everMoved = 0;
 generate totalMoves = 0;
 
 
-replace everMoved = 1 if rDifState1998 == 1;
-replace totalMoves = totalMoves + 1 if rDifState1998 == 1;
-replace everMoved = 1 if rDifState1999 == 1;
-replace totalMoves = totalMoves + 1 if rDifState1999 == 1;
-replace everMoved = 1 if rDifState2000 == 1;
-replace totalMoves = totalMoves + 1 if rDifState2000 == 1;
-replace everMoved = 1 if rDifState2001 == 1;
-replace totalMoves = totalMoves + 1 if rDifState2001 == 1;
+*replace everMoved = 1 if rDifState1998 == 1;
+*replace totalMoves = totalMoves + 1 if rDifState1998 == 1;
+*replace everMoved = 1 if rDifState1999 == 1;
+*replace totalMoves = totalMoves + 1 if rDifState1999 == 1;
+*replace everMoved = 1 if rDifState2000 == 1;
+*replace totalMoves = totalMoves + 1 if rDifState2000 == 1;
+*replace everMoved = 1 if rDifState2001 == 1;
+*replace totalMoves = totalMoves + 1 if rDifState2001 == 1;
 replace everMoved = 1 if rDifState2002 == 1;
 replace totalMoves = totalMoves + 1 if rDifState2002 == 1;
 replace everMoved = 1 if rDifState2003 == 1;
