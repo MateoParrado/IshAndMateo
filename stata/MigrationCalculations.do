@@ -284,7 +284,7 @@ if rDifState2013 == 1 & U0956900 >= 0;
 
 summarize;
 
-*Migration Age
+*Migration Age;
 
 generate ageOfMigration2002 = 88;
 replace ageOfMigration2002 = . if S1527400 < 0;
